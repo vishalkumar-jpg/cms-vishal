@@ -2,7 +2,7 @@ FROM oven/bun:1 AS builder
 WORKDIR /app
 COPY . .
 RUN bun install
-RUN bun --cwd apps/api run build
+RUN bunx turbo run build --filter=@ob-cms/api
 
 FROM node:20-alpine
 WORKDIR /app

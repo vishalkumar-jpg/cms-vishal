@@ -2,7 +2,7 @@ FROM oven/bun:1 AS builder
 WORKDIR /app
 COPY . .
 RUN bun install
-RUN bun --cwd apps/worker run build || true
+RUN bunx turbo run build --filter=@ob-cms/worker
 
 FROM oven/bun:1-alpine
 WORKDIR /app
