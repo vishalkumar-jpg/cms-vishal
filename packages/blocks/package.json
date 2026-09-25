@@ -1,0 +1,39 @@
+{
+  "name": "@ob-cms/blocks",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./blocks.css": "./src/blocks.css",
+    "./reusable-context": "./src/reusable-context.tsx",
+    "./reusable-fetch-cache": "./src/reusable-fetch-cache.ts",
+    "./link-context": "./src/link-context.tsx",
+    "./form-context": "./src/form-context.tsx",
+    "./collection-context": "./src/collection-context.tsx"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "bun test",
+    "build": "echo 'blocks: consumed as TS source, no build'"
+  },
+  "dependencies": {
+    "@ob-cms/block-schema": "workspace:*",
+    "lucide-react": "0.469.0"
+  },
+  "peerDependencies": {
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@ob-cms/config": "workspace:*",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "happy-dom": "^20.11.2",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "typescript": "5.7.3"
+  }
+}

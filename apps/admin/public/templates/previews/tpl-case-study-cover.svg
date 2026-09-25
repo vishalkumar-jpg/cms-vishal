@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Case Study preview">
+  <rect width="960" height="600" fill="#f4f4f5"/>
+  
+  <rect x="0" y="0" width="960" height="36" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <circle cx="57.599999999999994" cy="18" r="7.2" fill="#2563eb"/>
+  <rect x="115.19999999999999" y="13.2" width="115.19999999999999" height="9.6" rx="3" fill="#18181b" opacity="0.15"/>
+  <rect x="691.1999999999999" y="13.2" width="76.8" height="9.6" rx="3" fill="#71717a" opacity="0.35"/>
+  <rect x="787.1999999999999" y="10.799999999999999" width="96" height="14.4" rx="5" fill="#2563eb"/>
+  <rect x="0" y="0" width="960" height="158" fill="#dbeafe"/>
+  <rect x="0" y="158" width="960" height="87" fill="#ffffff"/>
+  <rect x="0" y="245" width="960" height="87" fill="#f4f4f5"/>
+  <rect x="0" y="332" width="960" height="71" fill="#ffffff"/>
+  <rect x="0" y="403" width="960" height="111" fill="#f4f4f5"/>
+  <rect x="0" y="513" width="960" height="87" fill="#ffffff"/>
+  
+  <rect x="76.8" y="39.5" width="432" height="18.96" rx="4" fill="#18181b" opacity="0.12"/>
+  <rect x="76.8" y="71.10000000000001" width="336" height="11.06" rx="3" fill="#71717a" opacity="0.25"/>
+  <rect x="76.8" y="102.7" width="172.79999999999998" height="22.12" rx="6" fill="#2563eb"/>
+  
+  
+  <rect x="76.8" y="184.1" width="528" height="8.700000000000001" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="201.5" width="672" height="6.96" rx="3" fill="#71717a" opacity="0.2"/>
+  
+  <rect x="76.8" y="271.1" width="528" height="8.700000000000001" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="288.5" width="672" height="6.96" rx="3" fill="#71717a" opacity="0.2"/>
+  <rect x="76.8" y="349.75" width="172.79999999999998" height="35.5" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="288" y="349.75" width="172.79999999999998" height="35.5" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="499.2" y="349.75" width="172.79999999999998" height="35.5" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="710.3999999999999" y="349.75" width="172.79999999999998" height="35.5" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="76.8" y="427.42" width="249.6" height="61.050000000000004" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="355.2" y="427.42" width="249.6" height="61.050000000000004" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="633.5999999999999" y="427.42" width="249.6" height="61.050000000000004" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  
+  <rect x="288" y="534.75" width="384" height="10.44" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="345.6" y="560.85" width="268.8" height="13.92" rx="6" fill="#2563eb"/>
+  <text x="38.4" y="592" font-family="ui-sans-serif,system-ui,sans-serif" font-size="16.8" font-weight="600" fill="#71717a">Case Study</text>
+</svg>

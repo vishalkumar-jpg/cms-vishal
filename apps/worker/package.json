@@ -1,0 +1,42 @@
+{
+  "name": "@ob-cms/worker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/worker.ts",
+    "start": "bun run src/worker.ts",
+    "build": "echo 'worker: run directly with bun, no build step'",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "bun test src"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.65.0",
+    "@google/generative-ai": "0.21.0",
+    "@ob-cms/block-schema": "workspace:*",
+    "@ob-cms/config": "workspace:*",
+    "@ob-cms/shared": "workspace:*",
+    "@thi.ng/ksuid": "3.2.125",
+    "bullmq": "5.34.10",
+    "dotenv": "16.4.7",
+    "drizzle-orm": "0.45.2",
+    "ioredis": "5.4.2",
+    "openai": "4.77.0",
+    "pg": "8.13.1",
+    "zod": "3.24.1",
+    "@ob-cms/crypto": "workspace:*",
+    "sharp": "0.35.4",
+    "@aws-sdk/client-s3": "^3.700.0",
+    "lighthouse": "^13.0.0",
+    "chrome-launcher": "^1.1.2",
+    "nodemailer": "9.1.1"
+  },
+  "devDependencies": {
+    "@types/bun": "1.1.14",
+    "@types/node": "24.13.2",
+    "typescript": "5.7.3",
+    "@types/pg": "8.11.10",
+    "@types/nodemailer": "6.4.17"
+  }
+}

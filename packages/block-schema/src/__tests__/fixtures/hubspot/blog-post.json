@@ -1,0 +1,8 @@
+{
+  "id": "2002",
+  "name": "Launch post",
+  "slug": "launch",
+  "postBody": "<p>Hello world</p>",
+  "tagIds": [1, 2],
+  "state": "DRAFT"
+}

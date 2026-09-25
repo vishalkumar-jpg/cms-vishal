@@ -1,0 +1,141 @@
+{
+  "id": "f2-image-001",
+  "name": "Fixture fixture-image-f2-native",
+  "slug": "fixture-image-f2-native",
+  "layoutSections": {
+    "dnd_area-main": {
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "cells": [],
+                  "cssClass": "",
+                  "cssId": "",
+                  "cssStyle": "",
+                  "label": "Image",
+                  "name": "module_17621904154666",
+                  "params": {
+                    "animation": {
+                      "delay": 0,
+                      "parallax": {
+                        "aspect_ratio": "7 / 8",
+                        "enabled": false,
+                        "speed": "-2"
+                      },
+                      "swiper": {
+                        "color": "#000000",
+                        "opacity": 100
+                      }
+                    },
+                    "css_class": "dnd-module",
+                    "field_types": {
+                      "animation": "group",
+                      "image": "image",
+                      "link": "link",
+                      "link_enabled": "boolean",
+                      "mobile": "group",
+                      "picture": "boolean",
+                      "settings": "group",
+                      "styles": "group"
+                    },
+                    "image": {
+                      "alt": "Remote Workforce Management",
+                      "height": 341,
+                      "loading": "eager",
+                      "max_height": 720,
+                      "max_width": 1280,
+                      "size_type": "exact",
+                      "src": "https://cdn.example.com/asset.png",
+                      "width": 606
+                    },
+                    "link": {
+                      "href": "",
+                      "type": "EXTERNAL"
+                    },
+                    "link_enabled": false,
+                    "mobile": {
+                      "image": {
+                        "size_type": "auto",
+                        "src": ""
+                      }
+                    },
+                    "module_id": 1000000001,
+                    "overrideable": true,
+                    "path": "pike-child-office-beacon/modules/image",
+                    "picture": false,
+                    "schema_version": 2,
+                    "smart_objects": [],
+                    "smart_type": "NOT_SMART",
+                    "styles": {
+                      "alignment": {
+                        "values": {}
+                      },
+                      "border": {
+                        "border": {}
+                      },
+                      "hover": {
+                        "shadow_1": {
+                          "color": {
+                            "color": "#000000",
+                            "opacity": 10
+                          }
+                        },
+                        "shadow_2": {
+                          "color": {
+                            "color": "#000000",
+                            "opacity": 10
+                          }
+                        }
+                      },
+                      "layout": {
+                        "spacing": {}
+                      },
+                      "overflow": {
+                        "scale": 125,
+                        "transform_origin_y": {
+                          "vertical_align": "TOP"
+                        }
+                      },
+                      "shadow": {
+                        "shadow_1": {
+                          "color": {
+                            "color": "#000000",
+                            "opacity": 10
+                          }
+                        },
+                        "shadow_2": {
+                          "color": {
+                            "color": "#000000",
+                            "opacity": 10
+                          }
+                        },
+                        "shadow_count": "none"
+                      },
+                      "visibility": {
+                        "hidden_desktop": false,
+                        "hidden_mobile": false,
+                        "hidden_tablet": false
+                      }
+                    },
+                    "tag": "module",
+                    "type": "module",
+                    "wrap_field_tag": "div"
+                  },
+                  "rowMetaData": [],
+                  "rows": [],
+                  "type": "custom_widget",
+                  "w": 12,
+                  "x": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

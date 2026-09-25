@@ -1,0 +1,9 @@
+export const NATIVE_RICH_TEXT = "native_rich_text";
+export const NATIVE_HEADING = "native_heading";
+export const NATIVE_FEATURE_LIST = "native_feature_list";
+export const NATIVE_TABS = "native_tabs";
+export const NATIVE_COUNTER_SECTION = "native_counter_section";
+export const NATIVE_STEP_CARDS = "native_step_cards";
+export const NATIVE_IMAGE = "native_image";
+export const NATIVE_GALLERY = "native_gallery";
+export const NATIVE_LOGO_CAROUSEL = "native_logo_carousel";

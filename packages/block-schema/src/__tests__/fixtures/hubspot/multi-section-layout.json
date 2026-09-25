@@ -1,0 +1,30 @@
+{
+  "id": "6003",
+  "name": "Multi section",
+  "slug": "multi-section",
+  "layoutSections": {
+    "dnd_area-main": {
+      "richText": "<p>First section</p>"
+    },
+    "dnd_area-footer": {
+      "richText": "<p>Second section</p>",
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "type": "custom_widget",
+                  "module_id": "footer_cta",
+                  "params": { "heading": "CTA" }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

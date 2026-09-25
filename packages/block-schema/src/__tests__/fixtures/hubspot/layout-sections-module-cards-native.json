@@ -1,0 +1,34 @@
+{
+  "id": "3004",
+  "name": "Services cards native",
+  "slug": "services-cards-native",
+  "layoutSections": {
+    "dnd_area-main": {
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "type": "custom_widget",
+                  "module_id": "cards_group",
+                  "params": {
+                    "cards": [
+                      {
+                        "title": { "text": "Card A" },
+                        "image": { "src": "https://cdn.example.com/a.png" }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "richText": "<p>Section intro</p>"
+    }
+  }
+}

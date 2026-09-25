@@ -1,0 +1,193 @@
+{
+  "id": "f2-logos-001",
+  "name": "Fixture fixture-logos-f2-native",
+  "slug": "fixture-logos-f2-native",
+  "layoutSections": {
+    "dnd_area-main": {
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "cells": [],
+                  "cssClass": "",
+                  "cssId": "",
+                  "cssStyle": "",
+                  "name": "module_17633409603267",
+                  "params": {
+                    "animation": {
+                      "delay": 0,
+                      "type": ""
+                    },
+                    "carousel": {
+                      "arrows": false,
+                      "autoplay": true,
+                      "autoplay_interval": 4,
+                      "dots": true
+                    },
+                    "css_class": "dnd-module",
+                    "field_types": {
+                      "animation": "group",
+                      "carousel": "group",
+                      "logos": "group",
+                      "resize_target": "number",
+                      "settings": "group",
+                      "skin": "choice",
+                      "styles": "group"
+                    },
+                    "logos": [
+                      {
+                        "image": {
+                          "alt": "office-beacon-partners-logos-16-9_gdpr",
+                          "height": 180,
+                          "max_height": 180,
+                          "max_width": 320,
+                          "src": "https://cdn.example.com/asset.png",
+                          "width": 320
+                        },
+                        "max_width": 100
+                      },
+                      {
+                        "image": {
+                          "alt": "office-beacon-partners-logos-16-9_hippa-compliant",
+                          "height": 180,
+                          "max_height": 180,
+                          "max_width": 320,
+                          "src": "https://cdn.example.com/asset.png",
+                          "width": 320
+                        },
+                        "max_width": 100
+                      },
+                      {
+                        "image": {
+                          "alt": "office-beacon-partners-logos-16-9_iso-27001",
+                          "height": 180,
+                          "max_height": 180,
+                          "max_width": 320,
+                          "src": "https://cdn.example.com/asset.png",
+                          "width": 320
+                        },
+                        "max_width": 100
+                      },
+                      {
+                        "image": {
+                          "alt": "office-beacon-partners-logos-16-9_pci-dss",
+                          "height": 180,
+                          "max_height": 180,
+                          "max_width": 320,
+                          "src": "https://cdn.example.com/asset.png",
+                          "width": 320
+                        },
+                        "max_width": 100
+                      },
+                      {
+                        "image": {
+                          "alt": "office-beacon-partners-logos-16-9_aicpa-soc-2",
+                          "height": 180,
+                          "max_height": 180,
+                          "max_width": 320,
+                          "src": "https://cdn.example.com/asset.png",
+                          "width": 320
+                        },
+                        "max_width": 100
+                      }
+                    ],
+                    "module_id": 1000000001,
+                    "overrideable": true,
+                    "path": "pike-child-office-beacon/modules/logo-touter",
+                    "resize_target": 225,
+                    "schema_version": 2,
+                    "skin": "grid",
+                    "smart_objects": [],
+                    "smart_type": "NOT_SMART",
+                    "styles": {
+                      "carousel": {
+                        "desktop": {
+                          "columns": 3,
+                          "gap": 18
+                        },
+                        "mobile": {
+                          "columns": 2,
+                          "gap": 14
+                        },
+                        "tablet": {
+                          "columns": 3,
+                          "gap": 18
+                        }
+                      },
+                      "grid": {
+                        "desktop": {
+                          "align": {},
+                          "gap": 32,
+                          "rows": 1
+                        },
+                        "desktop_lg": {
+                          "align": {},
+                          "gap": 32,
+                          "rows": 1
+                        },
+                        "mobile": {
+                          "align": {
+                            "horizontal_align": "LEFT"
+                          },
+                          "gap": 32,
+                          "rows": 2
+                        },
+                        "tablet": {
+                          "align": {},
+                          "gap": 32,
+                          "rows": 1
+                        }
+                      },
+                      "layout": {
+                        "spacing": {}
+                      },
+                      "logos": {
+                        "aspect_ratio": "16 / 9",
+                        "bg": {},
+                        "border_color": {},
+                        "padding": 5
+                      },
+                      "marquee": {
+                        "desktop": {
+                          "gap": 20,
+                          "size": 192
+                        },
+                        "mobile": {
+                          "gap": 14,
+                          "size": 144
+                        },
+                        "pause_on_interaction": true,
+                        "reverse": false,
+                        "tablet": {
+                          "gap": 20,
+                          "size": 144
+                        }
+                      },
+                      "visibility": {
+                        "hidden_desktop": false,
+                        "hidden_mobile": false,
+                        "hidden_tablet": false
+                      }
+                    },
+                    "tag": "module",
+                    "type": "module",
+                    "wrap_field_tag": "div"
+                  },
+                  "rowMetaData": [],
+                  "rows": [],
+                  "type": "custom_widget",
+                  "w": 12,
+                  "x": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

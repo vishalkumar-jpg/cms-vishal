@@ -1,0 +1,9 @@
+{
+  "id": "6001",
+  "name": "Object body page",
+  "slug": "object-body",
+  "body": {
+    "html": "<p>From object body</p>"
+  },
+  "state": "PUBLISHED"
+}

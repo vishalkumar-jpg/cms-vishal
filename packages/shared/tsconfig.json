@@ -1,0 +1,7 @@
+{
+  "extends": "@ob-cms/config/tsconfig/base.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": ["src"]
+}

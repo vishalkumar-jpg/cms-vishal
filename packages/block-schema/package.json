@@ -1,0 +1,32 @@
+{
+  "name": "@ob-cms/block-schema",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "bun test",
+    "generate-responsive-css": "bun ./scripts/generate-responsive-css.ts",
+    "build": "bun build ./src/index.ts --outdir dist --target node --format esm --external zod",
+    "dev": "bun build ./src/index.ts --outdir dist --target node --format esm --external zod --watch"
+  },
+  "dependencies": {
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@ob-cms/config": "workspace:*",
+    "@types/bun": "1.1.14",
+    "typescript": "5.7.3"
+  }
+}

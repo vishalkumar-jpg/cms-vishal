@@ -1,0 +1,128 @@
+---
+description: Keep environment documentation and deployment templates synchronized with code changes
+globs: .env.example,apps/**/config/**,packages/config/**,infra/docker-compose.yml,infra/Dockerfile*,docs/infrastructure/**
+alwaysApply: false
+---
+
+# Environment Documentation Rule
+
+## Purpose
+
+[`docs/infrastructure/environment-variables.md`](../../docs/infrastructure/environment-variables.md) is the **single source of truth** for all environment variables used by the OB CMS platform.
+
+Deployment templates:
+
+- [`docs/infrastructure/uat-be.env.example`](../../docs/infrastructure/uat-be.env.example) — UAT backend (`ENVIRONMENT=staging`)
+- [`docs/infrastructure/uat-fe.env.example`](../../docs/infrastructure/uat-fe.env.example) — UAT frontend build-time
+- [`docs/infrastructure/uat.env.example`](../../docs/infrastructure/uat.env.example) — UAT pointer (links to split templates)
+- [`docs/infrastructure/production.env.example`](../../docs/infrastructure/production.env.example) — Production (`ENVIRONMENT=production`)
+
+Checklists: [`docs/infrastructure/deployment-checklist.md`](../../docs/infrastructure/deployment-checklist.md)
+
+---
+
+## Mandatory Update Rule
+
+Whenever a PR:
+
+- adds an environment variable
+- removes an environment variable
+- renames an environment variable
+- changes the default value of an environment variable
+- changes whether an environment variable is required or optional
+- changes the behavior or meaning of an environment variable
+- changes deployment steps that affect operator checklists
+- introduces a new infrastructure integration requiring configuration (Cloudflare, R2, Turnstile, D1, Queues, Analytics, Email, Monitoring, etc.)
+
+the AI **MUST**:
+
+1. Update `docs/infrastructure/environment-variables.md`.
+2. Update `docs/infrastructure/uat-be.env.example` and/or `docs/infrastructure/uat-fe.env.example` if the change affects UAT (keep `uat.env.example` pointer in sync if needed).
+3. Update `docs/infrastructure/production.env.example` if the change affects Production.
+4. Update `docs/infrastructure/deployment-checklist.md` if deployment or environment changes affect operator checklists.
+5. Leave all secrets and DevOps-managed values **blank** in templates and documentation tables.
+6. Never invent credentials, API keys, tokens, passwords, or deployment URLs.
+7. Never invent environment variables that do not exist in the repository.
+8. Preserve logical grouping, section comments, and formatting in templates.
+9. Derive documented values from implementation (`.env.example`, config loaders, `process.env` usage).
+10. If documentation intentionally recommends a value that differs from the runtime default, label it **Recommended deployment value** — never imply it is the runtime default.
+11. Add any required DevOps actions to the documentation.
+12. Mention environment documentation updates in the PR summary.
+
+**Never modify runtime code** while updating environment documentation.
+
+---
+
+## No-Op Rule
+
+If a PR does **not** add, remove, rename, or change any environment variables or deployment configuration steps, do **not** modify:
+
+- `docs/infrastructure/environment-variables.md`
+- `docs/infrastructure/uat-be.env.example`, `uat-fe.env.example`, or `uat.env.example` (pointer)
+- `docs/infrastructure/production.env.example`
+- `docs/infrastructure/deployment-checklist.md`
+
+This avoids unnecessary documentation churn.
+
+**Exception:** PRs whose sole purpose is **initial canonical environment documentation**, **verified documentation corrections**, or **template restructuring** (no runtime env behavior change) **may** update the files above. Keep changes limited to documentation accuracy and operator guidance.
+
+---
+
+## Future Placeholders
+
+When reserving sections for upcoming infrastructure:
+
+- Do **not** imply missing functionality when the feature already exists in code.
+- Document currently supported variables in the main reference and category tables first.
+- Reserve Future Features sections only for **additional** variables not yet in the codebase.
+
+Examples:
+
+- Turnstile: `TURNSTILE_SITE_KEY` / `TURNSTILE_SECRET_KEY` are **current** — do not mark them as future.
+- R2: `OBJECT_STORAGE_PROVIDER=r2` is **current** — reserve the section for future R2-only vars beyond `OBJECT_STORAGE_*`.
+
+---
+
+## Validation Before Completion
+
+Before marking a PR complete, verify that:
+
+- Every environment variable referenced by the changed code is documented.
+- Variable names **exactly match** the implementation (`getOsEnv`, `process.env`, `loadPlatformConfig`, `import.meta.env`).
+- No duplicate entries exist.
+- Secrets remain blank in all committed files.
+- Runtime defaults are populated only when defined by the project (`.env.example`, config loaders).
+- Recommended deployment values are explicitly labeled and distinguished from runtime defaults.
+- UAT uses `ENVIRONMENT=staging` — never `uat` (not accepted by boot validation).
+- Documentation reflects the latest codebase on `develop`.
+- No application source files were modified for documentation-only work.
+
+---
+
+## Sources to Scan
+
+- `.env.example` (local developer defaults)
+- `docs/infrastructure/uat-be.env.example`, `uat-fe.env.example`, and `production.env.example`
+- `docs/infrastructure/deployment-checklist.md`
+- `packages/config/src/env.ts` and `packages/config/src/platform-config.ts`
+- `apps/api/src/config/*.ts`
+- `apps/worker/src/**/*.ts`, `apps/renderer/src/**/*.ts`, `apps/admin/vite.config.ts`
+- `infra/docker-compose.yml` and `infra/Dockerfile.*`
+
+---
+
+## DevOps Ownership
+
+Developers document **what** variables exist. DevOps owns **values** for UAT and Production. Never commit filled secret stores or real credentials.
+
+---
+
+## API Versioning — Not a Deployment Env Concern
+
+**Do not include API versioning in UAT or Production deployment templates, handoff docs, or operator checklists as a configurable env value.**
+
+- The NestJS global route prefix (`GLOBAL_PREFIX`) and current version segment are **application code concerns** — defined in `@ob-cms/shared` and documented in [`docs/api-versioning.md`](../../docs/api-versioning.md).
+- API versioning **can change** (e.g. `v1` → `v2`); freezing `GLOBAL_PREFIX=api/v1` in deployment env files creates stale operator guidance.
+- **Do not** add `GLOBAL_PREFIX` to `uat-be.env.example`, `uat-fe.env.example`, `production.env.example`, DevOps handoff variable tables, or deployment checklists as something DevOps must set or verify.
+- **Do** point health checks and smoke tests at [`docs/api-versioning.md`](../../docs/api-versioning.md) for the current health path and route shape — never hardcode `/api/v1/...` in infrastructure docs as if it were env-configured.
+- The master reference (`environment-variables.md`) may note that `GLOBAL_PREFIX` exists as an optional local override only; mark it **excluded from deployment templates**.

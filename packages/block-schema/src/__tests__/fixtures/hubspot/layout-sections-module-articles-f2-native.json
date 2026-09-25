@@ -1,0 +1,185 @@
+{
+  "id": "f2-articles-001",
+  "name": "Fixture fixture-articles-f2-native",
+  "slug": "fixture-articles-f2-native",
+  "layoutSections": {
+    "dnd_area-main": {
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "cells": [],
+                  "cssClass": "dnd-module",
+                  "cssId": "",
+                  "cssStyle": "",
+                  "name": "body_dnd_area-dnd_partial-4-module-6",
+                  "params": {
+                    "carousel": {
+                      "enabled": true,
+                      "overflow": [
+                        "swipe-track--spill-right"
+                      ]
+                    },
+                    "content_settings": {
+                      "button_text": "Read More",
+                      "featured_image": true,
+                      "loop_content": [
+                        "tags",
+                        "title",
+                        "description",
+                        "button"
+                      ],
+                      "meta_content": [
+                        "publish_date",
+                        "readtime"
+                      ],
+                      "meta_separator": "•",
+                      "post_meta_on_image": false
+                    },
+                    "css_class": "dnd-module",
+                    "custom_posts": [
+                      null,
+                      null,
+                      null
+                    ],
+                    "denominator": "recent",
+                    "module_id": 1000000001,
+                    "parent_widget_container": "body_dnd_area",
+                    "path": "/pike-child-office-beacon/modules/featured-posts",
+                    "post_layout": "card",
+                    "quantity": 6,
+                    "schema_version": 2,
+                    "styles": {
+                      "author": {
+                        "custom_font": {
+                          "font_set": "DEFAULT"
+                        },
+                        "hidden_mobile": false,
+                        "spacing": {}
+                      },
+                      "button": {
+                        "arrow": false,
+                        "color": "button--foreground",
+                        "hidden_mobile": false,
+                        "outlined": false,
+                        "unstyled": true
+                      },
+                      "cards": {
+                        "border": {
+                          "border": {}
+                        },
+                        "color_theme": {
+                          "background": {},
+                          "foreground": {}
+                        },
+                        "interactions": {
+                          "color_theme": {
+                            "background": {},
+                            "foreground": {}
+                          },
+                          "shadow_1": {
+                            "color": {
+                              "color": "#000000",
+                              "opacity": 10
+                            }
+                          },
+                          "shadow_2": {
+                            "color": {
+                              "color": "#000000",
+                              "opacity": 10
+                            }
+                          }
+                        },
+                        "shadow": {
+                          "shadow_1": {
+                            "color": {
+                              "color": "#000000",
+                              "opacity": 10
+                            }
+                          },
+                          "shadow_2": {
+                            "color": {
+                              "color": "#000000",
+                              "opacity": 10
+                            }
+                          }
+                        }
+                      },
+                      "description": {
+                        "custom_font": {
+                          "font_set": "DEFAULT"
+                        },
+                        "hidden_mobile": false,
+                        "spacing": {}
+                      },
+                      "featured_image": {
+                        "aspect_ratio": {},
+                        "list_width_desktop": {},
+                        "list_width_tablet": {}
+                      },
+                      "grid": {
+                        "desktop": {
+                          "align": {}
+                        },
+                        "desktop_lg": {
+                          "align": {}
+                        },
+                        "mobile": {
+                          "align": {}
+                        },
+                        "tablet": {
+                          "align": {}
+                        }
+                      },
+                      "layout": {
+                        "spacing": {}
+                      },
+                      "post_meta": {
+                        "custom_font": {
+                          "font_set": "DEFAULT"
+                        },
+                        "hidden_mobile": false,
+                        "spacing": {}
+                      },
+                      "tags": {
+                        "bg": {},
+                        "border_color": {},
+                        "custom_font": {
+                          "font_set": "DEFAULT"
+                        },
+                        "hidden_mobile": false,
+                        "spacing": {}
+                      },
+                      "title": {
+                        "custom_font": {
+                          "font_set": "DEFAULT"
+                        },
+                        "spacing": {}
+                      },
+                      "visibility": {
+                        "hidden_desktop": false,
+                        "hidden_mobile": false,
+                        "hidden_tablet": false
+                      }
+                    },
+                    "tags": []
+                  },
+                  "rowMetaData": [],
+                  "rows": [],
+                  "styles": {},
+                  "type": "custom_widget",
+                  "w": 12,
+                  "x": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

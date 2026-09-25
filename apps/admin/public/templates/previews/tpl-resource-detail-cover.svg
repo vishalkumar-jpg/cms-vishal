@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Resource Detail preview">
+  <rect width="960" height="600" fill="#f4f4f5"/>
+  
+  <rect x="0" y="0" width="960" height="36" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <circle cx="57.599999999999994" cy="18" r="7.2" fill="#2563eb"/>
+  <rect x="115.19999999999999" y="13.2" width="115.19999999999999" height="9.6" rx="3" fill="#18181b" opacity="0.15"/>
+  <rect x="691.1999999999999" y="13.2" width="76.8" height="9.6" rx="3" fill="#71717a" opacity="0.35"/>
+  <rect x="787.1999999999999" y="10.799999999999999" width="96" height="14.4" rx="5" fill="#2563eb"/>
+  <rect x="0" y="0" width="960" height="126" fill="#ffffff"/>
+  <rect x="0" y="126" width="960" height="158" fill="#f4f4f5"/>
+  <rect x="0" y="284" width="960" height="111" fill="#ffffff"/>
+  <rect x="0" y="395" width="960" height="205" fill="#f4f4f5"/>
+  
+  <rect x="76.8" y="37.8" width="528" height="12.600000000000001" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="63" width="672" height="10.08" rx="3" fill="#71717a" opacity="0.2"/>
+  
+  <rect x="76.8" y="173.4" width="528" height="15.8" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="205" width="672" height="12.64" rx="3" fill="#71717a" opacity="0.2"/>
+  <rect x="76.8" y="308.42" width="249.6" height="61.050000000000004" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="355.2" y="308.42" width="249.6" height="61.050000000000004" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="633.5999999999999" y="308.42" width="249.6" height="61.050000000000004" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  
+  <rect x="288" y="446.25" width="384" height="24.599999999999998" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="345.6" y="507.75" width="268.8" height="32.8" rx="6" fill="#2563eb"/>
+  <text x="38.4" y="592" font-family="ui-sans-serif,system-ui,sans-serif" font-size="16.8" font-weight="600" fill="#71717a">Resource Detail</text>
+</svg>

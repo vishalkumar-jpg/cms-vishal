@@ -1,0 +1,31 @@
+{
+  "name": "@ob-cms/template-registry",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "bun test",
+    "build": "bun build ./src/index.ts --outdir dist --target node --format esm --external zod --external @ob-cms/shared",
+    "dev": "bun build ./src/index.ts --outdir dist --target node --format esm --external zod --external @ob-cms/shared --watch"
+  },
+  "dependencies": {
+    "@ob-cms/shared": "workspace:*",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@ob-cms/config": "workspace:*",
+    "typescript": "5.7.3"
+  }
+}

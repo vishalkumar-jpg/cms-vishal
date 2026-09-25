@@ -1,0 +1,8 @@
+{
+  "id": "5005",
+  "name": "Extra fields",
+  "html": "<p>Body</p>",
+  "customHubspotField": {
+    "nested": true
+  }
+}

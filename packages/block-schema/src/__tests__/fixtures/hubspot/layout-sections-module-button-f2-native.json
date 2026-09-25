@@ -1,0 +1,83 @@
+{
+  "id": "f2-button-001",
+  "name": "Fixture fixture-button-f2-native",
+  "slug": "fixture-button-f2-native",
+  "layoutSections": {
+    "dnd_area-main": {
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "cells": [],
+                  "cssClass": "",
+                  "cssId": "",
+                  "cssStyle": "",
+                  "name": "body_dnd_area-module-3",
+                  "params": {
+                    "button": [
+                      {
+                        "animation": {
+                          "delay": 200
+                        },
+                        "attributes": {
+                          "link": 1000000001
+                        },
+                        "icon": {
+                          "position": "left"
+                        },
+                        "popup": {
+                          "video_type": "embed"
+                        },
+                        "styles": {
+                          "arrow": true,
+                          "color_theme": "button--secondary",
+                          "size": "button--larger"
+                        },
+                        "text": "Build Your Remote Team"
+                      }
+                    ],
+                    "child_css": {},
+                    "css": {},
+                    "css_class": "dnd-module",
+                    "module_id": 1000000001,
+                    "path": "/pikev4/modules/buttons",
+                    "schema_version": 2,
+                    "smart_objects": [],
+                    "smart_type": "NOT_SMART",
+                    "styles": {
+                      "layout": {
+                        "spacing": {}
+                      },
+                      "text_alignment": {
+                        "default": {},
+                        "desktop": {},
+                        "tablet": {}
+                      },
+                      "visibility": {
+                        "hidden_desktop": false,
+                        "hidden_mobile": false,
+                        "hidden_tablet": false,
+                        "z_index": 3
+                      }
+                    },
+                    "type": "module",
+                    "wrap_field_tag": "div"
+                  },
+                  "rowMetaData": [],
+                  "rows": [],
+                  "type": "custom_widget",
+                  "w": 12,
+                  "x": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

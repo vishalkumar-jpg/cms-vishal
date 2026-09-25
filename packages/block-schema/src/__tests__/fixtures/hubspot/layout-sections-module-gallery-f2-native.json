@@ -1,0 +1,102 @@
+{
+  "id": "f2-gallery-001",
+  "name": "Fixture gallery",
+  "slug": "fixture-gallery-f2-native",
+  "layoutSections": {
+    "dnd_area-main": {
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "cells": [],
+                  "cssClass": "",
+                  "cssId": "",
+                  "cssStyle": "",
+                  "name": "dnd_area-module-15",
+                  "params": {
+                    "child_css": {},
+                    "css": {},
+                    "css_class": "dnd-module",
+                    "data_source": "module",
+                    "gallery": [
+                      {
+                        "caption": "",
+                        "image": {
+                          "alt": "trust-seal-badge-business",
+                          "height": 177,
+                          "max_height": 177,
+                          "max_width": 481,
+                          "src": "https://cdn.example.com/asset.png",
+                          "width": 481
+                        }
+                      },
+                      {
+                        "caption": "",
+                        "image": {
+                          "alt": "trust-seal-badge-privacy",
+                          "height": 158,
+                          "max_height": 158,
+                          "max_width": 430,
+                          "src": "https://cdn.example.com/asset.png",
+                          "width": 430
+                        }
+                      },
+                      {
+                        "caption": "",
+                        "image": {
+                          "alt": "trust-seal-badge-ssl",
+                          "height": 178,
+                          "max_height": 178,
+                          "max_width": 484,
+                          "src": "https://cdn.example.com/asset.png",
+                          "width": 484
+                        }
+                      }
+                    ],
+                    "module_id": 1000000002,
+                    "path": "/pikev4/modules/image-gallery",
+                    "schema_version": 2,
+                    "skin": "grid",
+                    "smart_objects": [],
+                    "smart_type": "NOT_SMART",
+                    "styles": {
+                      "grid": {
+                        "desktop": {
+                          "gap": 32
+                        },
+                        "desktop_lg": {
+                          "gap": 32
+                        },
+                        "mobile": {
+                          "columns": 1,
+                          "gap": 32
+                        },
+                        "tablet": {
+                          "gap": 32
+                        }
+                      },
+                      "images": {
+                        "aspect_ratio": "",
+                        "radius": 0
+                      }
+                    },
+                    "wrap_field_tag": "div"
+                  },
+                  "rowMetaData": [],
+                  "rows": [],
+                  "type": "custom_widget",
+                  "w": 12,
+                  "x": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

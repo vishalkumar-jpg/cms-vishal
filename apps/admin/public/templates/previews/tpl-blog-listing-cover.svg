@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Blog Home preview">
+  <rect width="960" height="600" fill="#f4f4f5"/>
+  
+  <rect x="0" y="0" width="960" height="36" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <circle cx="57.599999999999994" cy="18" r="7.2" fill="#2563eb"/>
+  <rect x="115.19999999999999" y="13.2" width="115.19999999999999" height="9.6" rx="3" fill="#18181b" opacity="0.15"/>
+  <rect x="691.1999999999999" y="13.2" width="76.8" height="9.6" rx="3" fill="#71717a" opacity="0.35"/>
+  <rect x="787.1999999999999" y="10.799999999999999" width="96" height="14.4" rx="5" fill="#2563eb"/>
+  <rect x="0" y="0" width="960" height="111" fill="#ffffff"/>
+  <rect x="0" y="111" width="960" height="205" fill="#f4f4f5"/>
+  <rect x="0" y="316" width="960" height="284" fill="#ffffff"/>
+  
+  <rect x="76.8" y="33.3" width="528" height="11.100000000000001" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="55.5" width="672" height="8.88" rx="3" fill="#71717a" opacity="0.2"/>
+  <rect x="76.8" y="156.1" width="249.6" height="112.75000000000001" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="355.2" y="156.1" width="249.6" height="112.75000000000001" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="633.5999999999999" y="156.1" width="249.6" height="112.75000000000001" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  
+  <rect x="288" y="387" width="384" height="34.08" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="345.6" y="472.20000000000005" width="268.8" height="45.44" rx="6" fill="#2563eb"/>
+  <text x="38.4" y="592" font-family="ui-sans-serif,system-ui,sans-serif" font-size="16.8" font-weight="600" fill="#71717a">Blog Home</text>
+</svg>

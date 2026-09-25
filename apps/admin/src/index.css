@@ -1,0 +1,41 @@
+@import "@ob-cms/ui/tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-foreground font-sans antialiased overflow-x-hidden;
+}
+
+#root {
+  @apply min-h-screen overflow-x-hidden;
+}
+
+/* Builder left sidebar — active tab must read clearly (orange + white). */
+.ob-sidebar-tab.is-active,
+.ob-sidebar-tab[data-state="active"] {
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border-color: hsl(var(--primary));
+  font-weight: 600;
+}
+
+/* Suppress block selection outlines while a confirm/alert dialog is open. */
+body[data-ob-modal-dialog] [data-craft-node-id] {
+  outline: none !important;
+  outline-offset: 0 !important;
+}
+
+/* Site chrome in the builder canvas sits above the dialog backdrop unless lowered here. */
+body[data-ob-modal-dialog] .ob-site .cms-navbar.site-header__nav,
+body[data-ob-modal-dialog] .ob-site .ob-topbar,
+body[data-ob-modal-dialog] .ob-site .cms-section.ob-site-topbar--sticky {
+  position: relative !important;
+  top: auto !important;
+  z-index: 1 !important;
+}
+
+body[data-ob-modal-dialog] .ob-site .ob-mobile-drawer.is-open {
+  display: none !important;
+}

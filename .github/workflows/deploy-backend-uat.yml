@@ -1,0 +1,29 @@
+name: Deploy CMS UAT
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'apps/api/**'
+      - 'apps/worker/**'
+      - '.github/workflows/deploy-backend-uat.yml'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: |
+            cd /var/www/html
+            if [ ! -d "cms-vishal" ]; then
+              git clone https://github.com/vishalkumar-jpg/cms-vishal.git
+            fi
+            cd cms-vishal
+            git pull origin main
+            echo "${{ secrets.SERVER_ENV_BASE64 }}" | base64 --decode > .env.server
+            docker compose -f infra/docker-compose.yml up -d --build api worker

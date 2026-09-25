@@ -1,0 +1,106 @@
+---
+description: Permanent OB CMS engineering standards — API versioning, React/style conventions, implementation workflow, and PR checklist
+alwaysApply: true
+---
+
+# Permanent Engineering Standards
+
+Repository-wide rules. Enforce automatically on every implementation, review, and plan — do not wait for explicit instructions.
+
+---
+
+## 1. API Versioning (Highest Priority — Mandatory)
+
+**Every API in this repository must be versioned.** Current version: `v1`. Standard prefix: `/api/v1/...`.
+
+### Hard rules
+
+- **Never** create new endpoints under `/api/<resource>` without the `/v1` segment.
+- **Never** introduce `/api/public/...`, `/api/pages`, `/api/forms`, etc. in new work.
+- **Never** leave the repo with mixed versioned and unversioned routes for the same surface.
+- Use shared constants from `@ob-cms/shared`: `API_GLOBAL_PREFIX` (`api/v1`), `API_PREFIX` (`/api/v1`), `PUBLIC_API_PREFIX` (`/api/v1/public`).
+
+### NestJS implementation
+
+- Global prefix defaults to `API_GLOBAL_PREFIX` (`api/v1`) in `app.config.ts` — set `GLOBAL_PREFIX` env only for exceptional overrides.
+- Controllers use resource paths only (e.g. `@Controller("pages")`, `@Controller("public")`) — **not** `@Controller("v1/pages")`.
+- See `docs/api-versioning.md` for exclusions (sitemap, robots, Swagger, renderer same-origin proxies).
+
+### Future versions (`v2+`)
+
+- **Do not remove `/api/v1` immediately** when adding v2 — serve both concurrently or document an explicit deprecation period.
+- See `docs/api-versioning.md` for the full migration policy.
+
+### When touching any API
+
+1. Search the repo for existing route conventions first.
+2. If versioning is missing, recommend migrating the **entire** API surface — not a partial fix.
+3. Update **every** caller: controllers, admin SDK/Orval, renderer upstream fetches, Next.js proxy targets, tests, docs.
+4. Mention versioning in the PR description.
+
+### Pre-API-PR verification
+
+Controllers · global prefix · admin base URL · renderer upstream URLs · proxy upstream targets · OpenAPI/Orval · docs · tests.
+
+**If an implementation would introduce an unversioned endpoint: stop and recommend the versioned approach instead.**
+
+Repository consistency outweighs minimizing diff size.
+
+---
+
+## 2. Senior Review Preferences
+
+Apply proactively before opening any PR.
+
+### Styling
+
+- Never introduce inline CSS unless absolutely unavoidable.
+- Prefer Tailwind utility classes (renderer convention: `mx-auto max-w-3xl`, etc.).
+- Reuse shared class constants/components when the same styles appear more than once.
+
+### Conditional rendering
+
+Prefer `{condition && <Component />}` over `{condition ? <Component /> : null}` unless both branches render different UI.
+
+### Consistency
+
+Before implementing, search the repo and match existing architecture, naming, folder structure, and patterns — do not invent new ones.
+
+---
+
+## 3. Implementation Workflow
+
+For every new feature:
+
+1. Study existing architecture.
+2. Follow repository conventions.
+3. Keep PRs small and focused.
+4. Avoid unrelated refactoring.
+5. Preserve backward compatibility unless explicitly changing behavior.
+6. Add tests for new behavior.
+7. Run type-check, lint, and relevant tests.
+8. Pre-commit audit: no TODO/FIXME, no `console.log`/`debugger`, no dead code, no unused imports, no merge markers.
+9. Deliver PR-ready code before requesting review.
+
+---
+
+## 4. Code Review Checklist (Definition of Done)
+
+- Architecture consistency
+- **All API routes under `/api/v1/...`** (if routes touched)
+- Tailwind over inline CSS
+- React conditional rendering style
+- Backward compatibility preserved
+- Tests added/updated
+- Type-check passes
+- Lint passes
+- Documentation updated when applicable
+- No unnecessary files changed
+
+---
+
+## 5. Violation Handling
+
+If a proposed implementation violates any standard above: **stop**, explain the conflict, and recommend the correct repository-wide approach instead of generating inconsistent code.
+
+This policy overrides convenience until explicitly revoked by the project owner.

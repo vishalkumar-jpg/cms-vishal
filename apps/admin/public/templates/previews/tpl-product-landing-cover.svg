@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Product Landing preview">
+  <rect width="960" height="600" fill="#f4f4f5"/>
+  
+  <rect x="0" y="0" width="960" height="36" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <circle cx="57.599999999999994" cy="18" r="7.2" fill="#2563eb"/>
+  <rect x="115.19999999999999" y="13.2" width="115.19999999999999" height="9.6" rx="3" fill="#18181b" opacity="0.15"/>
+  <rect x="691.1999999999999" y="13.2" width="76.8" height="9.6" rx="3" fill="#71717a" opacity="0.35"/>
+  <rect x="787.1999999999999" y="10.799999999999999" width="96" height="14.4" rx="5" fill="#2563eb"/>
+  <rect x="0" y="0" width="960" height="189" fill="#dbeafe"/>
+  <rect x="0" y="189" width="960" height="111" fill="#ffffff"/>
+  <rect x="0" y="300" width="960" height="71" fill="#f4f4f5"/>
+  <rect x="0" y="371" width="960" height="111" fill="#ffffff"/>
+  <rect x="0" y="482" width="960" height="118" fill="#f4f4f5"/>
+  
+  <rect x="76.8" y="47.25" width="432" height="22.68" rx="4" fill="#18181b" opacity="0.12"/>
+  <rect x="76.8" y="85.05" width="336" height="13.23" rx="3" fill="#71717a" opacity="0.25"/>
+  <rect x="76.8" y="122.85000000000001" width="172.79999999999998" height="26.46" rx="6" fill="#2563eb"/>
+  <rect x="556.8" y="37.800000000000004" width="326.40000000000003" height="122.85000000000001" rx="8" fill="#2563eb" opacity="0.25"/>
+  <rect x="76.8" y="213.42000000000002" width="249.6" height="61.050000000000004" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="355.2" y="213.42000000000002" width="249.6" height="61.050000000000004" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="633.5999999999999" y="213.42000000000002" width="249.6" height="61.050000000000004" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  
+  <rect x="76.8" y="321.3" width="528" height="7.1000000000000005" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="335.5" width="672" height="5.68" rx="3" fill="#71717a" opacity="0.2"/>
+  <rect x="96" y="387.65" width="230.39999999999998" height="77.69999999999999" rx="6" fill="#ffffff" opacity="1" stroke="#e4e4e7"/>
+  <rect x="364.79999999999995" y="387.65" width="230.39999999999998" height="77.69999999999999" rx="6" fill="#2563eb" opacity="0.9" stroke="#e4e4e7"/>
+  <rect x="633.5999999999999" y="387.65" width="230.39999999999998" height="77.69999999999999" rx="6" fill="#ffffff" opacity="1" stroke="#e4e4e7"/>
+  
+  <rect x="288" y="511.5" width="384" height="14.16" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="345.6" y="546.9" width="268.8" height="18.88" rx="6" fill="#2563eb"/>
+  <text x="38.4" y="592" font-family="ui-sans-serif,system-ui,sans-serif" font-size="16.8" font-weight="600" fill="#71717a">Product Landing</text>
+</svg>

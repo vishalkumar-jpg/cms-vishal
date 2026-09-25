@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Landing Page preview">
+  <rect width="960" height="600" fill="#f4f4f5"/>
+  
+  <rect x="0" y="0" width="960" height="36" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <circle cx="57.599999999999994" cy="18" r="7.2" fill="#2563eb"/>
+  <rect x="115.19999999999999" y="13.2" width="115.19999999999999" height="9.6" rx="3" fill="#18181b" opacity="0.15"/>
+  <rect x="691.1999999999999" y="13.2" width="76.8" height="9.6" rx="3" fill="#71717a" opacity="0.35"/>
+  <rect x="787.1999999999999" y="10.799999999999999" width="96" height="14.4" rx="5" fill="#2563eb"/>
+  <rect x="0" y="0" width="960" height="189" fill="#dbeafe"/>
+  <rect x="0" y="189" width="960" height="71" fill="#ffffff"/>
+  <rect x="0" y="261" width="960" height="142" fill="#f4f4f5"/>
+  <rect x="0" y="403" width="960" height="197" fill="#ffffff"/>
+  
+  <rect x="76.8" y="56.699999999999996" width="528" height="18.900000000000002" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="94.5" width="672" height="15.120000000000001" rx="3" fill="#71717a" opacity="0.2"/>
+  
+  <rect x="76.8" y="210.3" width="528" height="7.1000000000000005" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="224.5" width="672" height="5.68" rx="3" fill="#71717a" opacity="0.2"/>
+  
+  <rect x="115.19999999999999" y="278.04" width="729.6" height="19.880000000000003" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="115.19999999999999" y="306.44" width="729.6" height="19.880000000000003" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="115.19999999999999" y="334.84000000000003" width="729.6" height="19.880000000000003" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="115.19999999999999" y="363.24" width="729.6" height="19.880000000000003" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  
+  <rect x="288" y="452.25" width="384" height="23.64" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="345.6" y="511.35" width="268.8" height="31.52" rx="6" fill="#2563eb"/>
+  <text x="38.4" y="592" font-family="ui-sans-serif,system-ui,sans-serif" font-size="16.8" font-weight="600" fill="#71717a">Landing Page</text>
+</svg>

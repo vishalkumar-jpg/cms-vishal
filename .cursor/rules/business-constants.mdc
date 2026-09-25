@@ -1,0 +1,48 @@
+---
+description: Reusable business constants — single source of truth for labels, identifiers, and mappings
+alwaysApply: true
+---
+
+# Business Constants Policy
+
+Before introducing any string literal for a **reusable business value**, follow this order:
+
+1. **Search** the repo for an existing constant (domain `constants.ts`, `catalogLabels.ts`, `@ob-cms/shared`, etc.).
+2. **Reuse** it if it already exists.
+3. **Create** a shared constant only when the same value appears in **2+ places** or defines a cross-module contract (queue names, webhook events, API labels).
+4. **Never duplicate** label mappings (`Record<kind, label>`, status badges, filter chip text).
+5. Prefer **enums / const objects / named exports** over inline strings.
+
+## What must use constants
+
+- UI labels, placeholders, tabs, badges, button text (when reused)
+- Template kind labels and search labels
+- Sort/filter option labels shared across surfaces
+- Queue names, Bull prefix, cache key prefixes, webhook event names
+- Permission/role identifiers (already in `@ob-cms/shared`)
+- Error codes and provider identifiers when repeated
+
+## What stays inline
+
+- One-off copy (unique dialog body, single empty-state sentence with dynamic parts)
+- User-generated content
+- Craft block type names and schema identifiers tied to a single call site
+- Test fixture descriptions that mirror production constants (import the constant when asserting)
+
+## File placement
+
+- Keep constants **close to their domain** (`views/template-library/constants.ts`, `template-catalog/lib/catalogLabels.ts`, `packages/shared/src/webhook-events.ts`).
+- Avoid a single global constants dump; split by feature/package.
+- Re-export from `@ob-cms/shared` only for values shared across apps (API, worker, admin, renderer).
+
+## Examples in this repo
+
+| Domain | Source |
+|--------|--------|
+| Template kind labels | `apps/admin/src/views/template-library/constants.ts` |
+| Starter catalog labels | `apps/admin/src/views/template-catalog/lib/catalogLabels.ts` |
+| Workflow state labels | `apps/admin/src/components/workflow/workflow.tsx` (`WORKFLOW_LABELS`) |
+| Webhook events | `packages/shared/src/webhook-events.ts` |
+| Bull prefix | `packages/shared/src/bull.constants.ts` |
+
+When touching UI or infrastructure strings, ask: *"Could this drift if copied?"* If yes, centralize it.

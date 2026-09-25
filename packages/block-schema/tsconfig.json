@@ -1,0 +1,9 @@
+{
+  "extends": "@ob-cms/config/tsconfig/base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": ["bun"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "src/**/__tests__/**", "src/**/*.test.ts", "src/**/*.test.tsx"]
+}

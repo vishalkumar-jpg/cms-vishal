@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "3.0",
+  "root": "ROOT",
+  "nodes": {
+    "ROOT": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "typography": {
+            "fontFamily": "Poppins, 'Segoe UI', system-ui, sans-serif"
+          }
+        }
+      },
+      "displayName": "Section",
+      "parent": null,
+      "hidden": false,
+      "nodes": [
+        "ob_0",
+        "ob_4",
+        "ob_5",
+        "ob_16",
+        "ob_24",
+        "ob_40",
+        "ob_51",
+        "ob_69",
+        "ob_100",
+        "ob_135",
+        "ob_140",
+        "ob_162",
+        "ob_168",
+        "ob_176",
+        "ob_192",
+        "ob_224",
+        "ob_233",
+        "ob_251",
+        "ob_295"
+      ],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_0": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#147eff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_4": {
+      "type": { "resolvedName": "Navbar" },
+      "isCanvas": true,
+      "props": { "logoText": "Office Beacon", "mode": "legacy" },
+      "displayName": "Navbar",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_5": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_16": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_24": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_40": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_51": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_69": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_100": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_135": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_140": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_162": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_168": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_176": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_192": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_224": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_233": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_251": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#ffffff" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    },
+    "ob_295": {
+      "type": { "resolvedName": "Section" },
+      "isCanvas": true,
+      "props": { "styles": { "colors": { "backgroundColor": "#002244" } } },
+      "displayName": "Section",
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {},
+      "custom": {}
+    }
+  }
+}

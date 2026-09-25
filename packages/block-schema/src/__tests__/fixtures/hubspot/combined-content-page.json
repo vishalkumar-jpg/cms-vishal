@@ -1,0 +1,16 @@
+{
+  "id": "6002",
+  "name": "Combined content",
+  "slug": "combined-content",
+  "html": "<h1>Top HTML</h1>",
+  "layoutSections": {
+    "dnd_area-main": {
+      "richText": "<p>Section intro</p>"
+    }
+  },
+  "widgetContainers": {
+    "main": {
+      "html": "<div>Widget A</div>"
+    }
+  }
+}

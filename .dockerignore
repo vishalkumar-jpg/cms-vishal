@@ -1,0 +1,19 @@
+# Keep secrets, host build artifacts, and host node_modules out of the build context.
+# Package dist/ and .next/ are rebuilt inside the image by `turbo run build`.
+node_modules
+**/node_modules
+.git
+.gitignore
+.env
+.env.*
+**/dist
+**/.next
+**/.turbo
+.turbo
+**/.vite
+**/coverage
+*.log
+.DS_Store
+docs
+.review
+graphify-out

@@ -1,0 +1,54 @@
+{
+  "id": "f2-linked-image-001",
+  "name": "Fixture fixture-linked-image-f2-native",
+  "slug": "fixture-linked-image-f2-native",
+  "layoutSections": {
+    "dnd_area-main": {
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "cells": [],
+                  "cssClass": "",
+                  "cssId": "",
+                  "cssStyle": "",
+                  "label": "Image",
+                  "name": "dnd_area_main_banner-module-5",
+                  "params": {
+                    "css_class": "dnd-module",
+                    "extra_classes": "widget-type-linked_image",
+                    "img": {
+                      "alt": "Phone Mockups",
+                      "height": 200,
+                      "loading": "disabled",
+                      "size_type": "auto",
+                      "src": "https://cdn.example.com/asset.png",
+                      "width": 200
+                    },
+                    "link": "",
+                    "module_id": 1000000003,
+                    "path": "@hubspot/linked_image",
+                    "schema_version": 2,
+                    "smart_objects": [],
+                    "smart_type": "NOT_SMART",
+                    "target": false,
+                    "wrap_field_tag": "div"
+                  },
+                  "rowMetaData": [],
+                  "rows": [],
+                  "type": "custom_widget",
+                  "w": 12,
+                  "x": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

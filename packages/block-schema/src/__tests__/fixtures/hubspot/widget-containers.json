@@ -1,0 +1,14 @@
+{
+  "id": "4004",
+  "name": "Legacy widgets",
+  "widgetContainers": {
+    "main": {
+      "html": "<div>Widget A</div>"
+    },
+    "sidebar": {
+      "body": {
+        "html": "<div>Widget B</div>"
+      }
+    }
+  }
+}

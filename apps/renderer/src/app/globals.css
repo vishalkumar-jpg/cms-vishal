@@ -1,0 +1,11 @@
+/* Design tokens live in @ob-cms/ui/src/tokens.css. Imported via the workspace
+   package's resolvable subpath (see its package.json exports). */
+@import "@ob-cms/ui/src/tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-foreground font-sans antialiased;
+}

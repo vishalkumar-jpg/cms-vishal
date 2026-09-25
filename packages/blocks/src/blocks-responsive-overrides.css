@@ -1,0 +1,1152 @@
+/* AUTO-GENERATED — do not edit by hand.
+   Regenerate: bun run --cwd packages/block-schema generate-responsive-css */
+
+/* LARGEDESKTOP */
+@container ob (min-width: 1440px) {
+  .ob-site [style*="--ob-r-largeDesktop-display"] { display: var(--ob-r-largeDesktop-display) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-flexDirection"] { flex-direction: var(--ob-r-largeDesktop-flexDirection) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-justifyContent"] { justify-content: var(--ob-r-largeDesktop-justifyContent) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-alignItems"] { align-items: var(--ob-r-largeDesktop-alignItems) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-alignContent"] { align-content: var(--ob-r-largeDesktop-alignContent) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-justifyItems"] { justify-items: var(--ob-r-largeDesktop-justifyItems) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-alignSelf"] { align-self: var(--ob-r-largeDesktop-alignSelf) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-flexWrap"] { flex-wrap: var(--ob-r-largeDesktop-flexWrap) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-flexGrow"] { flex-grow: var(--ob-r-largeDesktop-flexGrow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-flexShrink"] { flex-shrink: var(--ob-r-largeDesktop-flexShrink) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-order"] { order: var(--ob-r-largeDesktop-order) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-gridTemplateColumns"] { grid-template-columns: var(--ob-r-largeDesktop-gridTemplateColumns) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-gridTemplateRows"] { grid-template-rows: var(--ob-r-largeDesktop-gridTemplateRows) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-gridAutoFlow"] { grid-auto-flow: var(--ob-r-largeDesktop-gridAutoFlow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-gap"] { gap: var(--ob-r-largeDesktop-gap) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-columnGap"] { column-gap: var(--ob-r-largeDesktop-columnGap) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-rowGap"] { row-gap: var(--ob-r-largeDesktop-rowGap) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-marginTop"] { margin-top: var(--ob-r-largeDesktop-marginTop) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-marginRight"] { margin-right: var(--ob-r-largeDesktop-marginRight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-marginBottom"] { margin-bottom: var(--ob-r-largeDesktop-marginBottom) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-marginLeft"] { margin-left: var(--ob-r-largeDesktop-marginLeft) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingTop"] { padding-top: var(--ob-r-largeDesktop-paddingTop) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingTop"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-paddingTop"].ob-btn { padding-top: var(--ob-r-largeDesktop-paddingTop) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingRight"] { padding-right: var(--ob-r-largeDesktop-paddingRight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingRight"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-paddingRight"].ob-btn { padding-right: var(--ob-r-largeDesktop-paddingRight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingBottom"] { padding-bottom: var(--ob-r-largeDesktop-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingBottom"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-largeDesktop-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingLeft"] { padding-left: var(--ob-r-largeDesktop-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingLeft"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-paddingLeft"].ob-btn { padding-left: var(--ob-r-largeDesktop-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-width"] { width: var(--ob-r-largeDesktop-width) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-height"] { height: var(--ob-r-largeDesktop-height) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-aspectRatio"] { aspect-ratio: var(--ob-r-largeDesktop-aspectRatio) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-minWidth"] { min-width: var(--ob-r-largeDesktop-minWidth) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-maxWidth"] { max-width: var(--ob-r-largeDesktop-maxWidth) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-minHeight"] { min-height: var(--ob-r-largeDesktop-minHeight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-maxHeight"] { max-height: var(--ob-r-largeDesktop-maxHeight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontFamily"] { font-family: var(--ob-r-largeDesktop-fontFamily) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontSize"] { font-size: var(--ob-r-largeDesktop-fontSize) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontSize"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-fontSize"].ob-btn { font-size: var(--ob-r-largeDesktop-fontSize) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontWeight"] { font-weight: var(--ob-r-largeDesktop-fontWeight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontWeight"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-fontWeight"].ob-btn { font-weight: var(--ob-r-largeDesktop-fontWeight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-lineHeight"] { line-height: var(--ob-r-largeDesktop-lineHeight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-letterSpacing"] { letter-spacing: var(--ob-r-largeDesktop-letterSpacing) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontStyle"] { font-style: var(--ob-r-largeDesktop-fontStyle) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-textTransform"] { text-transform: var(--ob-r-largeDesktop-textTransform) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-textAlign"] { text-align: var(--ob-r-largeDesktop-textAlign) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-textDecoration"] { text-decoration: var(--ob-r-largeDesktop-textDecoration) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-whiteSpace"] { white-space: var(--ob-r-largeDesktop-whiteSpace) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-textOverflow"] { text-overflow: var(--ob-r-largeDesktop-textOverflow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-wordSpacing"] { word-spacing: var(--ob-r-largeDesktop-wordSpacing) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-color"] { color: var(--ob-r-largeDesktop-color) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-color"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-color"].ob-btn { color: var(--ob-r-largeDesktop-color) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-backgroundColor"] { background-color: var(--ob-r-largeDesktop-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-backgroundColor"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-backgroundColor"].ob-btn { background-color: var(--ob-r-largeDesktop-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-border"] { border: var(--ob-r-largeDesktop-border) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderRadius"] { border-radius: var(--ob-r-largeDesktop-borderRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderRadius"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-borderRadius"].ob-btn { border-radius: var(--ob-r-largeDesktop-borderRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-largeDesktop-borderTopLeftRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-largeDesktop-borderTopRightRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-largeDesktop-borderBottomLeftRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-largeDesktop-borderBottomRightRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-boxShadow"] { box-shadow: var(--ob-r-largeDesktop-boxShadow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-textShadow"] { text-shadow: var(--ob-r-largeDesktop-textShadow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-filter"] { filter: var(--ob-r-largeDesktop-filter) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-backdropFilter"] { backdrop-filter: var(--ob-r-largeDesktop-backdropFilter) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-opacity"] { opacity: var(--ob-r-largeDesktop-opacity) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-transform"] { transform: var(--ob-r-largeDesktop-transform) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-position"] { position: var(--ob-r-largeDesktop-position) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-top"] { top: var(--ob-r-largeDesktop-top) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-right"] { right: var(--ob-r-largeDesktop-right) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-bottom"] { bottom: var(--ob-r-largeDesktop-bottom) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-left"] { left: var(--ob-r-largeDesktop-left) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-zIndex"] { z-index: var(--ob-r-largeDesktop-zIndex) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-overflow"] { overflow: var(--ob-r-largeDesktop-overflow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-overflowX"] { overflow-x: var(--ob-r-largeDesktop-overflowX) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-overflowY"] { overflow-y: var(--ob-r-largeDesktop-overflowY) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-visibility"] { visibility: var(--ob-r-largeDesktop-visibility) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-cursor"] { cursor: var(--ob-r-largeDesktop-cursor) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-mixBlendMode"] { mix-blend-mode: var(--ob-r-largeDesktop-mixBlendMode) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-pointerEvents"] { pointer-events: var(--ob-r-largeDesktop-pointerEvents) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-objectFit"] { object-fit: var(--ob-r-largeDesktop-objectFit) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-objectPosition"] { object-position: var(--ob-r-largeDesktop-objectPosition) !important; }
+}
+
+/* LAPTOP */
+@container ob (max-width: 1279px) {
+  .ob-site [style*="--ob-r-laptop-display"] { display: var(--ob-r-laptop-display) !important; }
+  .ob-site [style*="--ob-r-laptop-flexDirection"] { flex-direction: var(--ob-r-laptop-flexDirection) !important; }
+  .ob-site [style*="--ob-r-laptop-justifyContent"] { justify-content: var(--ob-r-laptop-justifyContent) !important; }
+  .ob-site [style*="--ob-r-laptop-alignItems"] { align-items: var(--ob-r-laptop-alignItems) !important; }
+  .ob-site [style*="--ob-r-laptop-alignContent"] { align-content: var(--ob-r-laptop-alignContent) !important; }
+  .ob-site [style*="--ob-r-laptop-justifyItems"] { justify-items: var(--ob-r-laptop-justifyItems) !important; }
+  .ob-site [style*="--ob-r-laptop-alignSelf"] { align-self: var(--ob-r-laptop-alignSelf) !important; }
+  .ob-site [style*="--ob-r-laptop-flexWrap"] { flex-wrap: var(--ob-r-laptop-flexWrap) !important; }
+  .ob-site [style*="--ob-r-laptop-flexGrow"] { flex-grow: var(--ob-r-laptop-flexGrow) !important; }
+  .ob-site [style*="--ob-r-laptop-flexShrink"] { flex-shrink: var(--ob-r-laptop-flexShrink) !important; }
+  .ob-site [style*="--ob-r-laptop-order"] { order: var(--ob-r-laptop-order) !important; }
+  .ob-site [style*="--ob-r-laptop-gridTemplateColumns"] { grid-template-columns: var(--ob-r-laptop-gridTemplateColumns) !important; }
+  .ob-site [style*="--ob-r-laptop-gridTemplateRows"] { grid-template-rows: var(--ob-r-laptop-gridTemplateRows) !important; }
+  .ob-site [style*="--ob-r-laptop-gridAutoFlow"] { grid-auto-flow: var(--ob-r-laptop-gridAutoFlow) !important; }
+  .ob-site [style*="--ob-r-laptop-gap"] { gap: var(--ob-r-laptop-gap) !important; }
+  .ob-site [style*="--ob-r-laptop-columnGap"] { column-gap: var(--ob-r-laptop-columnGap) !important; }
+  .ob-site [style*="--ob-r-laptop-rowGap"] { row-gap: var(--ob-r-laptop-rowGap) !important; }
+  .ob-site [style*="--ob-r-laptop-marginTop"] { margin-top: var(--ob-r-laptop-marginTop) !important; }
+  .ob-site [style*="--ob-r-laptop-marginRight"] { margin-right: var(--ob-r-laptop-marginRight) !important; }
+  .ob-site [style*="--ob-r-laptop-marginBottom"] { margin-bottom: var(--ob-r-laptop-marginBottom) !important; }
+  .ob-site [style*="--ob-r-laptop-marginLeft"] { margin-left: var(--ob-r-laptop-marginLeft) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingTop"] { padding-top: var(--ob-r-laptop-paddingTop) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingTop"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-paddingTop"].ob-btn { padding-top: var(--ob-r-laptop-paddingTop) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingRight"] { padding-right: var(--ob-r-laptop-paddingRight) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingRight"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-paddingRight"].ob-btn { padding-right: var(--ob-r-laptop-paddingRight) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingBottom"] { padding-bottom: var(--ob-r-laptop-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingBottom"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-laptop-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingLeft"] { padding-left: var(--ob-r-laptop-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingLeft"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-paddingLeft"].ob-btn { padding-left: var(--ob-r-laptop-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-laptop-width"] { width: var(--ob-r-laptop-width) !important; }
+  .ob-site [style*="--ob-r-laptop-height"] { height: var(--ob-r-laptop-height) !important; }
+  .ob-site [style*="--ob-r-laptop-aspectRatio"] { aspect-ratio: var(--ob-r-laptop-aspectRatio) !important; }
+  .ob-site [style*="--ob-r-laptop-minWidth"] { min-width: var(--ob-r-laptop-minWidth) !important; }
+  .ob-site [style*="--ob-r-laptop-maxWidth"] { max-width: var(--ob-r-laptop-maxWidth) !important; }
+  .ob-site [style*="--ob-r-laptop-minHeight"] { min-height: var(--ob-r-laptop-minHeight) !important; }
+  .ob-site [style*="--ob-r-laptop-maxHeight"] { max-height: var(--ob-r-laptop-maxHeight) !important; }
+  .ob-site [style*="--ob-r-laptop-fontFamily"] { font-family: var(--ob-r-laptop-fontFamily) !important; }
+  .ob-site [style*="--ob-r-laptop-fontSize"] { font-size: var(--ob-r-laptop-fontSize) !important; }
+  .ob-site [style*="--ob-r-laptop-fontSize"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-fontSize"].ob-btn { font-size: var(--ob-r-laptop-fontSize) !important; }
+  .ob-site [style*="--ob-r-laptop-fontWeight"] { font-weight: var(--ob-r-laptop-fontWeight) !important; }
+  .ob-site [style*="--ob-r-laptop-fontWeight"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-fontWeight"].ob-btn { font-weight: var(--ob-r-laptop-fontWeight) !important; }
+  .ob-site [style*="--ob-r-laptop-lineHeight"] { line-height: var(--ob-r-laptop-lineHeight) !important; }
+  .ob-site [style*="--ob-r-laptop-letterSpacing"] { letter-spacing: var(--ob-r-laptop-letterSpacing) !important; }
+  .ob-site [style*="--ob-r-laptop-fontStyle"] { font-style: var(--ob-r-laptop-fontStyle) !important; }
+  .ob-site [style*="--ob-r-laptop-textTransform"] { text-transform: var(--ob-r-laptop-textTransform) !important; }
+  .ob-site [style*="--ob-r-laptop-textAlign"] { text-align: var(--ob-r-laptop-textAlign) !important; }
+  .ob-site [style*="--ob-r-laptop-textDecoration"] { text-decoration: var(--ob-r-laptop-textDecoration) !important; }
+  .ob-site [style*="--ob-r-laptop-whiteSpace"] { white-space: var(--ob-r-laptop-whiteSpace) !important; }
+  .ob-site [style*="--ob-r-laptop-textOverflow"] { text-overflow: var(--ob-r-laptop-textOverflow) !important; }
+  .ob-site [style*="--ob-r-laptop-wordSpacing"] { word-spacing: var(--ob-r-laptop-wordSpacing) !important; }
+  .ob-site [style*="--ob-r-laptop-color"] { color: var(--ob-r-laptop-color) !important; }
+  .ob-site [style*="--ob-r-laptop-color"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-color"].ob-btn { color: var(--ob-r-laptop-color) !important; }
+  .ob-site [style*="--ob-r-laptop-backgroundColor"] { background-color: var(--ob-r-laptop-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-laptop-backgroundColor"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-backgroundColor"].ob-btn { background-color: var(--ob-r-laptop-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-laptop-border"] { border: var(--ob-r-laptop-border) !important; }
+  .ob-site [style*="--ob-r-laptop-borderRadius"] { border-radius: var(--ob-r-laptop-borderRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-borderRadius"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-borderRadius"].ob-btn { border-radius: var(--ob-r-laptop-borderRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-laptop-borderTopLeftRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-laptop-borderTopRightRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-laptop-borderBottomLeftRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-laptop-borderBottomRightRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-boxShadow"] { box-shadow: var(--ob-r-laptop-boxShadow) !important; }
+  .ob-site [style*="--ob-r-laptop-textShadow"] { text-shadow: var(--ob-r-laptop-textShadow) !important; }
+  .ob-site [style*="--ob-r-laptop-filter"] { filter: var(--ob-r-laptop-filter) !important; }
+  .ob-site [style*="--ob-r-laptop-backdropFilter"] { backdrop-filter: var(--ob-r-laptop-backdropFilter) !important; }
+  .ob-site [style*="--ob-r-laptop-opacity"] { opacity: var(--ob-r-laptop-opacity) !important; }
+  .ob-site [style*="--ob-r-laptop-transform"] { transform: var(--ob-r-laptop-transform) !important; }
+  .ob-site [style*="--ob-r-laptop-position"] { position: var(--ob-r-laptop-position) !important; }
+  .ob-site [style*="--ob-r-laptop-top"] { top: var(--ob-r-laptop-top) !important; }
+  .ob-site [style*="--ob-r-laptop-right"] { right: var(--ob-r-laptop-right) !important; }
+  .ob-site [style*="--ob-r-laptop-bottom"] { bottom: var(--ob-r-laptop-bottom) !important; }
+  .ob-site [style*="--ob-r-laptop-left"] { left: var(--ob-r-laptop-left) !important; }
+  .ob-site [style*="--ob-r-laptop-zIndex"] { z-index: var(--ob-r-laptop-zIndex) !important; }
+  .ob-site [style*="--ob-r-laptop-overflow"] { overflow: var(--ob-r-laptop-overflow) !important; }
+  .ob-site [style*="--ob-r-laptop-overflowX"] { overflow-x: var(--ob-r-laptop-overflowX) !important; }
+  .ob-site [style*="--ob-r-laptop-overflowY"] { overflow-y: var(--ob-r-laptop-overflowY) !important; }
+  .ob-site [style*="--ob-r-laptop-visibility"] { visibility: var(--ob-r-laptop-visibility) !important; }
+  .ob-site [style*="--ob-r-laptop-cursor"] { cursor: var(--ob-r-laptop-cursor) !important; }
+  .ob-site [style*="--ob-r-laptop-mixBlendMode"] { mix-blend-mode: var(--ob-r-laptop-mixBlendMode) !important; }
+  .ob-site [style*="--ob-r-laptop-pointerEvents"] { pointer-events: var(--ob-r-laptop-pointerEvents) !important; }
+  .ob-site [style*="--ob-r-laptop-objectFit"] { object-fit: var(--ob-r-laptop-objectFit) !important; }
+  .ob-site [style*="--ob-r-laptop-objectPosition"] { object-position: var(--ob-r-laptop-objectPosition) !important; }
+}
+
+/* TABLET */
+@container ob (max-width: 1023px) {
+  .ob-site [style*="--ob-r-tablet-display"] { display: var(--ob-r-tablet-display) !important; }
+  .ob-site [style*="--ob-r-tablet-flexDirection"] { flex-direction: var(--ob-r-tablet-flexDirection) !important; }
+  .ob-site [style*="--ob-r-tablet-justifyContent"] { justify-content: var(--ob-r-tablet-justifyContent) !important; }
+  .ob-site [style*="--ob-r-tablet-alignItems"] { align-items: var(--ob-r-tablet-alignItems) !important; }
+  .ob-site [style*="--ob-r-tablet-alignContent"] { align-content: var(--ob-r-tablet-alignContent) !important; }
+  .ob-site [style*="--ob-r-tablet-justifyItems"] { justify-items: var(--ob-r-tablet-justifyItems) !important; }
+  .ob-site [style*="--ob-r-tablet-alignSelf"] { align-self: var(--ob-r-tablet-alignSelf) !important; }
+  .ob-site [style*="--ob-r-tablet-flexWrap"] { flex-wrap: var(--ob-r-tablet-flexWrap) !important; }
+  .ob-site [style*="--ob-r-tablet-flexGrow"] { flex-grow: var(--ob-r-tablet-flexGrow) !important; }
+  .ob-site [style*="--ob-r-tablet-flexShrink"] { flex-shrink: var(--ob-r-tablet-flexShrink) !important; }
+  .ob-site [style*="--ob-r-tablet-order"] { order: var(--ob-r-tablet-order) !important; }
+  .ob-site [style*="--ob-r-tablet-gridTemplateColumns"] { grid-template-columns: var(--ob-r-tablet-gridTemplateColumns) !important; }
+  .ob-site [style*="--ob-r-tablet-gridTemplateRows"] { grid-template-rows: var(--ob-r-tablet-gridTemplateRows) !important; }
+  .ob-site [style*="--ob-r-tablet-gridAutoFlow"] { grid-auto-flow: var(--ob-r-tablet-gridAutoFlow) !important; }
+  .ob-site [style*="--ob-r-tablet-gap"] { gap: var(--ob-r-tablet-gap) !important; }
+  .ob-site [style*="--ob-r-tablet-columnGap"] { column-gap: var(--ob-r-tablet-columnGap) !important; }
+  .ob-site [style*="--ob-r-tablet-rowGap"] { row-gap: var(--ob-r-tablet-rowGap) !important; }
+  .ob-site [style*="--ob-r-tablet-marginTop"] { margin-top: var(--ob-r-tablet-marginTop) !important; }
+  .ob-site [style*="--ob-r-tablet-marginRight"] { margin-right: var(--ob-r-tablet-marginRight) !important; }
+  .ob-site [style*="--ob-r-tablet-marginBottom"] { margin-bottom: var(--ob-r-tablet-marginBottom) !important; }
+  .ob-site [style*="--ob-r-tablet-marginLeft"] { margin-left: var(--ob-r-tablet-marginLeft) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingTop"] { padding-top: var(--ob-r-tablet-paddingTop) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingTop"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-paddingTop"].ob-btn { padding-top: var(--ob-r-tablet-paddingTop) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingRight"] { padding-right: var(--ob-r-tablet-paddingRight) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingRight"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-paddingRight"].ob-btn { padding-right: var(--ob-r-tablet-paddingRight) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingBottom"] { padding-bottom: var(--ob-r-tablet-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingBottom"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-tablet-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingLeft"] { padding-left: var(--ob-r-tablet-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingLeft"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-paddingLeft"].ob-btn { padding-left: var(--ob-r-tablet-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-tablet-width"] { width: var(--ob-r-tablet-width) !important; }
+  .ob-site [style*="--ob-r-tablet-height"] { height: var(--ob-r-tablet-height) !important; }
+  .ob-site [style*="--ob-r-tablet-aspectRatio"] { aspect-ratio: var(--ob-r-tablet-aspectRatio) !important; }
+  .ob-site [style*="--ob-r-tablet-minWidth"] { min-width: var(--ob-r-tablet-minWidth) !important; }
+  .ob-site [style*="--ob-r-tablet-maxWidth"] { max-width: var(--ob-r-tablet-maxWidth) !important; }
+  .ob-site [style*="--ob-r-tablet-minHeight"] { min-height: var(--ob-r-tablet-minHeight) !important; }
+  .ob-site [style*="--ob-r-tablet-maxHeight"] { max-height: var(--ob-r-tablet-maxHeight) !important; }
+  .ob-site [style*="--ob-r-tablet-fontFamily"] { font-family: var(--ob-r-tablet-fontFamily) !important; }
+  .ob-site [style*="--ob-r-tablet-fontSize"] { font-size: var(--ob-r-tablet-fontSize) !important; }
+  .ob-site [style*="--ob-r-tablet-fontSize"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-fontSize"].ob-btn { font-size: var(--ob-r-tablet-fontSize) !important; }
+  .ob-site [style*="--ob-r-tablet-fontWeight"] { font-weight: var(--ob-r-tablet-fontWeight) !important; }
+  .ob-site [style*="--ob-r-tablet-fontWeight"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-fontWeight"].ob-btn { font-weight: var(--ob-r-tablet-fontWeight) !important; }
+  .ob-site [style*="--ob-r-tablet-lineHeight"] { line-height: var(--ob-r-tablet-lineHeight) !important; }
+  .ob-site [style*="--ob-r-tablet-letterSpacing"] { letter-spacing: var(--ob-r-tablet-letterSpacing) !important; }
+  .ob-site [style*="--ob-r-tablet-fontStyle"] { font-style: var(--ob-r-tablet-fontStyle) !important; }
+  .ob-site [style*="--ob-r-tablet-textTransform"] { text-transform: var(--ob-r-tablet-textTransform) !important; }
+  .ob-site [style*="--ob-r-tablet-textAlign"] { text-align: var(--ob-r-tablet-textAlign) !important; }
+  .ob-site [style*="--ob-r-tablet-textDecoration"] { text-decoration: var(--ob-r-tablet-textDecoration) !important; }
+  .ob-site [style*="--ob-r-tablet-whiteSpace"] { white-space: var(--ob-r-tablet-whiteSpace) !important; }
+  .ob-site [style*="--ob-r-tablet-textOverflow"] { text-overflow: var(--ob-r-tablet-textOverflow) !important; }
+  .ob-site [style*="--ob-r-tablet-wordSpacing"] { word-spacing: var(--ob-r-tablet-wordSpacing) !important; }
+  .ob-site [style*="--ob-r-tablet-color"] { color: var(--ob-r-tablet-color) !important; }
+  .ob-site [style*="--ob-r-tablet-color"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-color"].ob-btn { color: var(--ob-r-tablet-color) !important; }
+  .ob-site [style*="--ob-r-tablet-backgroundColor"] { background-color: var(--ob-r-tablet-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-tablet-backgroundColor"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-backgroundColor"].ob-btn { background-color: var(--ob-r-tablet-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-tablet-border"] { border: var(--ob-r-tablet-border) !important; }
+  .ob-site [style*="--ob-r-tablet-borderRadius"] { border-radius: var(--ob-r-tablet-borderRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-borderRadius"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-borderRadius"].ob-btn { border-radius: var(--ob-r-tablet-borderRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-tablet-borderTopLeftRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-tablet-borderTopRightRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-tablet-borderBottomLeftRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-tablet-borderBottomRightRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-boxShadow"] { box-shadow: var(--ob-r-tablet-boxShadow) !important; }
+  .ob-site [style*="--ob-r-tablet-textShadow"] { text-shadow: var(--ob-r-tablet-textShadow) !important; }
+  .ob-site [style*="--ob-r-tablet-filter"] { filter: var(--ob-r-tablet-filter) !important; }
+  .ob-site [style*="--ob-r-tablet-backdropFilter"] { backdrop-filter: var(--ob-r-tablet-backdropFilter) !important; }
+  .ob-site [style*="--ob-r-tablet-opacity"] { opacity: var(--ob-r-tablet-opacity) !important; }
+  .ob-site [style*="--ob-r-tablet-transform"] { transform: var(--ob-r-tablet-transform) !important; }
+  .ob-site [style*="--ob-r-tablet-position"] { position: var(--ob-r-tablet-position) !important; }
+  .ob-site [style*="--ob-r-tablet-top"] { top: var(--ob-r-tablet-top) !important; }
+  .ob-site [style*="--ob-r-tablet-right"] { right: var(--ob-r-tablet-right) !important; }
+  .ob-site [style*="--ob-r-tablet-bottom"] { bottom: var(--ob-r-tablet-bottom) !important; }
+  .ob-site [style*="--ob-r-tablet-left"] { left: var(--ob-r-tablet-left) !important; }
+  .ob-site [style*="--ob-r-tablet-zIndex"] { z-index: var(--ob-r-tablet-zIndex) !important; }
+  .ob-site [style*="--ob-r-tablet-overflow"] { overflow: var(--ob-r-tablet-overflow) !important; }
+  .ob-site [style*="--ob-r-tablet-overflowX"] { overflow-x: var(--ob-r-tablet-overflowX) !important; }
+  .ob-site [style*="--ob-r-tablet-overflowY"] { overflow-y: var(--ob-r-tablet-overflowY) !important; }
+  .ob-site [style*="--ob-r-tablet-visibility"] { visibility: var(--ob-r-tablet-visibility) !important; }
+  .ob-site [style*="--ob-r-tablet-cursor"] { cursor: var(--ob-r-tablet-cursor) !important; }
+  .ob-site [style*="--ob-r-tablet-mixBlendMode"] { mix-blend-mode: var(--ob-r-tablet-mixBlendMode) !important; }
+  .ob-site [style*="--ob-r-tablet-pointerEvents"] { pointer-events: var(--ob-r-tablet-pointerEvents) !important; }
+  .ob-site [style*="--ob-r-tablet-objectFit"] { object-fit: var(--ob-r-tablet-objectFit) !important; }
+  .ob-site [style*="--ob-r-tablet-objectPosition"] { object-position: var(--ob-r-tablet-objectPosition) !important; }
+}
+
+/* MOBILE */
+@container ob (max-width: 767px) {
+  .ob-site [style*="--ob-r-mobile-display"] { display: var(--ob-r-mobile-display) !important; }
+  .ob-site [style*="--ob-r-mobile-flexDirection"] { flex-direction: var(--ob-r-mobile-flexDirection) !important; }
+  .ob-site [style*="--ob-r-mobile-justifyContent"] { justify-content: var(--ob-r-mobile-justifyContent) !important; }
+  .ob-site [style*="--ob-r-mobile-alignItems"] { align-items: var(--ob-r-mobile-alignItems) !important; }
+  .ob-site [style*="--ob-r-mobile-alignContent"] { align-content: var(--ob-r-mobile-alignContent) !important; }
+  .ob-site [style*="--ob-r-mobile-justifyItems"] { justify-items: var(--ob-r-mobile-justifyItems) !important; }
+  .ob-site [style*="--ob-r-mobile-alignSelf"] { align-self: var(--ob-r-mobile-alignSelf) !important; }
+  .ob-site [style*="--ob-r-mobile-flexWrap"] { flex-wrap: var(--ob-r-mobile-flexWrap) !important; }
+  .ob-site [style*="--ob-r-mobile-flexGrow"] { flex-grow: var(--ob-r-mobile-flexGrow) !important; }
+  .ob-site [style*="--ob-r-mobile-flexShrink"] { flex-shrink: var(--ob-r-mobile-flexShrink) !important; }
+  .ob-site [style*="--ob-r-mobile-order"] { order: var(--ob-r-mobile-order) !important; }
+  .ob-site [style*="--ob-r-mobile-gridTemplateColumns"] { grid-template-columns: var(--ob-r-mobile-gridTemplateColumns) !important; }
+  .ob-site [style*="--ob-r-mobile-gridTemplateRows"] { grid-template-rows: var(--ob-r-mobile-gridTemplateRows) !important; }
+  .ob-site [style*="--ob-r-mobile-gridAutoFlow"] { grid-auto-flow: var(--ob-r-mobile-gridAutoFlow) !important; }
+  .ob-site [style*="--ob-r-mobile-gap"] { gap: var(--ob-r-mobile-gap) !important; }
+  .ob-site [style*="--ob-r-mobile-columnGap"] { column-gap: var(--ob-r-mobile-columnGap) !important; }
+  .ob-site [style*="--ob-r-mobile-rowGap"] { row-gap: var(--ob-r-mobile-rowGap) !important; }
+  .ob-site [style*="--ob-r-mobile-marginTop"] { margin-top: var(--ob-r-mobile-marginTop) !important; }
+  .ob-site [style*="--ob-r-mobile-marginRight"] { margin-right: var(--ob-r-mobile-marginRight) !important; }
+  .ob-site [style*="--ob-r-mobile-marginBottom"] { margin-bottom: var(--ob-r-mobile-marginBottom) !important; }
+  .ob-site [style*="--ob-r-mobile-marginLeft"] { margin-left: var(--ob-r-mobile-marginLeft) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingTop"] { padding-top: var(--ob-r-mobile-paddingTop) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingTop"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-paddingTop"].ob-btn { padding-top: var(--ob-r-mobile-paddingTop) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingRight"] { padding-right: var(--ob-r-mobile-paddingRight) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingRight"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-paddingRight"].ob-btn { padding-right: var(--ob-r-mobile-paddingRight) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingBottom"] { padding-bottom: var(--ob-r-mobile-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingBottom"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-mobile-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingLeft"] { padding-left: var(--ob-r-mobile-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingLeft"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-paddingLeft"].ob-btn { padding-left: var(--ob-r-mobile-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-mobile-width"] { width: var(--ob-r-mobile-width) !important; }
+  .ob-site [style*="--ob-r-mobile-height"] { height: var(--ob-r-mobile-height) !important; }
+  .ob-site [style*="--ob-r-mobile-aspectRatio"] { aspect-ratio: var(--ob-r-mobile-aspectRatio) !important; }
+  .ob-site [style*="--ob-r-mobile-minWidth"] { min-width: var(--ob-r-mobile-minWidth) !important; }
+  .ob-site [style*="--ob-r-mobile-maxWidth"] { max-width: var(--ob-r-mobile-maxWidth) !important; }
+  .ob-site [style*="--ob-r-mobile-minHeight"] { min-height: var(--ob-r-mobile-minHeight) !important; }
+  .ob-site [style*="--ob-r-mobile-maxHeight"] { max-height: var(--ob-r-mobile-maxHeight) !important; }
+  .ob-site [style*="--ob-r-mobile-fontFamily"] { font-family: var(--ob-r-mobile-fontFamily) !important; }
+  .ob-site [style*="--ob-r-mobile-fontSize"] { font-size: var(--ob-r-mobile-fontSize) !important; }
+  .ob-site [style*="--ob-r-mobile-fontSize"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-fontSize"].ob-btn { font-size: var(--ob-r-mobile-fontSize) !important; }
+  .ob-site [style*="--ob-r-mobile-fontWeight"] { font-weight: var(--ob-r-mobile-fontWeight) !important; }
+  .ob-site [style*="--ob-r-mobile-fontWeight"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-fontWeight"].ob-btn { font-weight: var(--ob-r-mobile-fontWeight) !important; }
+  .ob-site [style*="--ob-r-mobile-lineHeight"] { line-height: var(--ob-r-mobile-lineHeight) !important; }
+  .ob-site [style*="--ob-r-mobile-letterSpacing"] { letter-spacing: var(--ob-r-mobile-letterSpacing) !important; }
+  .ob-site [style*="--ob-r-mobile-fontStyle"] { font-style: var(--ob-r-mobile-fontStyle) !important; }
+  .ob-site [style*="--ob-r-mobile-textTransform"] { text-transform: var(--ob-r-mobile-textTransform) !important; }
+  .ob-site [style*="--ob-r-mobile-textAlign"] { text-align: var(--ob-r-mobile-textAlign) !important; }
+  .ob-site [style*="--ob-r-mobile-textDecoration"] { text-decoration: var(--ob-r-mobile-textDecoration) !important; }
+  .ob-site [style*="--ob-r-mobile-whiteSpace"] { white-space: var(--ob-r-mobile-whiteSpace) !important; }
+  .ob-site [style*="--ob-r-mobile-textOverflow"] { text-overflow: var(--ob-r-mobile-textOverflow) !important; }
+  .ob-site [style*="--ob-r-mobile-wordSpacing"] { word-spacing: var(--ob-r-mobile-wordSpacing) !important; }
+  .ob-site [style*="--ob-r-mobile-color"] { color: var(--ob-r-mobile-color) !important; }
+  .ob-site [style*="--ob-r-mobile-color"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-color"].ob-btn { color: var(--ob-r-mobile-color) !important; }
+  .ob-site [style*="--ob-r-mobile-backgroundColor"] { background-color: var(--ob-r-mobile-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-mobile-backgroundColor"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-backgroundColor"].ob-btn { background-color: var(--ob-r-mobile-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-mobile-border"] { border: var(--ob-r-mobile-border) !important; }
+  .ob-site [style*="--ob-r-mobile-borderRadius"] { border-radius: var(--ob-r-mobile-borderRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-borderRadius"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-borderRadius"].ob-btn { border-radius: var(--ob-r-mobile-borderRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-mobile-borderTopLeftRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-mobile-borderTopRightRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-mobile-borderBottomLeftRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-mobile-borderBottomRightRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-boxShadow"] { box-shadow: var(--ob-r-mobile-boxShadow) !important; }
+  .ob-site [style*="--ob-r-mobile-textShadow"] { text-shadow: var(--ob-r-mobile-textShadow) !important; }
+  .ob-site [style*="--ob-r-mobile-filter"] { filter: var(--ob-r-mobile-filter) !important; }
+  .ob-site [style*="--ob-r-mobile-backdropFilter"] { backdrop-filter: var(--ob-r-mobile-backdropFilter) !important; }
+  .ob-site [style*="--ob-r-mobile-opacity"] { opacity: var(--ob-r-mobile-opacity) !important; }
+  .ob-site [style*="--ob-r-mobile-transform"] { transform: var(--ob-r-mobile-transform) !important; }
+  .ob-site [style*="--ob-r-mobile-position"] { position: var(--ob-r-mobile-position) !important; }
+  .ob-site [style*="--ob-r-mobile-top"] { top: var(--ob-r-mobile-top) !important; }
+  .ob-site [style*="--ob-r-mobile-right"] { right: var(--ob-r-mobile-right) !important; }
+  .ob-site [style*="--ob-r-mobile-bottom"] { bottom: var(--ob-r-mobile-bottom) !important; }
+  .ob-site [style*="--ob-r-mobile-left"] { left: var(--ob-r-mobile-left) !important; }
+  .ob-site [style*="--ob-r-mobile-zIndex"] { z-index: var(--ob-r-mobile-zIndex) !important; }
+  .ob-site [style*="--ob-r-mobile-overflow"] { overflow: var(--ob-r-mobile-overflow) !important; }
+  .ob-site [style*="--ob-r-mobile-overflowX"] { overflow-x: var(--ob-r-mobile-overflowX) !important; }
+  .ob-site [style*="--ob-r-mobile-overflowY"] { overflow-y: var(--ob-r-mobile-overflowY) !important; }
+  .ob-site [style*="--ob-r-mobile-visibility"] { visibility: var(--ob-r-mobile-visibility) !important; }
+  .ob-site [style*="--ob-r-mobile-cursor"] { cursor: var(--ob-r-mobile-cursor) !important; }
+  .ob-site [style*="--ob-r-mobile-mixBlendMode"] { mix-blend-mode: var(--ob-r-mobile-mixBlendMode) !important; }
+  .ob-site [style*="--ob-r-mobile-pointerEvents"] { pointer-events: var(--ob-r-mobile-pointerEvents) !important; }
+  .ob-site [style*="--ob-r-mobile-objectFit"] { object-fit: var(--ob-r-mobile-objectFit) !important; }
+  .ob-site [style*="--ob-r-mobile-objectPosition"] { object-position: var(--ob-r-mobile-objectPosition) !important; }
+}
+
+/* VIEWPORT MEDIA — published site (non-overlapping ranges) */
+
+/* LARGEDESKTOP */
+@media (min-width: 1440px) {
+  .ob-site [style*="--ob-r-largeDesktop-display"] { display: var(--ob-r-largeDesktop-display) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-flexDirection"] { flex-direction: var(--ob-r-largeDesktop-flexDirection) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-justifyContent"] { justify-content: var(--ob-r-largeDesktop-justifyContent) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-alignItems"] { align-items: var(--ob-r-largeDesktop-alignItems) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-alignContent"] { align-content: var(--ob-r-largeDesktop-alignContent) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-justifyItems"] { justify-items: var(--ob-r-largeDesktop-justifyItems) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-alignSelf"] { align-self: var(--ob-r-largeDesktop-alignSelf) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-flexWrap"] { flex-wrap: var(--ob-r-largeDesktop-flexWrap) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-flexGrow"] { flex-grow: var(--ob-r-largeDesktop-flexGrow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-flexShrink"] { flex-shrink: var(--ob-r-largeDesktop-flexShrink) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-order"] { order: var(--ob-r-largeDesktop-order) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-gridTemplateColumns"] { grid-template-columns: var(--ob-r-largeDesktop-gridTemplateColumns) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-gridTemplateRows"] { grid-template-rows: var(--ob-r-largeDesktop-gridTemplateRows) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-gridAutoFlow"] { grid-auto-flow: var(--ob-r-largeDesktop-gridAutoFlow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-gap"] { gap: var(--ob-r-largeDesktop-gap) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-columnGap"] { column-gap: var(--ob-r-largeDesktop-columnGap) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-rowGap"] { row-gap: var(--ob-r-largeDesktop-rowGap) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-marginTop"] { margin-top: var(--ob-r-largeDesktop-marginTop) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-marginRight"] { margin-right: var(--ob-r-largeDesktop-marginRight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-marginBottom"] { margin-bottom: var(--ob-r-largeDesktop-marginBottom) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-marginLeft"] { margin-left: var(--ob-r-largeDesktop-marginLeft) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingTop"] { padding-top: var(--ob-r-largeDesktop-paddingTop) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingTop"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-paddingTop"].ob-btn { padding-top: var(--ob-r-largeDesktop-paddingTop) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingRight"] { padding-right: var(--ob-r-largeDesktop-paddingRight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingRight"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-paddingRight"].ob-btn { padding-right: var(--ob-r-largeDesktop-paddingRight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingBottom"] { padding-bottom: var(--ob-r-largeDesktop-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingBottom"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-largeDesktop-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingLeft"] { padding-left: var(--ob-r-largeDesktop-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-paddingLeft"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-paddingLeft"].ob-btn { padding-left: var(--ob-r-largeDesktop-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-width"] { width: var(--ob-r-largeDesktop-width) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-height"] { height: var(--ob-r-largeDesktop-height) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-aspectRatio"] { aspect-ratio: var(--ob-r-largeDesktop-aspectRatio) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-minWidth"] { min-width: var(--ob-r-largeDesktop-minWidth) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-maxWidth"] { max-width: var(--ob-r-largeDesktop-maxWidth) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-minHeight"] { min-height: var(--ob-r-largeDesktop-minHeight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-maxHeight"] { max-height: var(--ob-r-largeDesktop-maxHeight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontFamily"] { font-family: var(--ob-r-largeDesktop-fontFamily) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontSize"] { font-size: var(--ob-r-largeDesktop-fontSize) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontSize"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-fontSize"].ob-btn { font-size: var(--ob-r-largeDesktop-fontSize) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontWeight"] { font-weight: var(--ob-r-largeDesktop-fontWeight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontWeight"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-fontWeight"].ob-btn { font-weight: var(--ob-r-largeDesktop-fontWeight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-lineHeight"] { line-height: var(--ob-r-largeDesktop-lineHeight) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-letterSpacing"] { letter-spacing: var(--ob-r-largeDesktop-letterSpacing) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-fontStyle"] { font-style: var(--ob-r-largeDesktop-fontStyle) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-textTransform"] { text-transform: var(--ob-r-largeDesktop-textTransform) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-textAlign"] { text-align: var(--ob-r-largeDesktop-textAlign) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-textDecoration"] { text-decoration: var(--ob-r-largeDesktop-textDecoration) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-whiteSpace"] { white-space: var(--ob-r-largeDesktop-whiteSpace) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-textOverflow"] { text-overflow: var(--ob-r-largeDesktop-textOverflow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-wordSpacing"] { word-spacing: var(--ob-r-largeDesktop-wordSpacing) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-color"] { color: var(--ob-r-largeDesktop-color) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-color"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-color"].ob-btn { color: var(--ob-r-largeDesktop-color) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-backgroundColor"] { background-color: var(--ob-r-largeDesktop-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-backgroundColor"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-backgroundColor"].ob-btn { background-color: var(--ob-r-largeDesktop-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-border"] { border: var(--ob-r-largeDesktop-border) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderRadius"] { border-radius: var(--ob-r-largeDesktop-borderRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderRadius"] .ob-btn,
+  .ob-site [style*="--ob-r-largeDesktop-borderRadius"].ob-btn { border-radius: var(--ob-r-largeDesktop-borderRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-largeDesktop-borderTopLeftRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-largeDesktop-borderTopRightRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-largeDesktop-borderBottomLeftRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-largeDesktop-borderBottomRightRadius) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-boxShadow"] { box-shadow: var(--ob-r-largeDesktop-boxShadow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-textShadow"] { text-shadow: var(--ob-r-largeDesktop-textShadow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-filter"] { filter: var(--ob-r-largeDesktop-filter) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-backdropFilter"] { backdrop-filter: var(--ob-r-largeDesktop-backdropFilter) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-opacity"] { opacity: var(--ob-r-largeDesktop-opacity) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-transform"] { transform: var(--ob-r-largeDesktop-transform) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-position"] { position: var(--ob-r-largeDesktop-position) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-top"] { top: var(--ob-r-largeDesktop-top) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-right"] { right: var(--ob-r-largeDesktop-right) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-bottom"] { bottom: var(--ob-r-largeDesktop-bottom) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-left"] { left: var(--ob-r-largeDesktop-left) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-zIndex"] { z-index: var(--ob-r-largeDesktop-zIndex) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-overflow"] { overflow: var(--ob-r-largeDesktop-overflow) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-overflowX"] { overflow-x: var(--ob-r-largeDesktop-overflowX) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-overflowY"] { overflow-y: var(--ob-r-largeDesktop-overflowY) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-visibility"] { visibility: var(--ob-r-largeDesktop-visibility) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-cursor"] { cursor: var(--ob-r-largeDesktop-cursor) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-mixBlendMode"] { mix-blend-mode: var(--ob-r-largeDesktop-mixBlendMode) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-pointerEvents"] { pointer-events: var(--ob-r-largeDesktop-pointerEvents) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-objectFit"] { object-fit: var(--ob-r-largeDesktop-objectFit) !important; }
+  .ob-site [style*="--ob-r-largeDesktop-objectPosition"] { object-position: var(--ob-r-largeDesktop-objectPosition) !important; }
+}
+
+/* LAPTOP */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .ob-site [style*="--ob-r-laptop-display"] { display: var(--ob-r-laptop-display) !important; }
+  .ob-site [style*="--ob-r-laptop-flexDirection"] { flex-direction: var(--ob-r-laptop-flexDirection) !important; }
+  .ob-site [style*="--ob-r-laptop-justifyContent"] { justify-content: var(--ob-r-laptop-justifyContent) !important; }
+  .ob-site [style*="--ob-r-laptop-alignItems"] { align-items: var(--ob-r-laptop-alignItems) !important; }
+  .ob-site [style*="--ob-r-laptop-alignContent"] { align-content: var(--ob-r-laptop-alignContent) !important; }
+  .ob-site [style*="--ob-r-laptop-justifyItems"] { justify-items: var(--ob-r-laptop-justifyItems) !important; }
+  .ob-site [style*="--ob-r-laptop-alignSelf"] { align-self: var(--ob-r-laptop-alignSelf) !important; }
+  .ob-site [style*="--ob-r-laptop-flexWrap"] { flex-wrap: var(--ob-r-laptop-flexWrap) !important; }
+  .ob-site [style*="--ob-r-laptop-flexGrow"] { flex-grow: var(--ob-r-laptop-flexGrow) !important; }
+  .ob-site [style*="--ob-r-laptop-flexShrink"] { flex-shrink: var(--ob-r-laptop-flexShrink) !important; }
+  .ob-site [style*="--ob-r-laptop-order"] { order: var(--ob-r-laptop-order) !important; }
+  .ob-site [style*="--ob-r-laptop-gridTemplateColumns"] { grid-template-columns: var(--ob-r-laptop-gridTemplateColumns) !important; }
+  .ob-site [style*="--ob-r-laptop-gridTemplateRows"] { grid-template-rows: var(--ob-r-laptop-gridTemplateRows) !important; }
+  .ob-site [style*="--ob-r-laptop-gridAutoFlow"] { grid-auto-flow: var(--ob-r-laptop-gridAutoFlow) !important; }
+  .ob-site [style*="--ob-r-laptop-gap"] { gap: var(--ob-r-laptop-gap) !important; }
+  .ob-site [style*="--ob-r-laptop-columnGap"] { column-gap: var(--ob-r-laptop-columnGap) !important; }
+  .ob-site [style*="--ob-r-laptop-rowGap"] { row-gap: var(--ob-r-laptop-rowGap) !important; }
+  .ob-site [style*="--ob-r-laptop-marginTop"] { margin-top: var(--ob-r-laptop-marginTop) !important; }
+  .ob-site [style*="--ob-r-laptop-marginRight"] { margin-right: var(--ob-r-laptop-marginRight) !important; }
+  .ob-site [style*="--ob-r-laptop-marginBottom"] { margin-bottom: var(--ob-r-laptop-marginBottom) !important; }
+  .ob-site [style*="--ob-r-laptop-marginLeft"] { margin-left: var(--ob-r-laptop-marginLeft) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingTop"] { padding-top: var(--ob-r-laptop-paddingTop) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingTop"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-paddingTop"].ob-btn { padding-top: var(--ob-r-laptop-paddingTop) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingRight"] { padding-right: var(--ob-r-laptop-paddingRight) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingRight"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-paddingRight"].ob-btn { padding-right: var(--ob-r-laptop-paddingRight) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingBottom"] { padding-bottom: var(--ob-r-laptop-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingBottom"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-laptop-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingLeft"] { padding-left: var(--ob-r-laptop-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-laptop-paddingLeft"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-paddingLeft"].ob-btn { padding-left: var(--ob-r-laptop-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-laptop-width"] { width: var(--ob-r-laptop-width) !important; }
+  .ob-site [style*="--ob-r-laptop-height"] { height: var(--ob-r-laptop-height) !important; }
+  .ob-site [style*="--ob-r-laptop-aspectRatio"] { aspect-ratio: var(--ob-r-laptop-aspectRatio) !important; }
+  .ob-site [style*="--ob-r-laptop-minWidth"] { min-width: var(--ob-r-laptop-minWidth) !important; }
+  .ob-site [style*="--ob-r-laptop-maxWidth"] { max-width: var(--ob-r-laptop-maxWidth) !important; }
+  .ob-site [style*="--ob-r-laptop-minHeight"] { min-height: var(--ob-r-laptop-minHeight) !important; }
+  .ob-site [style*="--ob-r-laptop-maxHeight"] { max-height: var(--ob-r-laptop-maxHeight) !important; }
+  .ob-site [style*="--ob-r-laptop-fontFamily"] { font-family: var(--ob-r-laptop-fontFamily) !important; }
+  .ob-site [style*="--ob-r-laptop-fontSize"] { font-size: var(--ob-r-laptop-fontSize) !important; }
+  .ob-site [style*="--ob-r-laptop-fontSize"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-fontSize"].ob-btn { font-size: var(--ob-r-laptop-fontSize) !important; }
+  .ob-site [style*="--ob-r-laptop-fontWeight"] { font-weight: var(--ob-r-laptop-fontWeight) !important; }
+  .ob-site [style*="--ob-r-laptop-fontWeight"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-fontWeight"].ob-btn { font-weight: var(--ob-r-laptop-fontWeight) !important; }
+  .ob-site [style*="--ob-r-laptop-lineHeight"] { line-height: var(--ob-r-laptop-lineHeight) !important; }
+  .ob-site [style*="--ob-r-laptop-letterSpacing"] { letter-spacing: var(--ob-r-laptop-letterSpacing) !important; }
+  .ob-site [style*="--ob-r-laptop-fontStyle"] { font-style: var(--ob-r-laptop-fontStyle) !important; }
+  .ob-site [style*="--ob-r-laptop-textTransform"] { text-transform: var(--ob-r-laptop-textTransform) !important; }
+  .ob-site [style*="--ob-r-laptop-textAlign"] { text-align: var(--ob-r-laptop-textAlign) !important; }
+  .ob-site [style*="--ob-r-laptop-textDecoration"] { text-decoration: var(--ob-r-laptop-textDecoration) !important; }
+  .ob-site [style*="--ob-r-laptop-whiteSpace"] { white-space: var(--ob-r-laptop-whiteSpace) !important; }
+  .ob-site [style*="--ob-r-laptop-textOverflow"] { text-overflow: var(--ob-r-laptop-textOverflow) !important; }
+  .ob-site [style*="--ob-r-laptop-wordSpacing"] { word-spacing: var(--ob-r-laptop-wordSpacing) !important; }
+  .ob-site [style*="--ob-r-laptop-color"] { color: var(--ob-r-laptop-color) !important; }
+  .ob-site [style*="--ob-r-laptop-color"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-color"].ob-btn { color: var(--ob-r-laptop-color) !important; }
+  .ob-site [style*="--ob-r-laptop-backgroundColor"] { background-color: var(--ob-r-laptop-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-laptop-backgroundColor"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-backgroundColor"].ob-btn { background-color: var(--ob-r-laptop-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-laptop-border"] { border: var(--ob-r-laptop-border) !important; }
+  .ob-site [style*="--ob-r-laptop-borderRadius"] { border-radius: var(--ob-r-laptop-borderRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-borderRadius"] .ob-btn,
+  .ob-site [style*="--ob-r-laptop-borderRadius"].ob-btn { border-radius: var(--ob-r-laptop-borderRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-laptop-borderTopLeftRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-laptop-borderTopRightRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-laptop-borderBottomLeftRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-laptop-borderBottomRightRadius) !important; }
+  .ob-site [style*="--ob-r-laptop-boxShadow"] { box-shadow: var(--ob-r-laptop-boxShadow) !important; }
+  .ob-site [style*="--ob-r-laptop-textShadow"] { text-shadow: var(--ob-r-laptop-textShadow) !important; }
+  .ob-site [style*="--ob-r-laptop-filter"] { filter: var(--ob-r-laptop-filter) !important; }
+  .ob-site [style*="--ob-r-laptop-backdropFilter"] { backdrop-filter: var(--ob-r-laptop-backdropFilter) !important; }
+  .ob-site [style*="--ob-r-laptop-opacity"] { opacity: var(--ob-r-laptop-opacity) !important; }
+  .ob-site [style*="--ob-r-laptop-transform"] { transform: var(--ob-r-laptop-transform) !important; }
+  .ob-site [style*="--ob-r-laptop-position"] { position: var(--ob-r-laptop-position) !important; }
+  .ob-site [style*="--ob-r-laptop-top"] { top: var(--ob-r-laptop-top) !important; }
+  .ob-site [style*="--ob-r-laptop-right"] { right: var(--ob-r-laptop-right) !important; }
+  .ob-site [style*="--ob-r-laptop-bottom"] { bottom: var(--ob-r-laptop-bottom) !important; }
+  .ob-site [style*="--ob-r-laptop-left"] { left: var(--ob-r-laptop-left) !important; }
+  .ob-site [style*="--ob-r-laptop-zIndex"] { z-index: var(--ob-r-laptop-zIndex) !important; }
+  .ob-site [style*="--ob-r-laptop-overflow"] { overflow: var(--ob-r-laptop-overflow) !important; }
+  .ob-site [style*="--ob-r-laptop-overflowX"] { overflow-x: var(--ob-r-laptop-overflowX) !important; }
+  .ob-site [style*="--ob-r-laptop-overflowY"] { overflow-y: var(--ob-r-laptop-overflowY) !important; }
+  .ob-site [style*="--ob-r-laptop-visibility"] { visibility: var(--ob-r-laptop-visibility) !important; }
+  .ob-site [style*="--ob-r-laptop-cursor"] { cursor: var(--ob-r-laptop-cursor) !important; }
+  .ob-site [style*="--ob-r-laptop-mixBlendMode"] { mix-blend-mode: var(--ob-r-laptop-mixBlendMode) !important; }
+  .ob-site [style*="--ob-r-laptop-pointerEvents"] { pointer-events: var(--ob-r-laptop-pointerEvents) !important; }
+  .ob-site [style*="--ob-r-laptop-objectFit"] { object-fit: var(--ob-r-laptop-objectFit) !important; }
+  .ob-site [style*="--ob-r-laptop-objectPosition"] { object-position: var(--ob-r-laptop-objectPosition) !important; }
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ob-site [style*="--ob-r-tablet-display"] { display: var(--ob-r-tablet-display) !important; }
+  .ob-site [style*="--ob-r-tablet-flexDirection"] { flex-direction: var(--ob-r-tablet-flexDirection) !important; }
+  .ob-site [style*="--ob-r-tablet-justifyContent"] { justify-content: var(--ob-r-tablet-justifyContent) !important; }
+  .ob-site [style*="--ob-r-tablet-alignItems"] { align-items: var(--ob-r-tablet-alignItems) !important; }
+  .ob-site [style*="--ob-r-tablet-alignContent"] { align-content: var(--ob-r-tablet-alignContent) !important; }
+  .ob-site [style*="--ob-r-tablet-justifyItems"] { justify-items: var(--ob-r-tablet-justifyItems) !important; }
+  .ob-site [style*="--ob-r-tablet-alignSelf"] { align-self: var(--ob-r-tablet-alignSelf) !important; }
+  .ob-site [style*="--ob-r-tablet-flexWrap"] { flex-wrap: var(--ob-r-tablet-flexWrap) !important; }
+  .ob-site [style*="--ob-r-tablet-flexGrow"] { flex-grow: var(--ob-r-tablet-flexGrow) !important; }
+  .ob-site [style*="--ob-r-tablet-flexShrink"] { flex-shrink: var(--ob-r-tablet-flexShrink) !important; }
+  .ob-site [style*="--ob-r-tablet-order"] { order: var(--ob-r-tablet-order) !important; }
+  .ob-site [style*="--ob-r-tablet-gridTemplateColumns"] { grid-template-columns: var(--ob-r-tablet-gridTemplateColumns) !important; }
+  .ob-site [style*="--ob-r-tablet-gridTemplateRows"] { grid-template-rows: var(--ob-r-tablet-gridTemplateRows) !important; }
+  .ob-site [style*="--ob-r-tablet-gridAutoFlow"] { grid-auto-flow: var(--ob-r-tablet-gridAutoFlow) !important; }
+  .ob-site [style*="--ob-r-tablet-gap"] { gap: var(--ob-r-tablet-gap) !important; }
+  .ob-site [style*="--ob-r-tablet-columnGap"] { column-gap: var(--ob-r-tablet-columnGap) !important; }
+  .ob-site [style*="--ob-r-tablet-rowGap"] { row-gap: var(--ob-r-tablet-rowGap) !important; }
+  .ob-site [style*="--ob-r-tablet-marginTop"] { margin-top: var(--ob-r-tablet-marginTop) !important; }
+  .ob-site [style*="--ob-r-tablet-marginRight"] { margin-right: var(--ob-r-tablet-marginRight) !important; }
+  .ob-site [style*="--ob-r-tablet-marginBottom"] { margin-bottom: var(--ob-r-tablet-marginBottom) !important; }
+  .ob-site [style*="--ob-r-tablet-marginLeft"] { margin-left: var(--ob-r-tablet-marginLeft) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingTop"] { padding-top: var(--ob-r-tablet-paddingTop) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingTop"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-paddingTop"].ob-btn { padding-top: var(--ob-r-tablet-paddingTop) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingRight"] { padding-right: var(--ob-r-tablet-paddingRight) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingRight"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-paddingRight"].ob-btn { padding-right: var(--ob-r-tablet-paddingRight) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingBottom"] { padding-bottom: var(--ob-r-tablet-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingBottom"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-tablet-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingLeft"] { padding-left: var(--ob-r-tablet-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-tablet-paddingLeft"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-paddingLeft"].ob-btn { padding-left: var(--ob-r-tablet-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-tablet-width"] { width: var(--ob-r-tablet-width) !important; }
+  .ob-site [style*="--ob-r-tablet-height"] { height: var(--ob-r-tablet-height) !important; }
+  .ob-site [style*="--ob-r-tablet-aspectRatio"] { aspect-ratio: var(--ob-r-tablet-aspectRatio) !important; }
+  .ob-site [style*="--ob-r-tablet-minWidth"] { min-width: var(--ob-r-tablet-minWidth) !important; }
+  .ob-site [style*="--ob-r-tablet-maxWidth"] { max-width: var(--ob-r-tablet-maxWidth) !important; }
+  .ob-site [style*="--ob-r-tablet-minHeight"] { min-height: var(--ob-r-tablet-minHeight) !important; }
+  .ob-site [style*="--ob-r-tablet-maxHeight"] { max-height: var(--ob-r-tablet-maxHeight) !important; }
+  .ob-site [style*="--ob-r-tablet-fontFamily"] { font-family: var(--ob-r-tablet-fontFamily) !important; }
+  .ob-site [style*="--ob-r-tablet-fontSize"] { font-size: var(--ob-r-tablet-fontSize) !important; }
+  .ob-site [style*="--ob-r-tablet-fontSize"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-fontSize"].ob-btn { font-size: var(--ob-r-tablet-fontSize) !important; }
+  .ob-site [style*="--ob-r-tablet-fontWeight"] { font-weight: var(--ob-r-tablet-fontWeight) !important; }
+  .ob-site [style*="--ob-r-tablet-fontWeight"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-fontWeight"].ob-btn { font-weight: var(--ob-r-tablet-fontWeight) !important; }
+  .ob-site [style*="--ob-r-tablet-lineHeight"] { line-height: var(--ob-r-tablet-lineHeight) !important; }
+  .ob-site [style*="--ob-r-tablet-letterSpacing"] { letter-spacing: var(--ob-r-tablet-letterSpacing) !important; }
+  .ob-site [style*="--ob-r-tablet-fontStyle"] { font-style: var(--ob-r-tablet-fontStyle) !important; }
+  .ob-site [style*="--ob-r-tablet-textTransform"] { text-transform: var(--ob-r-tablet-textTransform) !important; }
+  .ob-site [style*="--ob-r-tablet-textAlign"] { text-align: var(--ob-r-tablet-textAlign) !important; }
+  .ob-site [style*="--ob-r-tablet-textDecoration"] { text-decoration: var(--ob-r-tablet-textDecoration) !important; }
+  .ob-site [style*="--ob-r-tablet-whiteSpace"] { white-space: var(--ob-r-tablet-whiteSpace) !important; }
+  .ob-site [style*="--ob-r-tablet-textOverflow"] { text-overflow: var(--ob-r-tablet-textOverflow) !important; }
+  .ob-site [style*="--ob-r-tablet-wordSpacing"] { word-spacing: var(--ob-r-tablet-wordSpacing) !important; }
+  .ob-site [style*="--ob-r-tablet-color"] { color: var(--ob-r-tablet-color) !important; }
+  .ob-site [style*="--ob-r-tablet-color"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-color"].ob-btn { color: var(--ob-r-tablet-color) !important; }
+  .ob-site [style*="--ob-r-tablet-backgroundColor"] { background-color: var(--ob-r-tablet-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-tablet-backgroundColor"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-backgroundColor"].ob-btn { background-color: var(--ob-r-tablet-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-tablet-border"] { border: var(--ob-r-tablet-border) !important; }
+  .ob-site [style*="--ob-r-tablet-borderRadius"] { border-radius: var(--ob-r-tablet-borderRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-borderRadius"] .ob-btn,
+  .ob-site [style*="--ob-r-tablet-borderRadius"].ob-btn { border-radius: var(--ob-r-tablet-borderRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-tablet-borderTopLeftRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-tablet-borderTopRightRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-tablet-borderBottomLeftRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-tablet-borderBottomRightRadius) !important; }
+  .ob-site [style*="--ob-r-tablet-boxShadow"] { box-shadow: var(--ob-r-tablet-boxShadow) !important; }
+  .ob-site [style*="--ob-r-tablet-textShadow"] { text-shadow: var(--ob-r-tablet-textShadow) !important; }
+  .ob-site [style*="--ob-r-tablet-filter"] { filter: var(--ob-r-tablet-filter) !important; }
+  .ob-site [style*="--ob-r-tablet-backdropFilter"] { backdrop-filter: var(--ob-r-tablet-backdropFilter) !important; }
+  .ob-site [style*="--ob-r-tablet-opacity"] { opacity: var(--ob-r-tablet-opacity) !important; }
+  .ob-site [style*="--ob-r-tablet-transform"] { transform: var(--ob-r-tablet-transform) !important; }
+  .ob-site [style*="--ob-r-tablet-position"] { position: var(--ob-r-tablet-position) !important; }
+  .ob-site [style*="--ob-r-tablet-top"] { top: var(--ob-r-tablet-top) !important; }
+  .ob-site [style*="--ob-r-tablet-right"] { right: var(--ob-r-tablet-right) !important; }
+  .ob-site [style*="--ob-r-tablet-bottom"] { bottom: var(--ob-r-tablet-bottom) !important; }
+  .ob-site [style*="--ob-r-tablet-left"] { left: var(--ob-r-tablet-left) !important; }
+  .ob-site [style*="--ob-r-tablet-zIndex"] { z-index: var(--ob-r-tablet-zIndex) !important; }
+  .ob-site [style*="--ob-r-tablet-overflow"] { overflow: var(--ob-r-tablet-overflow) !important; }
+  .ob-site [style*="--ob-r-tablet-overflowX"] { overflow-x: var(--ob-r-tablet-overflowX) !important; }
+  .ob-site [style*="--ob-r-tablet-overflowY"] { overflow-y: var(--ob-r-tablet-overflowY) !important; }
+  .ob-site [style*="--ob-r-tablet-visibility"] { visibility: var(--ob-r-tablet-visibility) !important; }
+  .ob-site [style*="--ob-r-tablet-cursor"] { cursor: var(--ob-r-tablet-cursor) !important; }
+  .ob-site [style*="--ob-r-tablet-mixBlendMode"] { mix-blend-mode: var(--ob-r-tablet-mixBlendMode) !important; }
+  .ob-site [style*="--ob-r-tablet-pointerEvents"] { pointer-events: var(--ob-r-tablet-pointerEvents) !important; }
+  .ob-site [style*="--ob-r-tablet-objectFit"] { object-fit: var(--ob-r-tablet-objectFit) !important; }
+  .ob-site [style*="--ob-r-tablet-objectPosition"] { object-position: var(--ob-r-tablet-objectPosition) !important; }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+  .ob-site [style*="--ob-r-mobile-display"] { display: var(--ob-r-mobile-display) !important; }
+  .ob-site [style*="--ob-r-mobile-flexDirection"] { flex-direction: var(--ob-r-mobile-flexDirection) !important; }
+  .ob-site [style*="--ob-r-mobile-justifyContent"] { justify-content: var(--ob-r-mobile-justifyContent) !important; }
+  .ob-site [style*="--ob-r-mobile-alignItems"] { align-items: var(--ob-r-mobile-alignItems) !important; }
+  .ob-site [style*="--ob-r-mobile-alignContent"] { align-content: var(--ob-r-mobile-alignContent) !important; }
+  .ob-site [style*="--ob-r-mobile-justifyItems"] { justify-items: var(--ob-r-mobile-justifyItems) !important; }
+  .ob-site [style*="--ob-r-mobile-alignSelf"] { align-self: var(--ob-r-mobile-alignSelf) !important; }
+  .ob-site [style*="--ob-r-mobile-flexWrap"] { flex-wrap: var(--ob-r-mobile-flexWrap) !important; }
+  .ob-site [style*="--ob-r-mobile-flexGrow"] { flex-grow: var(--ob-r-mobile-flexGrow) !important; }
+  .ob-site [style*="--ob-r-mobile-flexShrink"] { flex-shrink: var(--ob-r-mobile-flexShrink) !important; }
+  .ob-site [style*="--ob-r-mobile-order"] { order: var(--ob-r-mobile-order) !important; }
+  .ob-site [style*="--ob-r-mobile-gridTemplateColumns"] { grid-template-columns: var(--ob-r-mobile-gridTemplateColumns) !important; }
+  .ob-site [style*="--ob-r-mobile-gridTemplateRows"] { grid-template-rows: var(--ob-r-mobile-gridTemplateRows) !important; }
+  .ob-site [style*="--ob-r-mobile-gridAutoFlow"] { grid-auto-flow: var(--ob-r-mobile-gridAutoFlow) !important; }
+  .ob-site [style*="--ob-r-mobile-gap"] { gap: var(--ob-r-mobile-gap) !important; }
+  .ob-site [style*="--ob-r-mobile-columnGap"] { column-gap: var(--ob-r-mobile-columnGap) !important; }
+  .ob-site [style*="--ob-r-mobile-rowGap"] { row-gap: var(--ob-r-mobile-rowGap) !important; }
+  .ob-site [style*="--ob-r-mobile-marginTop"] { margin-top: var(--ob-r-mobile-marginTop) !important; }
+  .ob-site [style*="--ob-r-mobile-marginRight"] { margin-right: var(--ob-r-mobile-marginRight) !important; }
+  .ob-site [style*="--ob-r-mobile-marginBottom"] { margin-bottom: var(--ob-r-mobile-marginBottom) !important; }
+  .ob-site [style*="--ob-r-mobile-marginLeft"] { margin-left: var(--ob-r-mobile-marginLeft) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingTop"] { padding-top: var(--ob-r-mobile-paddingTop) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingTop"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-paddingTop"].ob-btn { padding-top: var(--ob-r-mobile-paddingTop) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingRight"] { padding-right: var(--ob-r-mobile-paddingRight) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingRight"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-paddingRight"].ob-btn { padding-right: var(--ob-r-mobile-paddingRight) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingBottom"] { padding-bottom: var(--ob-r-mobile-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingBottom"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-mobile-paddingBottom) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingLeft"] { padding-left: var(--ob-r-mobile-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-mobile-paddingLeft"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-paddingLeft"].ob-btn { padding-left: var(--ob-r-mobile-paddingLeft) !important; }
+  .ob-site [style*="--ob-r-mobile-width"] { width: var(--ob-r-mobile-width) !important; }
+  .ob-site [style*="--ob-r-mobile-height"] { height: var(--ob-r-mobile-height) !important; }
+  .ob-site [style*="--ob-r-mobile-aspectRatio"] { aspect-ratio: var(--ob-r-mobile-aspectRatio) !important; }
+  .ob-site [style*="--ob-r-mobile-minWidth"] { min-width: var(--ob-r-mobile-minWidth) !important; }
+  .ob-site [style*="--ob-r-mobile-maxWidth"] { max-width: var(--ob-r-mobile-maxWidth) !important; }
+  .ob-site [style*="--ob-r-mobile-minHeight"] { min-height: var(--ob-r-mobile-minHeight) !important; }
+  .ob-site [style*="--ob-r-mobile-maxHeight"] { max-height: var(--ob-r-mobile-maxHeight) !important; }
+  .ob-site [style*="--ob-r-mobile-fontFamily"] { font-family: var(--ob-r-mobile-fontFamily) !important; }
+  .ob-site [style*="--ob-r-mobile-fontSize"] { font-size: var(--ob-r-mobile-fontSize) !important; }
+  .ob-site [style*="--ob-r-mobile-fontSize"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-fontSize"].ob-btn { font-size: var(--ob-r-mobile-fontSize) !important; }
+  .ob-site [style*="--ob-r-mobile-fontWeight"] { font-weight: var(--ob-r-mobile-fontWeight) !important; }
+  .ob-site [style*="--ob-r-mobile-fontWeight"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-fontWeight"].ob-btn { font-weight: var(--ob-r-mobile-fontWeight) !important; }
+  .ob-site [style*="--ob-r-mobile-lineHeight"] { line-height: var(--ob-r-mobile-lineHeight) !important; }
+  .ob-site [style*="--ob-r-mobile-letterSpacing"] { letter-spacing: var(--ob-r-mobile-letterSpacing) !important; }
+  .ob-site [style*="--ob-r-mobile-fontStyle"] { font-style: var(--ob-r-mobile-fontStyle) !important; }
+  .ob-site [style*="--ob-r-mobile-textTransform"] { text-transform: var(--ob-r-mobile-textTransform) !important; }
+  .ob-site [style*="--ob-r-mobile-textAlign"] { text-align: var(--ob-r-mobile-textAlign) !important; }
+  .ob-site [style*="--ob-r-mobile-textDecoration"] { text-decoration: var(--ob-r-mobile-textDecoration) !important; }
+  .ob-site [style*="--ob-r-mobile-whiteSpace"] { white-space: var(--ob-r-mobile-whiteSpace) !important; }
+  .ob-site [style*="--ob-r-mobile-textOverflow"] { text-overflow: var(--ob-r-mobile-textOverflow) !important; }
+  .ob-site [style*="--ob-r-mobile-wordSpacing"] { word-spacing: var(--ob-r-mobile-wordSpacing) !important; }
+  .ob-site [style*="--ob-r-mobile-color"] { color: var(--ob-r-mobile-color) !important; }
+  .ob-site [style*="--ob-r-mobile-color"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-color"].ob-btn { color: var(--ob-r-mobile-color) !important; }
+  .ob-site [style*="--ob-r-mobile-backgroundColor"] { background-color: var(--ob-r-mobile-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-mobile-backgroundColor"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-backgroundColor"].ob-btn { background-color: var(--ob-r-mobile-backgroundColor) !important; }
+  .ob-site [style*="--ob-r-mobile-border"] { border: var(--ob-r-mobile-border) !important; }
+  .ob-site [style*="--ob-r-mobile-borderRadius"] { border-radius: var(--ob-r-mobile-borderRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-borderRadius"] .ob-btn,
+  .ob-site [style*="--ob-r-mobile-borderRadius"].ob-btn { border-radius: var(--ob-r-mobile-borderRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-mobile-borderTopLeftRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-mobile-borderTopRightRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-mobile-borderBottomLeftRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-mobile-borderBottomRightRadius) !important; }
+  .ob-site [style*="--ob-r-mobile-boxShadow"] { box-shadow: var(--ob-r-mobile-boxShadow) !important; }
+  .ob-site [style*="--ob-r-mobile-textShadow"] { text-shadow: var(--ob-r-mobile-textShadow) !important; }
+  .ob-site [style*="--ob-r-mobile-filter"] { filter: var(--ob-r-mobile-filter) !important; }
+  .ob-site [style*="--ob-r-mobile-backdropFilter"] { backdrop-filter: var(--ob-r-mobile-backdropFilter) !important; }
+  .ob-site [style*="--ob-r-mobile-opacity"] { opacity: var(--ob-r-mobile-opacity) !important; }
+  .ob-site [style*="--ob-r-mobile-transform"] { transform: var(--ob-r-mobile-transform) !important; }
+  .ob-site [style*="--ob-r-mobile-position"] { position: var(--ob-r-mobile-position) !important; }
+  .ob-site [style*="--ob-r-mobile-top"] { top: var(--ob-r-mobile-top) !important; }
+  .ob-site [style*="--ob-r-mobile-right"] { right: var(--ob-r-mobile-right) !important; }
+  .ob-site [style*="--ob-r-mobile-bottom"] { bottom: var(--ob-r-mobile-bottom) !important; }
+  .ob-site [style*="--ob-r-mobile-left"] { left: var(--ob-r-mobile-left) !important; }
+  .ob-site [style*="--ob-r-mobile-zIndex"] { z-index: var(--ob-r-mobile-zIndex) !important; }
+  .ob-site [style*="--ob-r-mobile-overflow"] { overflow: var(--ob-r-mobile-overflow) !important; }
+  .ob-site [style*="--ob-r-mobile-overflowX"] { overflow-x: var(--ob-r-mobile-overflowX) !important; }
+  .ob-site [style*="--ob-r-mobile-overflowY"] { overflow-y: var(--ob-r-mobile-overflowY) !important; }
+  .ob-site [style*="--ob-r-mobile-visibility"] { visibility: var(--ob-r-mobile-visibility) !important; }
+  .ob-site [style*="--ob-r-mobile-cursor"] { cursor: var(--ob-r-mobile-cursor) !important; }
+  .ob-site [style*="--ob-r-mobile-mixBlendMode"] { mix-blend-mode: var(--ob-r-mobile-mixBlendMode) !important; }
+  .ob-site [style*="--ob-r-mobile-pointerEvents"] { pointer-events: var(--ob-r-mobile-pointerEvents) !important; }
+  .ob-site [style*="--ob-r-mobile-objectFit"] { object-fit: var(--ob-r-mobile-objectFit) !important; }
+  .ob-site [style*="--ob-r-mobile-objectPosition"] { object-position: var(--ob-r-mobile-objectPosition) !important; }
+}
+
+/* DESKTOP-BAND HIDE — responsive.desktop.hidden (HubSpot hidden_desktop) */
+@container ob (min-width: 1024px) {
+  .ob-site [style*="--ob-r-desktop-band-display"] { display: var(--ob-r-desktop-band-display) !important; }
+}
+
+@media (min-width: 1024px) {
+  .ob-site [style*="--ob-r-desktop-band-display"] { display: var(--ob-r-desktop-band-display) !important; }
+}
+
+/* Builder preview — laptop / desktop / largeDesktop device frames */
+.ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-desktop-band-display"] { display: var(--ob-r-desktop-band-display) !important; }
+.ob-site[data-ob-breakpoint="desktop"] [style*="--ob-r-desktop-band-display"] { display: var(--ob-r-desktop-band-display) !important; }
+.ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-desktop-band-display"] { display: var(--ob-r-desktop-band-display) !important; }
+
+/* ACTIVE DEVICE PREVIEW — builder canvas + draft preview (OBSiteRoot data-ob-breakpoint) */
+
+/* PREVIEW LARGEDESKTOP */
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-display"] { display: var(--ob-r-largeDesktop-display) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-flexDirection"] { flex-direction: var(--ob-r-largeDesktop-flexDirection) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-justifyContent"] { justify-content: var(--ob-r-largeDesktop-justifyContent) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-alignItems"] { align-items: var(--ob-r-largeDesktop-alignItems) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-alignContent"] { align-content: var(--ob-r-largeDesktop-alignContent) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-justifyItems"] { justify-items: var(--ob-r-largeDesktop-justifyItems) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-alignSelf"] { align-self: var(--ob-r-largeDesktop-alignSelf) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-flexWrap"] { flex-wrap: var(--ob-r-largeDesktop-flexWrap) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-flexGrow"] { flex-grow: var(--ob-r-largeDesktop-flexGrow) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-flexShrink"] { flex-shrink: var(--ob-r-largeDesktop-flexShrink) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-order"] { order: var(--ob-r-largeDesktop-order) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-gridTemplateColumns"] { grid-template-columns: var(--ob-r-largeDesktop-gridTemplateColumns) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-gridTemplateRows"] { grid-template-rows: var(--ob-r-largeDesktop-gridTemplateRows) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-gridAutoFlow"] { grid-auto-flow: var(--ob-r-largeDesktop-gridAutoFlow) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-gap"] { gap: var(--ob-r-largeDesktop-gap) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-columnGap"] { column-gap: var(--ob-r-largeDesktop-columnGap) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-rowGap"] { row-gap: var(--ob-r-largeDesktop-rowGap) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-marginTop"] { margin-top: var(--ob-r-largeDesktop-marginTop) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-marginRight"] { margin-right: var(--ob-r-largeDesktop-marginRight) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-marginBottom"] { margin-bottom: var(--ob-r-largeDesktop-marginBottom) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-marginLeft"] { margin-left: var(--ob-r-largeDesktop-marginLeft) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingTop"] { padding-top: var(--ob-r-largeDesktop-paddingTop) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingTop"] .ob-btn,
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingTop"].ob-btn { padding-top: var(--ob-r-largeDesktop-paddingTop) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingRight"] { padding-right: var(--ob-r-largeDesktop-paddingRight) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingRight"] .ob-btn,
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingRight"].ob-btn { padding-right: var(--ob-r-largeDesktop-paddingRight) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingBottom"] { padding-bottom: var(--ob-r-largeDesktop-paddingBottom) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingBottom"] .ob-btn,
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-largeDesktop-paddingBottom) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingLeft"] { padding-left: var(--ob-r-largeDesktop-paddingLeft) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingLeft"] .ob-btn,
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-paddingLeft"].ob-btn { padding-left: var(--ob-r-largeDesktop-paddingLeft) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-width"] { width: var(--ob-r-largeDesktop-width) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-height"] { height: var(--ob-r-largeDesktop-height) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-aspectRatio"] { aspect-ratio: var(--ob-r-largeDesktop-aspectRatio) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-minWidth"] { min-width: var(--ob-r-largeDesktop-minWidth) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-maxWidth"] { max-width: var(--ob-r-largeDesktop-maxWidth) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-minHeight"] { min-height: var(--ob-r-largeDesktop-minHeight) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-maxHeight"] { max-height: var(--ob-r-largeDesktop-maxHeight) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-fontFamily"] { font-family: var(--ob-r-largeDesktop-fontFamily) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-fontSize"] { font-size: var(--ob-r-largeDesktop-fontSize) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-fontSize"] .ob-btn,
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-fontSize"].ob-btn { font-size: var(--ob-r-largeDesktop-fontSize) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-fontWeight"] { font-weight: var(--ob-r-largeDesktop-fontWeight) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-fontWeight"] .ob-btn,
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-fontWeight"].ob-btn { font-weight: var(--ob-r-largeDesktop-fontWeight) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-lineHeight"] { line-height: var(--ob-r-largeDesktop-lineHeight) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-letterSpacing"] { letter-spacing: var(--ob-r-largeDesktop-letterSpacing) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-fontStyle"] { font-style: var(--ob-r-largeDesktop-fontStyle) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-textTransform"] { text-transform: var(--ob-r-largeDesktop-textTransform) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-textAlign"] { text-align: var(--ob-r-largeDesktop-textAlign) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-textDecoration"] { text-decoration: var(--ob-r-largeDesktop-textDecoration) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-whiteSpace"] { white-space: var(--ob-r-largeDesktop-whiteSpace) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-textOverflow"] { text-overflow: var(--ob-r-largeDesktop-textOverflow) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-wordSpacing"] { word-spacing: var(--ob-r-largeDesktop-wordSpacing) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-color"] { color: var(--ob-r-largeDesktop-color) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-color"] .ob-btn,
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-color"].ob-btn { color: var(--ob-r-largeDesktop-color) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-backgroundColor"] { background-color: var(--ob-r-largeDesktop-backgroundColor) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-backgroundColor"] .ob-btn,
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-backgroundColor"].ob-btn { background-color: var(--ob-r-largeDesktop-backgroundColor) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-border"] { border: var(--ob-r-largeDesktop-border) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-borderRadius"] { border-radius: var(--ob-r-largeDesktop-borderRadius) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-borderRadius"] .ob-btn,
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-borderRadius"].ob-btn { border-radius: var(--ob-r-largeDesktop-borderRadius) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-largeDesktop-borderTopLeftRadius) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-largeDesktop-borderTopRightRadius) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-largeDesktop-borderBottomLeftRadius) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-largeDesktop-borderBottomRightRadius) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-boxShadow"] { box-shadow: var(--ob-r-largeDesktop-boxShadow) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-textShadow"] { text-shadow: var(--ob-r-largeDesktop-textShadow) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-filter"] { filter: var(--ob-r-largeDesktop-filter) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-backdropFilter"] { backdrop-filter: var(--ob-r-largeDesktop-backdropFilter) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-opacity"] { opacity: var(--ob-r-largeDesktop-opacity) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-transform"] { transform: var(--ob-r-largeDesktop-transform) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-position"] { position: var(--ob-r-largeDesktop-position) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-top"] { top: var(--ob-r-largeDesktop-top) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-right"] { right: var(--ob-r-largeDesktop-right) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-bottom"] { bottom: var(--ob-r-largeDesktop-bottom) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-left"] { left: var(--ob-r-largeDesktop-left) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-zIndex"] { z-index: var(--ob-r-largeDesktop-zIndex) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-overflow"] { overflow: var(--ob-r-largeDesktop-overflow) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-overflowX"] { overflow-x: var(--ob-r-largeDesktop-overflowX) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-overflowY"] { overflow-y: var(--ob-r-largeDesktop-overflowY) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-visibility"] { visibility: var(--ob-r-largeDesktop-visibility) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-cursor"] { cursor: var(--ob-r-largeDesktop-cursor) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-mixBlendMode"] { mix-blend-mode: var(--ob-r-largeDesktop-mixBlendMode) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-pointerEvents"] { pointer-events: var(--ob-r-largeDesktop-pointerEvents) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-objectFit"] { object-fit: var(--ob-r-largeDesktop-objectFit) !important; }
+  .ob-site[data-ob-breakpoint="largeDesktop"] [style*="--ob-r-largeDesktop-objectPosition"] { object-position: var(--ob-r-largeDesktop-objectPosition) !important; }
+
+/* PREVIEW LAPTOP */
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-display"] { display: var(--ob-r-laptop-display) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-flexDirection"] { flex-direction: var(--ob-r-laptop-flexDirection) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-justifyContent"] { justify-content: var(--ob-r-laptop-justifyContent) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-alignItems"] { align-items: var(--ob-r-laptop-alignItems) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-alignContent"] { align-content: var(--ob-r-laptop-alignContent) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-justifyItems"] { justify-items: var(--ob-r-laptop-justifyItems) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-alignSelf"] { align-self: var(--ob-r-laptop-alignSelf) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-flexWrap"] { flex-wrap: var(--ob-r-laptop-flexWrap) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-flexGrow"] { flex-grow: var(--ob-r-laptop-flexGrow) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-flexShrink"] { flex-shrink: var(--ob-r-laptop-flexShrink) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-order"] { order: var(--ob-r-laptop-order) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-gridTemplateColumns"] { grid-template-columns: var(--ob-r-laptop-gridTemplateColumns) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-gridTemplateRows"] { grid-template-rows: var(--ob-r-laptop-gridTemplateRows) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-gridAutoFlow"] { grid-auto-flow: var(--ob-r-laptop-gridAutoFlow) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-gap"] { gap: var(--ob-r-laptop-gap) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-columnGap"] { column-gap: var(--ob-r-laptop-columnGap) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-rowGap"] { row-gap: var(--ob-r-laptop-rowGap) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-marginTop"] { margin-top: var(--ob-r-laptop-marginTop) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-marginRight"] { margin-right: var(--ob-r-laptop-marginRight) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-marginBottom"] { margin-bottom: var(--ob-r-laptop-marginBottom) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-marginLeft"] { margin-left: var(--ob-r-laptop-marginLeft) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingTop"] { padding-top: var(--ob-r-laptop-paddingTop) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingTop"] .ob-btn,
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingTop"].ob-btn { padding-top: var(--ob-r-laptop-paddingTop) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingRight"] { padding-right: var(--ob-r-laptop-paddingRight) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingRight"] .ob-btn,
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingRight"].ob-btn { padding-right: var(--ob-r-laptop-paddingRight) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingBottom"] { padding-bottom: var(--ob-r-laptop-paddingBottom) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingBottom"] .ob-btn,
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-laptop-paddingBottom) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingLeft"] { padding-left: var(--ob-r-laptop-paddingLeft) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingLeft"] .ob-btn,
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-paddingLeft"].ob-btn { padding-left: var(--ob-r-laptop-paddingLeft) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-width"] { width: var(--ob-r-laptop-width) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-height"] { height: var(--ob-r-laptop-height) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-aspectRatio"] { aspect-ratio: var(--ob-r-laptop-aspectRatio) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-minWidth"] { min-width: var(--ob-r-laptop-minWidth) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-maxWidth"] { max-width: var(--ob-r-laptop-maxWidth) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-minHeight"] { min-height: var(--ob-r-laptop-minHeight) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-maxHeight"] { max-height: var(--ob-r-laptop-maxHeight) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-fontFamily"] { font-family: var(--ob-r-laptop-fontFamily) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-fontSize"] { font-size: var(--ob-r-laptop-fontSize) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-fontSize"] .ob-btn,
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-fontSize"].ob-btn { font-size: var(--ob-r-laptop-fontSize) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-fontWeight"] { font-weight: var(--ob-r-laptop-fontWeight) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-fontWeight"] .ob-btn,
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-fontWeight"].ob-btn { font-weight: var(--ob-r-laptop-fontWeight) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-lineHeight"] { line-height: var(--ob-r-laptop-lineHeight) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-letterSpacing"] { letter-spacing: var(--ob-r-laptop-letterSpacing) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-fontStyle"] { font-style: var(--ob-r-laptop-fontStyle) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-textTransform"] { text-transform: var(--ob-r-laptop-textTransform) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-textAlign"] { text-align: var(--ob-r-laptop-textAlign) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-textDecoration"] { text-decoration: var(--ob-r-laptop-textDecoration) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-whiteSpace"] { white-space: var(--ob-r-laptop-whiteSpace) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-textOverflow"] { text-overflow: var(--ob-r-laptop-textOverflow) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-wordSpacing"] { word-spacing: var(--ob-r-laptop-wordSpacing) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-color"] { color: var(--ob-r-laptop-color) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-color"] .ob-btn,
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-color"].ob-btn { color: var(--ob-r-laptop-color) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-backgroundColor"] { background-color: var(--ob-r-laptop-backgroundColor) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-backgroundColor"] .ob-btn,
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-backgroundColor"].ob-btn { background-color: var(--ob-r-laptop-backgroundColor) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-border"] { border: var(--ob-r-laptop-border) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-borderRadius"] { border-radius: var(--ob-r-laptop-borderRadius) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-borderRadius"] .ob-btn,
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-borderRadius"].ob-btn { border-radius: var(--ob-r-laptop-borderRadius) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-laptop-borderTopLeftRadius) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-laptop-borderTopRightRadius) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-laptop-borderBottomLeftRadius) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-laptop-borderBottomRightRadius) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-boxShadow"] { box-shadow: var(--ob-r-laptop-boxShadow) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-textShadow"] { text-shadow: var(--ob-r-laptop-textShadow) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-filter"] { filter: var(--ob-r-laptop-filter) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-backdropFilter"] { backdrop-filter: var(--ob-r-laptop-backdropFilter) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-opacity"] { opacity: var(--ob-r-laptop-opacity) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-transform"] { transform: var(--ob-r-laptop-transform) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-position"] { position: var(--ob-r-laptop-position) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-top"] { top: var(--ob-r-laptop-top) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-right"] { right: var(--ob-r-laptop-right) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-bottom"] { bottom: var(--ob-r-laptop-bottom) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-left"] { left: var(--ob-r-laptop-left) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-zIndex"] { z-index: var(--ob-r-laptop-zIndex) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-overflow"] { overflow: var(--ob-r-laptop-overflow) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-overflowX"] { overflow-x: var(--ob-r-laptop-overflowX) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-overflowY"] { overflow-y: var(--ob-r-laptop-overflowY) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-visibility"] { visibility: var(--ob-r-laptop-visibility) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-cursor"] { cursor: var(--ob-r-laptop-cursor) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-mixBlendMode"] { mix-blend-mode: var(--ob-r-laptop-mixBlendMode) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-pointerEvents"] { pointer-events: var(--ob-r-laptop-pointerEvents) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-objectFit"] { object-fit: var(--ob-r-laptop-objectFit) !important; }
+  .ob-site[data-ob-breakpoint="laptop"] [style*="--ob-r-laptop-objectPosition"] { object-position: var(--ob-r-laptop-objectPosition) !important; }
+
+/* PREVIEW TABLET */
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-display"] { display: var(--ob-r-tablet-display) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-flexDirection"] { flex-direction: var(--ob-r-tablet-flexDirection) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-justifyContent"] { justify-content: var(--ob-r-tablet-justifyContent) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-alignItems"] { align-items: var(--ob-r-tablet-alignItems) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-alignContent"] { align-content: var(--ob-r-tablet-alignContent) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-justifyItems"] { justify-items: var(--ob-r-tablet-justifyItems) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-alignSelf"] { align-self: var(--ob-r-tablet-alignSelf) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-flexWrap"] { flex-wrap: var(--ob-r-tablet-flexWrap) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-flexGrow"] { flex-grow: var(--ob-r-tablet-flexGrow) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-flexShrink"] { flex-shrink: var(--ob-r-tablet-flexShrink) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-order"] { order: var(--ob-r-tablet-order) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-gridTemplateColumns"] { grid-template-columns: var(--ob-r-tablet-gridTemplateColumns) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-gridTemplateRows"] { grid-template-rows: var(--ob-r-tablet-gridTemplateRows) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-gridAutoFlow"] { grid-auto-flow: var(--ob-r-tablet-gridAutoFlow) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-gap"] { gap: var(--ob-r-tablet-gap) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-columnGap"] { column-gap: var(--ob-r-tablet-columnGap) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-rowGap"] { row-gap: var(--ob-r-tablet-rowGap) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-marginTop"] { margin-top: var(--ob-r-tablet-marginTop) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-marginRight"] { margin-right: var(--ob-r-tablet-marginRight) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-marginBottom"] { margin-bottom: var(--ob-r-tablet-marginBottom) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-marginLeft"] { margin-left: var(--ob-r-tablet-marginLeft) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingTop"] { padding-top: var(--ob-r-tablet-paddingTop) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingTop"] .ob-btn,
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingTop"].ob-btn { padding-top: var(--ob-r-tablet-paddingTop) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingRight"] { padding-right: var(--ob-r-tablet-paddingRight) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingRight"] .ob-btn,
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingRight"].ob-btn { padding-right: var(--ob-r-tablet-paddingRight) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingBottom"] { padding-bottom: var(--ob-r-tablet-paddingBottom) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingBottom"] .ob-btn,
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-tablet-paddingBottom) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingLeft"] { padding-left: var(--ob-r-tablet-paddingLeft) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingLeft"] .ob-btn,
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-paddingLeft"].ob-btn { padding-left: var(--ob-r-tablet-paddingLeft) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-width"] { width: var(--ob-r-tablet-width) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-height"] { height: var(--ob-r-tablet-height) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-aspectRatio"] { aspect-ratio: var(--ob-r-tablet-aspectRatio) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-minWidth"] { min-width: var(--ob-r-tablet-minWidth) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-maxWidth"] { max-width: var(--ob-r-tablet-maxWidth) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-minHeight"] { min-height: var(--ob-r-tablet-minHeight) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-maxHeight"] { max-height: var(--ob-r-tablet-maxHeight) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-fontFamily"] { font-family: var(--ob-r-tablet-fontFamily) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-fontSize"] { font-size: var(--ob-r-tablet-fontSize) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-fontSize"] .ob-btn,
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-fontSize"].ob-btn { font-size: var(--ob-r-tablet-fontSize) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-fontWeight"] { font-weight: var(--ob-r-tablet-fontWeight) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-fontWeight"] .ob-btn,
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-fontWeight"].ob-btn { font-weight: var(--ob-r-tablet-fontWeight) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-lineHeight"] { line-height: var(--ob-r-tablet-lineHeight) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-letterSpacing"] { letter-spacing: var(--ob-r-tablet-letterSpacing) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-fontStyle"] { font-style: var(--ob-r-tablet-fontStyle) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-textTransform"] { text-transform: var(--ob-r-tablet-textTransform) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-textAlign"] { text-align: var(--ob-r-tablet-textAlign) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-textDecoration"] { text-decoration: var(--ob-r-tablet-textDecoration) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-whiteSpace"] { white-space: var(--ob-r-tablet-whiteSpace) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-textOverflow"] { text-overflow: var(--ob-r-tablet-textOverflow) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-wordSpacing"] { word-spacing: var(--ob-r-tablet-wordSpacing) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-color"] { color: var(--ob-r-tablet-color) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-color"] .ob-btn,
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-color"].ob-btn { color: var(--ob-r-tablet-color) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-backgroundColor"] { background-color: var(--ob-r-tablet-backgroundColor) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-backgroundColor"] .ob-btn,
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-backgroundColor"].ob-btn { background-color: var(--ob-r-tablet-backgroundColor) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-border"] { border: var(--ob-r-tablet-border) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-borderRadius"] { border-radius: var(--ob-r-tablet-borderRadius) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-borderRadius"] .ob-btn,
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-borderRadius"].ob-btn { border-radius: var(--ob-r-tablet-borderRadius) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-tablet-borderTopLeftRadius) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-tablet-borderTopRightRadius) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-tablet-borderBottomLeftRadius) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-tablet-borderBottomRightRadius) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-boxShadow"] { box-shadow: var(--ob-r-tablet-boxShadow) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-textShadow"] { text-shadow: var(--ob-r-tablet-textShadow) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-filter"] { filter: var(--ob-r-tablet-filter) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-backdropFilter"] { backdrop-filter: var(--ob-r-tablet-backdropFilter) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-opacity"] { opacity: var(--ob-r-tablet-opacity) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-transform"] { transform: var(--ob-r-tablet-transform) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-position"] { position: var(--ob-r-tablet-position) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-top"] { top: var(--ob-r-tablet-top) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-right"] { right: var(--ob-r-tablet-right) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-bottom"] { bottom: var(--ob-r-tablet-bottom) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-left"] { left: var(--ob-r-tablet-left) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-zIndex"] { z-index: var(--ob-r-tablet-zIndex) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-overflow"] { overflow: var(--ob-r-tablet-overflow) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-overflowX"] { overflow-x: var(--ob-r-tablet-overflowX) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-overflowY"] { overflow-y: var(--ob-r-tablet-overflowY) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-visibility"] { visibility: var(--ob-r-tablet-visibility) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-cursor"] { cursor: var(--ob-r-tablet-cursor) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-mixBlendMode"] { mix-blend-mode: var(--ob-r-tablet-mixBlendMode) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-pointerEvents"] { pointer-events: var(--ob-r-tablet-pointerEvents) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-objectFit"] { object-fit: var(--ob-r-tablet-objectFit) !important; }
+  .ob-site[data-ob-breakpoint="tablet"] [style*="--ob-r-tablet-objectPosition"] { object-position: var(--ob-r-tablet-objectPosition) !important; }
+
+/* PREVIEW MOBILE */
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-display"] { display: var(--ob-r-mobile-display) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-flexDirection"] { flex-direction: var(--ob-r-mobile-flexDirection) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-justifyContent"] { justify-content: var(--ob-r-mobile-justifyContent) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-alignItems"] { align-items: var(--ob-r-mobile-alignItems) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-alignContent"] { align-content: var(--ob-r-mobile-alignContent) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-justifyItems"] { justify-items: var(--ob-r-mobile-justifyItems) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-alignSelf"] { align-self: var(--ob-r-mobile-alignSelf) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-flexWrap"] { flex-wrap: var(--ob-r-mobile-flexWrap) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-flexGrow"] { flex-grow: var(--ob-r-mobile-flexGrow) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-flexShrink"] { flex-shrink: var(--ob-r-mobile-flexShrink) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-order"] { order: var(--ob-r-mobile-order) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-gridTemplateColumns"] { grid-template-columns: var(--ob-r-mobile-gridTemplateColumns) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-gridTemplateRows"] { grid-template-rows: var(--ob-r-mobile-gridTemplateRows) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-gridAutoFlow"] { grid-auto-flow: var(--ob-r-mobile-gridAutoFlow) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-gap"] { gap: var(--ob-r-mobile-gap) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-columnGap"] { column-gap: var(--ob-r-mobile-columnGap) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-rowGap"] { row-gap: var(--ob-r-mobile-rowGap) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-marginTop"] { margin-top: var(--ob-r-mobile-marginTop) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-marginRight"] { margin-right: var(--ob-r-mobile-marginRight) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-marginBottom"] { margin-bottom: var(--ob-r-mobile-marginBottom) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-marginLeft"] { margin-left: var(--ob-r-mobile-marginLeft) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingTop"] { padding-top: var(--ob-r-mobile-paddingTop) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingTop"] .ob-btn,
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingTop"].ob-btn { padding-top: var(--ob-r-mobile-paddingTop) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingRight"] { padding-right: var(--ob-r-mobile-paddingRight) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingRight"] .ob-btn,
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingRight"].ob-btn { padding-right: var(--ob-r-mobile-paddingRight) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingBottom"] { padding-bottom: var(--ob-r-mobile-paddingBottom) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingBottom"] .ob-btn,
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingBottom"].ob-btn { padding-bottom: var(--ob-r-mobile-paddingBottom) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingLeft"] { padding-left: var(--ob-r-mobile-paddingLeft) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingLeft"] .ob-btn,
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-paddingLeft"].ob-btn { padding-left: var(--ob-r-mobile-paddingLeft) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-width"] { width: var(--ob-r-mobile-width) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-height"] { height: var(--ob-r-mobile-height) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-aspectRatio"] { aspect-ratio: var(--ob-r-mobile-aspectRatio) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-minWidth"] { min-width: var(--ob-r-mobile-minWidth) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-maxWidth"] { max-width: var(--ob-r-mobile-maxWidth) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-minHeight"] { min-height: var(--ob-r-mobile-minHeight) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-maxHeight"] { max-height: var(--ob-r-mobile-maxHeight) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-fontFamily"] { font-family: var(--ob-r-mobile-fontFamily) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-fontSize"] { font-size: var(--ob-r-mobile-fontSize) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-fontSize"] .ob-btn,
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-fontSize"].ob-btn { font-size: var(--ob-r-mobile-fontSize) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-fontWeight"] { font-weight: var(--ob-r-mobile-fontWeight) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-fontWeight"] .ob-btn,
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-fontWeight"].ob-btn { font-weight: var(--ob-r-mobile-fontWeight) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-lineHeight"] { line-height: var(--ob-r-mobile-lineHeight) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-letterSpacing"] { letter-spacing: var(--ob-r-mobile-letterSpacing) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-fontStyle"] { font-style: var(--ob-r-mobile-fontStyle) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-textTransform"] { text-transform: var(--ob-r-mobile-textTransform) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-textAlign"] { text-align: var(--ob-r-mobile-textAlign) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-textDecoration"] { text-decoration: var(--ob-r-mobile-textDecoration) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-whiteSpace"] { white-space: var(--ob-r-mobile-whiteSpace) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-textOverflow"] { text-overflow: var(--ob-r-mobile-textOverflow) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-wordSpacing"] { word-spacing: var(--ob-r-mobile-wordSpacing) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-color"] { color: var(--ob-r-mobile-color) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-color"] .ob-btn,
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-color"].ob-btn { color: var(--ob-r-mobile-color) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-backgroundColor"] { background-color: var(--ob-r-mobile-backgroundColor) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-backgroundColor"] .ob-btn,
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-backgroundColor"].ob-btn { background-color: var(--ob-r-mobile-backgroundColor) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-border"] { border: var(--ob-r-mobile-border) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-borderRadius"] { border-radius: var(--ob-r-mobile-borderRadius) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-borderRadius"] .ob-btn,
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-borderRadius"].ob-btn { border-radius: var(--ob-r-mobile-borderRadius) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-borderTopLeftRadius"] { border-top-left-radius: var(--ob-r-mobile-borderTopLeftRadius) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-borderTopRightRadius"] { border-top-right-radius: var(--ob-r-mobile-borderTopRightRadius) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-borderBottomLeftRadius"] { border-bottom-left-radius: var(--ob-r-mobile-borderBottomLeftRadius) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-borderBottomRightRadius"] { border-bottom-right-radius: var(--ob-r-mobile-borderBottomRightRadius) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-boxShadow"] { box-shadow: var(--ob-r-mobile-boxShadow) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-textShadow"] { text-shadow: var(--ob-r-mobile-textShadow) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-filter"] { filter: var(--ob-r-mobile-filter) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-backdropFilter"] { backdrop-filter: var(--ob-r-mobile-backdropFilter) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-opacity"] { opacity: var(--ob-r-mobile-opacity) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-transform"] { transform: var(--ob-r-mobile-transform) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-position"] { position: var(--ob-r-mobile-position) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-top"] { top: var(--ob-r-mobile-top) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-right"] { right: var(--ob-r-mobile-right) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-bottom"] { bottom: var(--ob-r-mobile-bottom) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-left"] { left: var(--ob-r-mobile-left) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-zIndex"] { z-index: var(--ob-r-mobile-zIndex) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-overflow"] { overflow: var(--ob-r-mobile-overflow) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-overflowX"] { overflow-x: var(--ob-r-mobile-overflowX) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-overflowY"] { overflow-y: var(--ob-r-mobile-overflowY) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-visibility"] { visibility: var(--ob-r-mobile-visibility) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-cursor"] { cursor: var(--ob-r-mobile-cursor) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-mixBlendMode"] { mix-blend-mode: var(--ob-r-mobile-mixBlendMode) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-pointerEvents"] { pointer-events: var(--ob-r-mobile-pointerEvents) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-objectFit"] { object-fit: var(--ob-r-mobile-objectFit) !important; }
+  .ob-site[data-ob-breakpoint="mobile"] [style*="--ob-r-mobile-objectPosition"] { object-position: var(--ob-r-mobile-objectPosition) !important; }

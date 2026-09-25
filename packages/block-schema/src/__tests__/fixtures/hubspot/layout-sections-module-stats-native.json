@@ -1,0 +1,207 @@
+{
+  "id": "f1-stats-001",
+  "name": "Fixture fixture-stats-native",
+  "slug": "fixture-stats-native",
+  "layoutSections": {
+    "dnd_area-main": {
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "cells": [],
+                  "cssClass": "",
+                  "cssId": "",
+                  "cssStyle": "",
+                  "label": "About Stats Section (Single Event)",
+                  "name": "widget_1786219430455",
+                  "params": {
+                    "css_class": "dnd-module",
+                    "cta": {
+                      "button_label": "Apply to Join",
+                      "button_link": {
+                        "href": "https://cdn.example.com/asset.png",
+                        "type": "EXTERNAL"
+                      }
+                    },
+                    "intro": {
+                      "badge_text": "More About Office Beacon",
+                      "body_text": "<p>At Office Beacon, we believe the strongest partnerships are built face-to-face. Our VIP experiences combine executive networking, premium hospitality, and meaningful conversations that inspire business growth.</p>",
+                      "heading_line_1": "More Than an Event.",
+                      "heading_line_2": "A Better Way to Build Business.",
+                      "media_video": {
+                        "height": 1920,
+                        "player_id": 100000000010,
+                        "player_type": "hsvideo2",
+                        "width": 1080
+                      },
+                      "video_type": "hubspot_video",
+                      "video_url": ""
+                    },
+                    "module_id": 218994691436,
+                    "schema_version": 2,
+                    "stats": [
+                      {
+                        "stat_description": "<p>Supporting businesses across the USA, South Africa, India, Mexico, and the Philippines.</p>",
+                        "stat_label": "Global Employees",
+                        "stat_number": "5500+"
+                      },
+                      {
+                        "stat_description": "<p>Helping businesses scale through people-first remote staffing since 2001.</p>",
+                        "stat_label": "Years of Leadership",
+                        "stat_number": "25+"
+                      },
+                      {
+                        "stat_description": "<p>Trusted by companies across multiple industries to build high-performing remote teams.</p>",
+                        "stat_label": "Businesses Supported",
+                        "stat_number": "4000+"
+                      }
+                    ],
+                    "style_settings": {
+                      "badge": {
+                        "badge_bg_color": {
+                          "color": "#FFFFFF",
+                          "opacity": 100
+                        },
+                        "badge_border_color": {
+                          "color": "#E2E4E9",
+                          "opacity": 100
+                        },
+                        "badge_dot_color": {
+                          "color": "#111827",
+                          "opacity": 100
+                        },
+                        "badge_font": {
+                          "color": "#111827",
+                          "font": "",
+                          "font_set": "DEFAULT",
+                          "size": 13,
+                          "size_unit": "px",
+                          "styles": {
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                          }
+                        }
+                      },
+                      "button_style": {
+                        "button_bg_color": {
+                          "color": "#2F7FED",
+                          "opacity": 100
+                        },
+                        "button_font_size": 18,
+                        "button_hover_bg_color": {
+                          "color": "#2467C9",
+                          "opacity": 100
+                        },
+                        "button_padding_x": 28,
+                        "button_padding_y": 14,
+                        "button_radius": 8,
+                        "button_text_color": {
+                          "color": "#FFFFFF",
+                          "opacity": 100
+                        }
+                      },
+                      "card": {
+                        "card_background_color": {
+                          "color": "#F4F5F7",
+                          "opacity": 100
+                        },
+                        "card_border_color": {
+                          "color": "#E5E7EB",
+                          "opacity": 100
+                        },
+                        "card_border_radius": 20,
+                        "card_padding": 0
+                      },
+                      "layout": {
+                        "column_gap": 56,
+                        "image_column_width": 38
+                      },
+                      "media": {
+                        "media_aspect_ratio": "1/1",
+                        "media_border_radius": 16,
+                        "media_video_height": 613,
+                        "media_video_width": 345
+                      },
+                      "typography": {
+                        "body_font": {
+                          "color": "#6B7280",
+                          "font": "",
+                          "font_set": "DEFAULT",
+                          "size": 18,
+                          "size_unit": "px",
+                          "styles": {
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                          }
+                        },
+                        "heading_font": {
+                          "color": "#1B3E96",
+                          "font": "",
+                          "font_set": "DEFAULT",
+                          "size": 50,
+                          "size_unit": "px",
+                          "styles": {
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                          }
+                        },
+                        "stat_description_font": {
+                          "color": "#6B7280",
+                          "font": "",
+                          "font_set": "DEFAULT",
+                          "size": 18,
+                          "size_unit": "px",
+                          "styles": {
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                          }
+                        },
+                        "stat_label_font": {
+                          "color": "#111827",
+                          "font": "",
+                          "font_set": "DEFAULT",
+                          "size": 22,
+                          "size_unit": "px",
+                          "styles": {
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                          }
+                        },
+                        "stat_number_font": {
+                          "color": "#111827",
+                          "font": "",
+                          "font_set": "DEFAULT",
+                          "size": 70,
+                          "size_unit": "px",
+                          "styles": {
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "rowMetaData": [],
+                  "rows": [],
+                  "type": "custom_widget",
+                  "w": 12,
+                  "x": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

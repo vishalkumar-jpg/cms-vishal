@@ -1,0 +1,200 @@
+{
+  "id": "synthetic-vis-desktop",
+  "name": "Fixture synthetic-vis-desktop",
+  "slug": "synthetic-vis-desktop",
+  "layoutSections": {
+    "dnd_area-main": {
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "cells": [],
+                  "cssClass": "",
+                  "cssId": "",
+                  "cssStyle": "",
+                  "name": "module_17625404731459",
+                  "params": {
+                    "animation": {
+                      "stagger": 150
+                    },
+                    "child_css": {},
+                    "counter_enabled": true,
+                    "counters": [
+                      {
+                        "stat": {
+                          "formatted": true,
+                          "number": 40,
+                          "prefix": "",
+                          "prefix_superscript": false,
+                          "suffix": "%",
+                          "suffix_superscript": true
+                        },
+                        "stats_description": {
+                          "stat_description": "<div style=\"text-align: center;\"><span style=\"color: #ffffff;\">Clients reduce overhead and scale faster by replacing traditional hiring with hybrid teams that deliver more for less.</span></div>"
+                        },
+                        "title": {
+                          "value": "Average Cost Savings"
+                        }
+                      },
+                      {
+                        "stat": {
+                          "formatted": false,
+                          "number": 24,
+                          "prefix": "",
+                          "prefix_superscript": false,
+                          "suffix": "/7",
+                          "suffix_superscript": false
+                        },
+                        "stats_description": {
+                          "stat_description": "<div style=\"text-align: center;\"><span style=\"color: #ffffff;\">Our remote teams operate across time zones, ensuring round-the-clock support without burnout or bottlenecks.</span></div>"
+                        },
+                        "title": {
+                          "value": "Global Coverage"
+                        }
+                      },
+                      {
+                        "stat": {
+                          "formatted": true,
+                          "number": 4000,
+                          "prefix": "",
+                          "prefix_superscript": false,
+                          "suffix": "+",
+                          "suffix_superscript": true
+                        },
+                        "stats_description": {
+                          "stat_description": "<div style=\"text-align: center;\"><span style=\"color: #ffffff;\">From startups to enterprises, thousands trust Office Beacon to support growth, protect margins, and deliver results.</span></div>"
+                        },
+                        "title": {
+                          "value": "Businesses Served"
+                        }
+                      }
+                    ],
+                    "css": {},
+                    "css_class": "dnd-module",
+                    "definition_id": "null",
+                    "field_types": {
+                      "animation": "group",
+                      "counter_enabled": "boolean",
+                      "counters": "group",
+                      "settings": "group",
+                      "styles": "group"
+                    },
+                    "module_id": 197780167593,
+                    "overrideable": true,
+                    "path": "/pikev4/modules/counters",
+                    "schema_version": 2,
+                    "settings": {},
+                    "smart_objects": [],
+                    "smart_type": "NOT_SMART",
+                    "styles": {
+                      "alignment": {
+                        "default": {
+                          "css": "",
+                          "horizontal_align": "CENTER"
+                        },
+                        "desktop": {
+                          "css": "",
+                          "horizontal_align": "CENTER"
+                        },
+                        "tablet": {
+                          "css": "",
+                          "horizontal_align": "CENTER"
+                        },
+                        "vertical": {}
+                      },
+                      "grid": {
+                        "desktop": {
+                          "align": {
+                            "css": "",
+                            "horizontal_align": "CENTER"
+                          },
+                          "columns": 3,
+                          "gap": 32
+                        },
+                        "desktop_lg": {
+                          "align": {
+                            "css": "",
+                            "horizontal_align": "CENTER"
+                          },
+                          "columns": 3,
+                          "gap": 32
+                        },
+                        "mobile": {
+                          "align": {
+                            "css": "",
+                            "horizontal_align": "CENTER"
+                          },
+                          "columns": 3,
+                          "gap": 32
+                        },
+                        "tablet": {
+                          "align": {
+                            "css": "",
+                            "horizontal_align": "CENTER"
+                          },
+                          "columns": 3,
+                          "gap": 32
+                        }
+                      },
+                      "layout": {
+                        "spacing": {}
+                      },
+                      "number": {
+                        "appearance": "jumbo",
+                        "custom_font": {
+                          "color": "#FFFFFF",
+                          "css": "color: #FFFFFF;",
+                          "font_set": "DEFAULT"
+                        }
+                      },
+                      "prefix": {
+                        "spacing": {},
+                        "spacing_mobile": {}
+                      },
+                      "suffix": {
+                        "spacing": {},
+                        "spacing_mobile": {}
+                      },
+                      "title": {
+                        "custom_font": {
+                          "color": "#FFFFFF",
+                          "fallback": "sans-serif",
+                          "font": "Rethink Sans",
+                          "font_set": "GOOGLE",
+                          "size": 30,
+                          "styles": {},
+                          "variant": "700"
+                        },
+                        "spacing": {},
+                        "spacing_mobile": {},
+                        "stacked": true
+                      },
+                      "visibility": {
+                        "hidden_desktop": true,
+                        "hidden_mobile": false,
+                        "hidden_tablet": false
+                      }
+                    },
+                    "tag": "module",
+                    "title": "This is a title",
+                    "type": "module",
+                    "wrap_field_tag": "div"
+                  },
+                  "rowMetaData": [],
+                  "rows": [],
+                  "type": "custom_widget",
+                  "w": 12,
+                  "x": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

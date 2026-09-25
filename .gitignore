@@ -1,0 +1,25 @@
+node_modules/
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+.turbo/
+.env
+.env.local
+.env.*.local
+*.log
+bun-debug.log*
+.DS_Store
+.idea/
+coverage/
+
+# --- secret / state hardening (keep .env.example + .env.uat.example tracked) ---
+.env.*
+!.env.example
+!.env.uat.example
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform/
+.devlogs/

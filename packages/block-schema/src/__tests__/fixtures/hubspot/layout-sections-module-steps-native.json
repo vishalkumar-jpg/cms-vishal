@@ -1,0 +1,198 @@
+{
+  "id": "f1-steps-001",
+  "name": "Fixture fixture-steps-native",
+  "slug": "fixture-steps-native",
+  "layoutSections": {
+    "dnd_area-main": {
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "cells": [],
+                  "cssClass": "",
+                  "cssId": "",
+                  "cssStyle": "",
+                  "label": "How To Join",
+                  "name": "widget_1786048039593",
+                  "params": {
+                    "css_class": "dnd-module",
+                    "cta": {
+                      "button_link": {
+                        "href": "https://cdn.example.com/asset.png",
+                        "type": "EXTERNAL"
+                      },
+                      "button_text": "Apply Now"
+                    },
+                    "intro": {
+                      "badge_text": "HOW TO JOIN",
+                      "body_text": "<p>Join business leaders at exclusive Office Beacon VIP events across Los Angeles, Philadelphia, New York, and Chicago. Discover how high-growth companies are leveraging remote staffing while building meaningful relationships with industry peers.</p>",
+                      "heading_line_1": "How To Join",
+                      "heading_line_2": "a VIP Event?"
+                    },
+                    "module_id": 218873477754,
+                    "schema_version": 2,
+                    "steps": [
+                      {
+                        "step_description": "<p>Request your invitation to one of our exclusive business networking experiences.</p>",
+                        "step_title": "Apply",
+                        "step_title_color": {
+                          "color": "#1B3E96",
+                          "opacity": 100
+                        }
+                      },
+                      {
+                        "step_description": "<p>Connect with industry leaders, gain actionable insights, and enjoy world-class hospitality.</p>",
+                        "step_title": "Attend",
+                        "step_title_color": {
+                          "color": "#1B3E96",
+                          "opacity": 100
+                        }
+                      },
+                      {
+                        "step_description": "<p>Discover how Office Beacon helps businesses scale faster through dedicated remote talent.</p>",
+                        "step_title": "Grow",
+                        "step_title_color": {
+                          "color": "#F2793B",
+                          "opacity": 100
+                        }
+                      }
+                    ],
+                    "style_settings": {
+                      "badge": {
+                        "badge_bg_color": {
+                          "color": "#FFFFFF",
+                          "opacity": 100
+                        },
+                        "badge_border_color": {
+                          "color": "#E2E4E9",
+                          "opacity": 100
+                        },
+                        "badge_dot_color": {
+                          "color": "#111827",
+                          "opacity": 100
+                        },
+                        "badge_font": {
+                          "color": "#111827",
+                          "font": "",
+                          "font_set": "DEFAULT",
+                          "size": 12,
+                          "size_unit": "px",
+                          "styles": {
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                          }
+                        }
+                      },
+                      "button": {
+                        "button_bg_color": {
+                          "color": "#2F7FED",
+                          "opacity": 100
+                        },
+                        "button_font_size": 15,
+                        "button_hover_bg_color": {
+                          "color": "#2467C9",
+                          "opacity": 100
+                        },
+                        "button_padding_x": 28,
+                        "button_padding_y": 14,
+                        "button_radius": 8,
+                        "button_text_color": {
+                          "color": "#FFFFFF",
+                          "opacity": 100
+                        }
+                      },
+                      "layout": {
+                        "content_column_width": 34,
+                        "section_padding_bottom": 0,
+                        "section_padding_left": 0,
+                        "section_padding_right": 0,
+                        "section_padding_top": 0,
+                        "steps_gap": 24
+                      },
+                      "steps_card": {
+                        "step_card_bg_color": {
+                          "color": "#F1F2F4",
+                          "opacity": 100
+                        },
+                        "step_card_border_radius": 12,
+                        "step_number_bg_color": {
+                          "color": "#1B3E96",
+                          "opacity": 100
+                        },
+                        "step_number_size": 55,
+                        "step_number_text_color": {
+                          "color": "#FFFFFF",
+                          "opacity": 100
+                        }
+                      },
+                      "typography": {
+                        "body_font": {
+                          "color": "#6B7280",
+                          "font": "",
+                          "font_set": "DEFAULT",
+                          "size": 18,
+                          "size_unit": "px",
+                          "styles": {
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                          }
+                        },
+                        "heading_font": {
+                          "color": "#1B3E96",
+                          "font": "",
+                          "font_set": "DEFAULT",
+                          "size": 50,
+                          "size_unit": "px",
+                          "styles": {
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                          }
+                        },
+                        "step_description_font": {
+                          "color": "#6B7280",
+                          "font": "",
+                          "font_set": "DEFAULT",
+                          "size": 18,
+                          "size_unit": "px",
+                          "styles": {
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                          }
+                        },
+                        "step_title_font": {
+                          "color": "#1B3E96",
+                          "font": "",
+                          "font_set": "DEFAULT",
+                          "size": 40,
+                          "size_unit": "px",
+                          "styles": {
+                            "bold": true,
+                            "italic": false,
+                            "underline": false
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "rowMetaData": [],
+                  "rows": [],
+                  "type": "custom_widget",
+                  "w": 12,
+                  "x": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+name: Deploy OB-CMS Admin to S3 (UAT)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'apps/admin/**'
+      - '.github/workflows/frontend-deploy.yml'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Create Frontend .env File
+        working-directory: ./apps/admin
+        run: |
+          echo "${{ secrets.FRONTEND_ENV_BASE64 }}" | base64 --decode > .env
+
+      - name: Install Dependencies
+        run: bun install
+
+      - name: Build Frontend
+        working-directory: ./apps/admin
+        run: bun run build
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Deploy to S3
+        working-directory: ./apps/admin
+        run: aws s3 sync dist/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
+
+      - name: Invalidate CloudFront Cache
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+          echo "Deployment successful!"

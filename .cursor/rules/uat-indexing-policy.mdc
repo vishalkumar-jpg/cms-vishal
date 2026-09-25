@@ -1,0 +1,72 @@
+---
+description: Permanent UAT no-index policy — UAT must never be discoverable by search engines
+alwaysApply: true
+---
+
+# UAT Indexing Policy (Permanent)
+
+This repo has Production and UAT. UAT is strictly for internal testing.
+
+UAT MUST NEVER be discoverable by search engines or impact the production Office Beacon site.
+
+## When this rule applies
+
+Review this policy **before and during** any work touching:
+
+- UAT or staging website delivery
+- Renderer public routing (`apps/renderer`)
+- SEO, metadata, `<head>`, or structured data (JSON-LD)
+- `robots.txt`, `sitemap.xml`, RSS/Atom feeds
+- Canonical URLs, hreflang, or Open Graph tags
+- Middleware or response headers (`X-Robots-Tag`, `Cache-Control` on public pages)
+- Cloudflare, CDN, or deployment configuration that affects crawling
+- Website publishing, cache purge, or revalidation that affects public HTML
+- Environment templates (`ENVIRONMENT`, `RENDERER_*`, public URLs)
+
+## Hard requirements
+
+1. **UAT/staging websites must never be indexable** — enforce `noindex`, `nofollow`, and `noarchive`.
+2. **UAT indexing protection MUST be gated exclusively by `ENVIRONMENT=staging`.** Never introduce `ENVIRONMENT=uat` or any second UAT indexing gate.
+3. **Never generate or proxy a production sitemap for UAT** — `/sitemap.xml` must not expose UAT URLs on staging deployments.
+4. **Never expose a UAT sitemap intended for search engines** — return 404 or equivalent; do not list UAT pages/posts.
+5. **`robots.txt` on UAT must block all crawlers** — `Disallow: /` and **no `Sitemap:` line**.
+6. **Maintain defense in depth** — HTML `<meta robots>`, `X-Robots-Tag` response header (including sitemap/feed 404s), and crawl-blocking `robots.txt` where applicable.
+7. **Production indexing must remain enabled** — do not apply global noindex; gate all staging behavior on `ENVIRONMENT=staging` only.
+8. **Canonical and URL safety** — UAT must never intentionally expose production canonical URLs to search engines; UAT pages must remain `noindex`/`nofollow` even when editor-configured canonical metadata is present; no sitemap or feed may expose UAT URLs. Content-level canonicals may still appear in HTML — noindex + no sitemap/feeds remain the primary indexing protection unless senior approves a broader change.
+9. **Add or update tests** whenever indexing behavior changes (`apps/renderer/src/lib/indexing-policy.ts` and affected routes).
+10. **Mention UAT indexing safety** in implementation summaries and PR test plans.
+11. **Include UAT indexing checks in PR review** for any renderer, SEO, deployment, or public-routing change — confirm staging behavior before merge.
+
+## PR review checklist (when relevant)
+
+- [ ] `ENVIRONMENT=staging` gating verified — production/local unchanged
+- [ ] `/robots.txt` blocks all crawlers on staging; no `Sitemap:` line
+- [ ] `/sitemap.xml` and feeds return 404 on staging (no production URL leakage)
+- [ ] Staging pages emit `noindex, nofollow, noarchive` + `X-Robots-Tag`
+- [ ] JSON-LD suppressed on staging; production structured data intact
+
+## Implementation reference (renderer)
+
+| `ENVIRONMENT` | Expected behavior |
+|---------------|-------------------|
+| `staging` | Block-all `robots.txt`, no sitemap, no feeds, `noindex/nofollow/noarchive` metadata + `X-Robots-Tag`, suppress JSON-LD |
+| `production` | Normal SEO — per-site sitemap/robots proxy, page-level metadata unchanged |
+| `local` / `development` | Unchanged from production path unless explicitly testing staging |
+
+Central module: `apps/renderer/src/lib/indexing-policy.ts`
+
+## Development gate
+
+Before shipping any feature, ask:
+
+> Could this accidentally expose UAT to search engines or serve production SEO rules on UAT?
+
+If yes or uncertain: stop, explain the risk, implement the safest environment-aware solution.
+
+## Prohibited without senior approval
+
+**Never remove, weaken, bypass, or disable UAT indexing protection** without explicit senior approval.
+
+This includes: deleting staging checks, falling back to `Allow: /` robots on UAT, re-enabling sitemap/feeds on staging, or applying global noindex that affects production.
+
+This policy overrides convenience until explicitly revoked by the project owner.

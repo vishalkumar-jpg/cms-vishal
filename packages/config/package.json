@@ -1,0 +1,39 @@
+{
+  "name": "@ob-cms/config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./tsconfig/base.json": "./tsconfig/base.json",
+    "./tsconfig/react.json": "./tsconfig/react.json",
+    "./tsconfig/node.json": "./tsconfig/node.json",
+    "./eslint": "./eslint.config.js",
+    "./tailwind": "./tailwind.preset.cjs",
+    "./env": "./src/env.ts",
+    "./load-env": "./src/load-env.ts",
+    "./platform-config": "./src/platform-config.ts",
+    "./provider-contracts": "./src/provider-contracts.ts"
+  },
+  "typesVersions": {
+    "*": {
+      "env": ["./src/env.ts"],
+      "load-env": ["./src/load-env.ts"],
+      "platform-config": ["./src/platform-config.ts"],
+      "provider-contracts": ["./src/provider-contracts.ts"]
+    }
+  },
+  "main": "./src/env.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src test",
+    "test": "bun test",
+    "build": "echo 'config: no build'"
+  },
+  "dependencies": {
+    "dotenv": "16.4.7",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "5.7.3"
+  }
+}

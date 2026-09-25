@@ -1,0 +1,49 @@
+# terraform.tfvars.example
+# -----------------------------------------------------------------------------
+# Copy to terraform.tfvars and fill in real values. DO NOT commit secrets.
+# All values below are PLACEHOLDERS.
+# -----------------------------------------------------------------------------
+
+# ----- Core -----
+region       = "us-east-1"
+environment  = "dev"          # one of: dev | staging | prod
+project_name = "ob-cms"
+
+# ----- Networking -----
+vpc_cidr = "10.20.0.0/16"
+az_count = 2
+
+# ----- Database (RDS Postgres) -----
+db_instance_class = "db.t3.medium"
+db_name           = "obcms"
+db_username       = "obcms_admin"
+# db_password is SECRET and has NO default. Supply via environment instead:
+#   export TF_VAR_db_password="..."
+# or pass -var 'db_password=...' on the CLI. DO NOT put it in this file.
+db_multi_az = false           # set true for prod
+
+# ----- Cache (Redis) -----
+redis_node_type = "cache.t3.micro"
+
+# ----- Container images (STUB ECR paths) -----
+# Replace ACCOUNT_ID and tags with real values pushed by CI/CD.
+api_image      = "ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/ob-cms-dev-api:latest"
+worker_image   = "ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/ob-cms-dev-worker:latest"
+renderer_image = "ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/ob-cms-dev-renderer:latest"
+
+# ----- Scaling -----
+desired_count = {
+  api      = 2
+  worker   = 1
+  renderer = 2
+}
+
+# ----- Domains -----
+root_domain = "obcms.example.com"
+domain      = "app.obcms.example.com"
+
+# ----- Extra tags -----
+tags = {
+  Owner = "platform-team"
+  # CostCenter = "1234"
+}

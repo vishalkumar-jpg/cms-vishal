@@ -1,0 +1,82 @@
+---
+description: Readability standards — named constants over magic numbers and repeated literals
+alwaysApply: true
+---
+
+# Readability Standards
+
+Apply proactively during implementation and review. Prefer clarity over brevity.
+
+---
+
+## Avoid Magic Numbers
+
+Do not inline time calculations such as:
+
+- `1000`
+- `60 * 1000`
+- `5 * 60 * 1000`
+- `24 * 60 * 60 * 1000`
+
+Instead introduce descriptive constants, composed from smaller units when helpful:
+
+```typescript
+const ONE_SECOND_MS = 1000;
+const ONE_MINUTE_MS = 60 * ONE_SECOND_MS;
+const FIVE_MINUTES_MS = 5 * ONE_MINUTE_MS;
+const QUERY_STALE_TIME_MS = FIVE_MINUTES_MS;
+```
+
+Use names that describe **intent** rather than duration alone whenever the constant is tied to a specific use case.
+
+**Good:**
+
+- `QUERY_STALE_TIME_MS`
+- `TEMPLATE_HISTORY_VERSION_QUERY_STALE_TIME_MS`
+- `CACHE_TTL_MS`
+- `SESSION_TIMEOUT_MS`
+- `TOKEN_REFRESH_INTERVAL_MS`
+
+**Avoid:**
+
+```typescript
+staleTime: 5 * 60 * 1000;
+setTimeout(fn, 3000);
+retryDelay: 1000;
+```
+
+---
+
+## Avoid Magic Strings
+
+Extract repeated string literals into named constants when they represent:
+
+- API paths, query keys, cache keys
+- Status labels, filter values, enum-like identifiers
+- Configuration keys and provider names
+
+See also [business-constants.mdc](./business-constants.mdc) for reusable business-value policy.
+
+---
+
+## Prefer Named Constants Over Inline Calculations
+
+- Keep constants **close to their use site** unless a shared constants module already exists for that domain.
+- Compose duration constants from base units (`ONE_SECOND_MS`, `ONE_MINUTE_MS`) instead of repeating raw arithmetic.
+- Prefer **intent-revealing names** (`TEMPLATE_HISTORY_VERSION_QUERY_STALE_TIME_MS`) over generic ones (`FIVE_MINUTES_MS`) when the constant is specific to one feature or hook.
+
+---
+
+## Placement
+
+- Feature-local: top of the hook, module, or component file.
+- Shared within a view/domain: `constants.ts` next to the feature.
+- Cross-app: `@ob-cms/shared` or the appropriate package — only when genuinely shared.
+
+Do not create a global dump file for unrelated constants.
+
+---
+
+## Behavior
+
+Replacing magic values with named constants must **not change runtime behavior**. The constant must evaluate to the same value as the original expression.

@@ -1,0 +1,636 @@
+{
+  "id": "f1-tabs-001",
+  "name": "Fixture fixture-tabs-native",
+  "slug": "fixture-tabs-native",
+  "layoutSections": {
+    "dnd_area-main": {
+      "rows": [
+        {
+          "0": {
+            "type": "cell",
+            "width": 12,
+            "rows": [
+              {
+                "0": {
+                  "cells": [],
+                  "cssClass": "",
+                  "cssId": "",
+                  "cssStyle": "",
+                  "name": "module_17625360427557",
+                  "params": {
+                    "animation": {
+                      "delay": 0,
+                      "type": ""
+                    },
+                    "child_css": {},
+                    "css": {},
+                    "css_class": "dnd-module",
+                    "module_id": 194886720807,
+                    "overrideable": true,
+                    "path": "/pikev4/modules/tabs",
+                    "schema_version": 2,
+                    "settings": {
+                      "click_on_hover": true,
+                      "mobile_behavior": "accordion",
+                      "show_tab_titles_as_chips": true
+                    },
+                    "smart_objects": [],
+                    "smart_type": "NOT_SMART",
+                    "styles": {
+                      "layout": {
+                        "spacing": {}
+                      },
+                      "panels": {
+                        "alignment": {
+                          "values": {
+                            "css": "",
+                            "vertical_align": "TOP"
+                          }
+                        },
+                        "border": {
+                          "values": {}
+                        },
+                        "carded": true,
+                        "color_theme": {
+                          "accent": {
+                            "color": "#147eff",
+                            "css": "#147eff",
+                            "hex": "#147eff",
+                            "opacity": 100,
+                            "rgb": "rgb(20, 126, 255)",
+                            "rgba": "rgba(20, 126, 255, 1)"
+                          },
+                          "background": {},
+                          "foreground": {
+                            "color": "#002244",
+                            "css": "#002244",
+                            "hex": "#002244",
+                            "opacity": 100,
+                            "rgb": "rgb(0, 34, 68)",
+                            "rgba": "rgba(0, 34, 68, 1)"
+                          },
+                          "presets": "ct-white"
+                        },
+                        "padding": {
+                          "desktop": {
+                            "css": "padding: <!-- invalid units -->;\n",
+                            "padding": {
+                              "bottom": {
+                                "units": "REM",
+                                "value": 3
+                              },
+                              "left": {
+                                "units": "REM",
+                                "value": 3
+                              },
+                              "right": {
+                                "units": "REM",
+                                "value": 3
+                              },
+                              "top": {
+                                "units": "REM",
+                                "value": 3
+                              }
+                            }
+                          },
+                          "mobile": {
+                            "css": "padding: 0px;\n",
+                            "padding": {
+                              "bottom": {
+                                "units": "px",
+                                "value": 0
+                              },
+                              "left": {
+                                "units": "px",
+                                "value": 0
+                              },
+                              "right": {
+                                "units": "px",
+                                "value": 0
+                              },
+                              "top": {
+                                "units": "px",
+                                "value": 0
+                              }
+                            }
+                          }
+                        },
+                        "shadow": {
+                          "shadow_1": {
+                            "blur": 10,
+                            "color": {
+                              "color": "#147eff",
+                              "css": "rgba(20, 126, 255, 10%)",
+                              "hex": "#147eff",
+                              "opacity": 10,
+                              "rgb": "rgb(20, 126, 255)",
+                              "rgba": "rgba(20, 126, 255, 0.1)"
+                            },
+                            "spread": -5,
+                            "y": 10
+                          },
+                          "shadow_2": {
+                            "color": {
+                              "color": "#000000",
+                              "opacity": 10
+                            }
+                          },
+                          "shadow_count": "1"
+                        }
+                      },
+                      "tablist": {
+                        "alignment": {
+                          "values": {
+                            "css": "",
+                            "horizontal_align": "CENTER"
+                          }
+                        },
+                        "border": {
+                          "value": {
+                            "bottom": {
+                              "style": "none"
+                            },
+                            "css": "border: 0px none ;\n",
+                            "left": {
+                              "style": "none"
+                            },
+                            "right": {
+                              "style": "none"
+                            },
+                            "top": {
+                              "style": "none"
+                            }
+                          }
+                        },
+                        "layout": "tabber--top",
+                        "width": {
+                          "full": true
+                        }
+                      },
+                      "tabs": {
+                        "active": {
+                          "border": {
+                            "radius": 6,
+                            "values": {
+                              "bottom": {
+                                "style": "none"
+                              },
+                              "css": "border: 0px none ;\n",
+                              "left": {
+                                "style": "none"
+                              },
+                              "right": {
+                                "style": "none"
+                              },
+                              "top": {
+                                "style": "none"
+                              }
+                            }
+                          },
+                          "color_theme": {
+                            "background": {
+                              "colors": [
+                                {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 255,
+                                    "g": 126,
+                                    "r": 20
+                                  }
+                                },
+                                {
+                                  "color": {
+                                    "a": 1,
+                                    "b": 255,
+                                    "g": 157,
+                                    "r": 77
+                                  }
+                                }
+                              ],
+                              "css": "linear-gradient(to right, rgba(20, 126, 255, 1), rgba(77, 157, 255, 1))",
+                              "side_or_corner": {
+                                "horizontalSide": "RIGHT"
+                              }
+                            },
+                            "foreground": {
+                              "color": "#FFFFFF",
+                              "css": "#FFFFFF",
+                              "hex": "#FFFFFF",
+                              "opacity": 100,
+                              "rgb": "rgb(255, 255, 255)",
+                              "rgba": "rgba(255, 255, 255, 1)"
+                            }
+                          },
+                          "shadow_1": {
+                            "color": {
+                              "color": "#000000",
+                              "opacity": 10
+                            }
+                          },
+                          "shadow_2": {
+                            "color": {
+                              "color": "#000000",
+                              "opacity": 10
+                            }
+                          },
+                          "shadow_count": "none"
+                        },
+                        "button_size": "button--larger",
+                        "buttonize": false,
+                        "description": {
+                          "font": {
+                            "font_set": "DEFAULT"
+                          }
+                        },
+                        "inactive": {
+                          "border": {
+                            "values": {}
+                          },
+                          "color_theme": {
+                            "background": {},
+                            "foreground": {
+                              "color": "#147eff",
+                              "css": "#147eff",
+                              "hex": "#147eff",
+                              "opacity": 100,
+                              "rgb": "rgb(20, 126, 255)",
+                              "rgba": "rgba(20, 126, 255, 1)"
+                            }
+                          },
+                          "shadow_1": {
+                            "color": {
+                              "color": "#000000",
+                              "opacity": 10
+                            }
+                          },
+                          "shadow_2": {
+                            "color": {
+                              "color": "#000000",
+                              "opacity": 10
+                            }
+                          },
+                          "shadow_count": "none"
+                        },
+                        "interactions": {
+                          "border": {
+                            "values": {}
+                          },
+                          "color_theme": {
+                            "background": {},
+                            "foreground": {
+                              "color": "#0073cf",
+                              "css": "#0073cf",
+                              "hex": "#0073cf",
+                              "opacity": 100,
+                              "rgb": "rgb(0, 115, 207)",
+                              "rgba": "rgba(0, 115, 207, 1)"
+                            }
+                          },
+                          "shadow_1": {
+                            "color": {
+                              "color": "#000000",
+                              "opacity": 10
+                            }
+                          },
+                          "shadow_2": {
+                            "color": {
+                              "color": "#000000",
+                              "opacity": 10
+                            }
+                          },
+                          "shadow_count": "none"
+                        },
+                        "padding": {
+                          "desktop": {},
+                          "mobile": {}
+                        },
+                        "title": {
+                          "appearance": "p-lg",
+                          "font": {
+                            "css": "font-weight: bold;",
+                            "font_set": "DEFAULT",
+                            "style": "font-style: normal; font-weight: bold; text-decoration: none",
+                            "styles": {
+                              "font-style": "normal",
+                              "font-weight": "bold",
+                              "text-decoration": "none"
+                            }
+                          },
+                          "font_size_sm": 30
+                        }
+                      },
+                      "visibility": {
+                        "hidden_desktop": false,
+                        "hidden_mobile": false,
+                        "hidden_tablet": false
+                      }
+                    },
+                    "tabs": [
+                      {
+                        "contents": [
+                          {
+                            "content": "<h5>Logistics Support</h5>\n<ul>\n<li>Automate shipping notifications, reconcile carrier data, and streamline fulfilment.</li>\n</ul>",
+                            "ctas": [
+                              {
+                                "animation": {
+                                  "delay": 0
+                                },
+                                "attributes": {
+                                  "link": 100000000001
+                                },
+                                "icon": {
+                                  "background": {},
+                                  "background_circle_enabled": false,
+                                  "background_hover": {},
+                                  "fill": {},
+                                  "fill_hover": {},
+                                  "image": {
+                                    "loading": "lazy",
+                                    "size_type": "exact",
+                                    "src": ""
+                                  },
+                                  "native": {
+                                    "type": "REGULAR"
+                                  },
+                                  "position": "left",
+                                  "pulsating": false
+                                },
+                                "popup": {
+                                  "external_video": {
+                                    "source_type": "oembed"
+                                  },
+                                  "form": {
+                                    "message": "Thanks for submitting the form.",
+                                    "response_type": "inline"
+                                  },
+                                  "video_type": "embed"
+                                },
+                                "styles": {
+                                  "arrow": false,
+                                  "color_theme": "button--foreground",
+                                  "outlined": true,
+                                  "size": "button--large",
+                                  "unstyled": false
+                                },
+                                "text": "Learn more"
+                              }
+                            ]
+                          }
+                        ],
+                        "description": {
+                          "text": ""
+                        },
+                        "title": {
+                          "text": "Logistics Support"
+                        }
+                      },
+                      {
+                        "contents": [
+                          {
+                            "content": "<h5><span><strong>Call Center Services<br></strong></span></h5>\n<ul>\n<li>AI-powered call summaries and smart routing let agents focus on solving, not searching.</li>\n</ul>",
+                            "ctas": [
+                              {
+                                "animation": {
+                                  "delay": 0
+                                },
+                                "attributes": {
+                                  "link": 100000000002
+                                },
+                                "icon": {
+                                  "background": {},
+                                  "background_circle_enabled": false,
+                                  "background_hover": {},
+                                  "fill": {},
+                                  "fill_hover": {},
+                                  "image": {
+                                    "loading": "lazy",
+                                    "size_type": "exact",
+                                    "src": ""
+                                  },
+                                  "native": {
+                                    "type": "REGULAR"
+                                  },
+                                  "position": "left",
+                                  "pulsating": false
+                                },
+                                "popup": {
+                                  "external_video": {
+                                    "source_type": "oembed"
+                                  },
+                                  "form": {
+                                    "message": "Thanks for submitting the form.",
+                                    "response_type": "inline"
+                                  },
+                                  "video_type": "embed"
+                                },
+                                "styles": {
+                                  "arrow": false,
+                                  "color_theme": "button--foreground",
+                                  "outlined": true,
+                                  "size": "button--large",
+                                  "unstyled": false
+                                },
+                                "text": "Learn More"
+                              }
+                            ]
+                          }
+                        ],
+                        "description": {
+                          "text": ""
+                        },
+                        "title": {
+                          "text": "Call Center"
+                        }
+                      },
+                      {
+                        "contents": [
+                          {
+                            "content": "<h5><span><strong>&nbsp;Data Entry Services</strong></span></h5>\n<ul>\n<li>Automate data capture and normalisation with human validation for exceptions.</li>\n</ul>",
+                            "ctas": [
+                              {
+                                "animation": {
+                                  "delay": 0
+                                },
+                                "attributes": {
+                                  "link": 100000000003
+                                },
+                                "icon": {
+                                  "background": {},
+                                  "background_circle_enabled": false,
+                                  "background_hover": {},
+                                  "fill": {},
+                                  "fill_hover": {},
+                                  "image": {
+                                    "loading": "lazy",
+                                    "size_type": "exact",
+                                    "src": ""
+                                  },
+                                  "native": {
+                                    "type": "REGULAR"
+                                  },
+                                  "position": "left",
+                                  "pulsating": false
+                                },
+                                "popup": {
+                                  "external_video": {
+                                    "source_type": "oembed"
+                                  },
+                                  "form": {
+                                    "message": "Thanks for submitting the form.",
+                                    "response_type": "inline"
+                                  },
+                                  "video_type": "embed"
+                                },
+                                "styles": {
+                                  "arrow": false,
+                                  "color_theme": "button--foreground",
+                                  "outlined": true,
+                                  "size": "button--large",
+                                  "unstyled": false
+                                },
+                                "text": "Learn More"
+                              }
+                            ]
+                          }
+                        ],
+                        "description": {
+                          "text": ""
+                        },
+                        "title": {
+                          "text": "Data Entry "
+                        }
+                      },
+                      {
+                        "contents": [
+                          {
+                            "content": "<h5>Project Management Support</h5>\n<ul>\n<li>End-to-end management of automation projects — from pilots to full rollout..</li>\n</ul>",
+                            "ctas": [
+                              {
+                                "animation": {
+                                  "delay": 0
+                                },
+                                "attributes": {
+                                  "link": 100000000004
+                                },
+                                "icon": {
+                                  "background": {},
+                                  "background_circle_enabled": false,
+                                  "background_hover": {},
+                                  "fill": {},
+                                  "fill_hover": {},
+                                  "image": {
+                                    "loading": "lazy",
+                                    "size_type": "exact",
+                                    "src": ""
+                                  },
+                                  "native": {
+                                    "type": "REGULAR"
+                                  },
+                                  "position": "left",
+                                  "pulsating": false
+                                },
+                                "popup": {
+                                  "external_video": {
+                                    "source_type": "oembed"
+                                  },
+                                  "form": {
+                                    "message": "Thanks for submitting the form.",
+                                    "response_type": "inline"
+                                  },
+                                  "video_type": "embed"
+                                },
+                                "styles": {
+                                  "arrow": false,
+                                  "color_theme": "button--foreground",
+                                  "outlined": true,
+                                  "size": "button--large",
+                                  "unstyled": false
+                                },
+                                "text": "Learn More"
+                              }
+                            ]
+                          }
+                        ],
+                        "description": {
+                          "text": ""
+                        },
+                        "title": {
+                          "text": "Project Management"
+                        }
+                      },
+                      {
+                        "contents": [
+                          {
+                            "content": "<h5><span><strong>Automated Workflows</strong></span></h5>\n<ul>\n<li>Build automations that reduce manual work and improve speed—designed and managed by Office Beacon’s workflow specialists.</li>\n</ul>",
+                            "ctas": [
+                              {
+                                "animation": {
+                                  "delay": 0
+                                },
+                                "attributes": {
+                                  "link": 100000000005
+                                },
+                                "icon": {
+                                  "background": {},
+                                  "background_circle_enabled": false,
+                                  "background_hover": {},
+                                  "fill": {},
+                                  "fill_hover": {},
+                                  "image": {
+                                    "loading": "lazy",
+                                    "size_type": "exact",
+                                    "src": ""
+                                  },
+                                  "native": {
+                                    "type": "REGULAR"
+                                  },
+                                  "position": "left",
+                                  "pulsating": false
+                                },
+                                "popup": {
+                                  "external_video": {
+                                    "source_type": "oembed"
+                                  },
+                                  "form": {
+                                    "message": "Thanks for submitting the form.",
+                                    "response_type": "inline"
+                                  },
+                                  "video_type": "embed"
+                                },
+                                "styles": {
+                                  "arrow": false,
+                                  "color_theme": "button--foreground",
+                                  "outlined": true,
+                                  "size": "button--large",
+                                  "unstyled": false
+                                },
+                                "text": "Explore Automated Workflows"
+                              }
+                            ]
+                          }
+                        ],
+                        "description": {
+                          "text": ""
+                        },
+                        "title": {
+                          "text": "Automated Workflows"
+                        }
+                      }
+                    ],
+                    "type": "module",
+                    "wrap_field_tag": "div"
+                  },
+                  "rowMetaData": [],
+                  "rows": [],
+                  "type": "custom_widget",
+                  "w": 12,
+                  "x": 0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6040 @@
+{
+  "schemaVersion": "2.0",
+  "root": "ROOT",
+  "nodes": {
+    "ROOT": {
+      "type": {
+        "resolvedName": "Section"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "typography": {
+            "fontFamily": "Poppins, 'Segoe UI', system-ui, sans-serif"
+          }
+        },
+        "seo": {
+          "title": "How OfficeBeacon Remote Staffing & Virtual Assistant Works",
+          "description": "Discover how virtual assistant & remote staffing services work. From hiring to scaling, Office Beacon makes outsourcing easy—contact us today!"
+        }
+      },
+      "displayName": "Section",
+      "custom": {},
+      "parent": null,
+      "hidden": false,
+      "nodes": [
+        "hiw_0",
+        "hiw_4",
+        "hiw_5",
+        "hiw_11",
+        "hiw_23",
+        "hiw_43",
+        "hiw_74",
+        "hiw_101",
+        "hiw_122",
+        "hiw_130",
+        "hiw_136"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_0": {
+      "type": {
+        "resolvedName": "Section"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundColor": "#147eff"
+          },
+          "spacing": {
+            "paddingTop": 8,
+            "paddingRight": 24,
+            "paddingBottom": 8,
+            "paddingLeft": 24
+          }
+        },
+        "className": "ob-site-topbar ob-site-topbar--sticky"
+      },
+      "displayName": "Section",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+        "hiw_1"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_1": {
+      "type": {
+        "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+        "maxWidth": 1280,
+        "styles": {
+          "sizing": {
+            "maxWidth": 1280
+          }
+        }
+      },
+      "displayName": "Container",
+      "custom": {},
+      "parent": "hiw_0",
+      "hidden": false,
+      "nodes": [
+        "hiw_2"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_2": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "alignItems": "center",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 20
+          }
+        }
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_1",
+      "hidden": false,
+      "nodes": [
+        "hiw_3"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_3": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Log In",
+        "url": "https://app.officebeacon.com/ecommpay/cregistration1.aspx",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_2",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_4": {
+      "type": {
+        "resolvedName": "Navbar"
+      },
+      "isCanvas": false,
+      "props": {
+        "logoImage": "https://www.officebeacon.com/hs-fs/hubfs/office-beacon/logos/OB%20Logo%20Colour.png?width=175&height=38&name=OB%20Logo%20Colour.png",
+        "logoUrl": "/ob-homepage",
+        "logoText": "Office Beacon",
+        "logoImageHeight": 38,
+        "sticky": true,
+        "navItems": [
+          {
+            "label": "Solutions",
+            "items": [
+              {
+                "label": "Boost Sales & Market Reach",
+                "url": "https://www.officebeacon.com/solutions/boost-sales-and-reach"
+              },
+              {
+                "label": "Reduce Costs & Overhead",
+                "url": "https://www.officebeacon.com/solutions/reduce-cost-overhead"
+              },
+              {
+                "label": "Save Time & Increase Efficiency",
+                "url": "https://www.officebeacon.com/solutions/save-time-increase-efficiency"
+              },
+              {
+                "label": "Strengthen Security & Compliance",
+                "url": "https://www.officebeacon.com/solutions/security-compliance"
+              },
+              {
+                "label": "Strategic Partnerships",
+                "url": "https://www.officebeacon.com/solutions/member-partnerships"
+              }
+            ]
+          },
+          {
+            "label": "Staffing Services",
+            "menuColumns": [
+              {
+                "title": "Back Office Operations",
+                "url": "https://www.officebeacon.com/services/backoffice-operations-virtual-assistant/",
+                "links": [
+                  {
+                    "label": "Virtual Assistant",
+                    "url": "https://www.officebeacon.com/services/virtual-assistant/"
+                  },
+                  {
+                    "label": "Logistics Support",
+                    "url": "https://www.officebeacon.com/services/logistics-support-virtual-assistant/"
+                  },
+                  {
+                    "label": "Call Center",
+                    "url": "https://www.officebeacon.com/services/call-center-virtual-assistant/"
+                  },
+                  {
+                    "label": "Data Entry",
+                    "url": "https://www.officebeacon.com/services/data-entry-virtual-assistant/"
+                  },
+                  {
+                    "label": "AI Workflows",
+                    "url": "https://www.officebeacon.com/services/ai-workflows-virtual-assistant/"
+                  },
+                  {
+                    "label": "Project Management",
+                    "url": "https://www.officebeacon.com/services/project-management-virtual-assistant/"
+                  }
+                ]
+              },
+              {
+                "title": "Administrative Support",
+                "url": "https://www.officebeacon.com/services/administrative-support-virtual-assistant/",
+                "links": [
+                  {
+                    "label": "Finance and Accounting",
+                    "url": "https://www.officebeacon.com/services/finance-accounting-virtual-assistant/"
+                  },
+                  {
+                    "label": "Legal Assistants",
+                    "url": "https://www.officebeacon.com/services/legal-virtual-assistant/"
+                  },
+                  {
+                    "label": "Human Resources",
+                    "url": "https://www.officebeacon.com/services/human-resource-virtual-assistant/"
+                  },
+                  {
+                    "label": "Interpretation Services",
+                    "url": "https://www.officebeacon.com/services/language-translation-virtual-assistant/"
+                  }
+                ]
+              },
+              {
+                "title": "All Industries",
+                "url": "https://www.officebeacon.com/industries",
+                "links": [
+                  {
+                    "label": "Insurance",
+                    "url": "https://www.officebeacon.com/industries/insurance-remote-staffing/"
+                  },
+                  {
+                    "label": "Promotional Products",
+                    "url": "https://www.officebeacon.com/industries/promotional-products-remote-staffing/"
+                  },
+                  {
+                    "label": "Finance & Accounting",
+                    "url": "https://www.officebeacon.com/industries/finance-accounting-remote-staffing/"
+                  },
+                  {
+                    "label": "Healthcare",
+                    "url": "https://www.officebeacon.com/industries/healthcare-remote-staffing/"
+                  },
+                  {
+                    "label": "Legal",
+                    "url": "https://www.officebeacon.com/industries/legal-remote-staffing/"
+                  },
+                  {
+                    "label": "Property Management",
+                    "url": "https://www.officebeacon.com/industries/property-management-remote-staffing/"
+                  },
+                  {
+                    "label": "Construction",
+                    "url": "https://www.officebeacon.com/industries/construction-remote-staffing/"
+                  },
+                  {
+                    "label": "View All Industries",
+                    "url": "https://www.officebeacon.com/industries/"
+                  }
+                ]
+              },
+              {
+                "title": "Marketing, Sales & CRM Support",
+                "url": "https://www.officebeacon.com/services/marketing-sales-crm-support-virtual-assistant/",
+                "links": [
+                  {
+                    "label": "Webstore and Website Management",
+                    "url": "https://www.officebeacon.com/services/webstore-website-management-virtual-assistant/"
+                  },
+                  {
+                    "label": "Sales Support and Lead Generation",
+                    "url": "https://www.officebeacon.com/services/sales-support-lead-generation-virtual-assistant/"
+                  },
+                  {
+                    "label": "Marketing Support",
+                    "url": "https://www.officebeacon.com/services/marketing-support-virtual-assistant/"
+                  },
+                  {
+                    "label": "Creative Design & Editing",
+                    "url": "https://www.officebeacon.com/services/creative-design-editing-virtual-assistant/"
+                  }
+                ]
+              },
+              {
+                "title": "Technical Support",
+                "url": "https://www.officebeacon.com/services/technical-support-virtual-assistant/",
+                "links": [
+                  {
+                    "label": "Software Development",
+                    "url": "https://www.officebeacon.com/services/software-development-virtual-assistant/"
+                  },
+                  {
+                    "label": "IT Services",
+                    "url": "https://www.officebeacon.com/services/devops-it-services-virtual-assistant/"
+                  },
+                  {
+                    "label": "Cybersecurity & Compliance (iSecurify)",
+                    "url": "https://www.officebeacon.com/services/cybersecurity-compliance-virtual-assistant/"
+                  }
+                ]
+              }
+            ],
+            "items": [
+              {
+                "label": "Backoffice Operations",
+                "url": "https://www.officebeacon.com/services/backoffice-operations-virtual-assistant/",
+                "items": [
+                  {
+                    "label": "Virtual Assistant",
+                    "url": "https://www.officebeacon.com/services/virtual-assistant/"
+                  },
+                  {
+                    "label": "Logistics Support",
+                    "url": "https://www.officebeacon.com/services/logistics-support-virtual-assistant/"
+                  },
+                  {
+                    "label": "Call Center",
+                    "url": "https://www.officebeacon.com/services/call-center-virtual-assistant/"
+                  },
+                  {
+                    "label": "Data Entry",
+                    "url": "https://www.officebeacon.com/services/data-entry-virtual-assistant/"
+                  },
+                  {
+                    "label": "AI Workflows",
+                    "url": "https://www.officebeacon.com/services/ai-workflows-virtual-assistant/"
+                  },
+                  {
+                    "label": "Project Management",
+                    "url": "https://www.officebeacon.com/services/project-management-virtual-assistant/"
+                  }
+                ]
+              },
+              {
+                "label": "Administrative Support",
+                "url": "https://www.officebeacon.com/services/administrative-support-virtual-assistant/",
+                "items": [
+                  {
+                    "label": "Finance and Accounting",
+                    "url": "https://www.officebeacon.com/services/finance-accounting-virtual-assistant/"
+                  },
+                  {
+                    "label": "Legal Assistants",
+                    "url": "https://www.officebeacon.com/services/legal-virtual-assistant/"
+                  },
+                  {
+                    "label": "Human Resources",
+                    "url": "https://www.officebeacon.com/services/human-resource-virtual-assistant/"
+                  },
+                  {
+                    "label": "Interpretation Services",
+                    "url": "https://www.officebeacon.com/services/language-translation-virtual-assistant/"
+                  }
+                ]
+              },
+              {
+                "label": "Marketing, Sales & CRM Support",
+                "url": "https://www.officebeacon.com/services/marketing-sales-crm-support-virtual-assistant/",
+                "items": [
+                  {
+                    "label": "Webstore and Website Management",
+                    "url": "https://www.officebeacon.com/services/webstore-website-management-virtual-assistant/"
+                  },
+                  {
+                    "label": "Sales Support and Lead Generation",
+                    "url": "https://www.officebeacon.com/services/sales-support-lead-generation-virtual-assistant/"
+                  },
+                  {
+                    "label": "Marketing Support",
+                    "url": "https://www.officebeacon.com/services/marketing-support-virtual-assistant/"
+                  },
+                  {
+                    "label": "Creative Design & Editing",
+                    "url": "https://www.officebeacon.com/services/creative-design-editing-virtual-assistant/"
+                  }
+                ]
+              },
+              {
+                "label": "Technical Support",
+                "url": "https://www.officebeacon.com/services/technical-support-virtual-assistant/",
+                "items": [
+                  {
+                    "label": "Software Development",
+                    "url": "https://www.officebeacon.com/services/software-development-virtual-assistant/"
+                  },
+                  {
+                    "label": "IT Services",
+                    "url": "https://www.officebeacon.com/services/devops-it-services-virtual-assistant/"
+                  },
+                  {
+                    "label": "Cybersecurity & Compliance (iSecurify)",
+                    "url": "https://www.officebeacon.com/services/cybersecurity-compliance-virtual-assistant/"
+                  }
+                ]
+              },
+              {
+                "label": "View All Services",
+                "url": "https://www.officebeacon.com/services/"
+              }
+            ]
+          },
+          {
+            "label": "All Industries",
+            "items": [
+              {
+                "label": "Insurance",
+                "url": "https://www.officebeacon.com/industries/insurance-remote-staffing/"
+              },
+              {
+                "label": "Promotional Products",
+                "url": "https://www.officebeacon.com/industries/promotional-products-remote-staffing/"
+              },
+              {
+                "label": "Finance & Accounting",
+                "url": "https://www.officebeacon.com/industries/finance-accounting-remote-staffing/"
+              },
+              {
+                "label": "Healthcare",
+                "url": "https://www.officebeacon.com/industries/healthcare-remote-staffing/"
+              },
+              {
+                "label": "Legal",
+                "url": "https://www.officebeacon.com/industries/legal-remote-staffing/"
+              },
+              {
+                "label": "Property Management",
+                "url": "https://www.officebeacon.com/industries/property-management-remote-staffing/"
+              },
+              {
+                "label": "Construction",
+                "url": "https://www.officebeacon.com/industries/construction-remote-staffing/"
+              },
+              {
+                "label": "View All Industries",
+                "url": "https://www.officebeacon.com/industries/"
+              }
+            ]
+          },
+          {
+            "label": "How It Works",
+            "url": "/how-it-works"
+          },
+          {
+            "label": "About",
+            "items": [
+              {
+                "label": "Why Office Beacon?",
+                "url": "https://www.officebeacon.com/why-office-beacon/"
+              },
+              {
+                "label": "Team",
+                "url": "https://www.officebeacon.com/team"
+              },
+              {
+                "label": "Data Protection - Certifications",
+                "url": "https://www.officebeacon.com/certification-data-protection"
+              },
+              {
+                "label": "Office Locations",
+                "url": "https://www.officebeacon.com/delivery-centers"
+              },
+              {
+                "label": "News",
+                "url": "https://www.officebeacon.com/press-release/"
+              }
+            ]
+          },
+          {
+            "label": "Events",
+            "url": "https://events.officebeacon.com/"
+          },
+          {
+            "label": "Careers",
+            "url": "https://www.officebeacon.com/careers"
+          }
+        ],
+        "linkStyles": {
+          "color": "#6c7c93",
+          "fontSize": 16
+        },
+        "ctaText": "Get Started",
+        "ctaUrl": "https://www.officebeacon.com/lp/build-your-remote-team",
+        "showCta": true,
+        "ctaStyles": {
+          "background": "linear-gradient(90deg, #147eff, #4d9dff)",
+          "color": "#ffffff",
+          "paddingX": 20,
+          "paddingY": 10,
+          "borderRadius": 8
+        },
+        "styles": {
+          "colors": {
+            "backgroundColor": "#ffffff"
+          },
+          "spacing": {
+            "paddingTop": 12,
+            "paddingRight": 24,
+            "paddingBottom": 12,
+            "paddingLeft": 24
+          },
+          "shadows": {
+            "boxShadow": "0px 1px 0px 0px rgba(108,124,147,0.1)"
+          }
+        }
+      },
+      "displayName": "Navbar",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_5": {
+      "type": {
+        "resolvedName": "Section"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundGradient": {
+              "type": "linear",
+              "angle": 180,
+              "stops": [
+                {
+                  "color": "#e5f2ff",
+                  "position": 0
+                },
+                {
+                  "color": "#ffffff",
+                  "position": 100
+                }
+              ]
+            }
+          },
+          "spacing": {
+            "paddingTop": 48,
+            "paddingRight": 24,
+            "paddingBottom": 48,
+            "paddingLeft": 24
+          },
+          "responsive": {
+            "tablet": {
+              "spacing": {
+                "paddingTop": 40,
+                "paddingRight": 24,
+                "paddingBottom": 32,
+                "paddingLeft": 24
+              }
+            },
+            "mobile": {
+              "spacing": {
+                "paddingTop": 40,
+                "paddingRight": 16,
+                "paddingBottom": 20,
+                "paddingLeft": 16
+              }
+            },
+            "__auto": {
+              "tablet": false,
+              "mobile": false
+            }
+          }
+        }
+      },
+      "displayName": "Section",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+        "hiw_6"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_6": {
+      "type": {
+        "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+        "maxWidth": 900,
+        "styles": {
+          "sizing": {
+            "maxWidth": 900
+          }
+        }
+      },
+      "displayName": "Container",
+      "custom": {},
+      "parent": "hiw_5",
+      "hidden": false,
+      "nodes": [
+        "hiw_7",
+        "hiw_8",
+        "hiw_9"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_7": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Remote Staffing That's Structured, Secure, and Built to Scale.",
+        "level": 1,
+        "styles": {
+          "typography": {
+            "fontSize": 48,
+            "fontWeight": 700,
+            "lineHeight": 1.15,
+            "color": "#002244",
+            "textAlign": "center"
+          },
+          "spacing": {
+            "marginBottom": 16
+          }
+        },
+        "highlightText": "Structured, Secure, and Built to Scale.",
+        "highlightColor": "#147eff"
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_6",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_8": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "We recruit, train, and manage your remote team within our infrastructure. You get reliable support without all the hiring headaches.",
+        "styles": {
+          "typography": {
+            "fontSize": 20,
+            "color": "#6c7c93",
+            "textAlign": "center"
+          },
+          "spacing": {
+            "marginBottom": 24
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_6",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_9": {
+      "type": {
+        "resolvedName": "Div"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 16
+          }
+        }
+      },
+      "displayName": "Div",
+      "custom": {},
+      "parent": "hiw_6",
+      "hidden": false,
+      "nodes": [
+        "hiw_10"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_10": {
+      "type": {
+        "resolvedName": "Button"
+      },
+      "isCanvas": false,
+      "props": {
+        "label": "Build Your Remote Team",
+        "url": "https://www.officebeacon.com/lp/build-your-remote-team",
+        "variant": "primary",
+        "iconAfter": "→",
+        "partStyles": {
+          "padding": "16px 28px"
+        },
+        "styles": {}
+      },
+      "displayName": "Button",
+      "custom": {},
+      "parent": "hiw_9",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_11": {
+      "type": {
+        "resolvedName": "Section"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundColor": "#ffffff"
+          },
+          "spacing": {
+            "paddingTop": 32,
+            "paddingRight": 24,
+            "paddingBottom": 32,
+            "paddingLeft": 24
+          },
+          "responsive": {
+            "tablet": {
+              "spacing": {
+                "paddingTop": 32,
+                "paddingRight": 24,
+                "paddingBottom": 32,
+                "paddingLeft": 24
+              }
+            },
+            "mobile": {
+              "spacing": {
+                "paddingTop": 20,
+                "paddingRight": 16,
+                "paddingBottom": 20,
+                "paddingLeft": 16
+              }
+            },
+            "__auto": {
+              "tablet": false,
+              "mobile": false
+            }
+          }
+        }
+      },
+      "displayName": "Section",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+        "hiw_12"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_12": {
+      "type": {
+        "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+        "maxWidth": 1280,
+        "styles": {
+          "sizing": {
+            "maxWidth": 1280
+          }
+        }
+      },
+      "displayName": "Container",
+      "custom": {},
+      "parent": "hiw_11",
+      "hidden": false,
+      "nodes": [
+        "hiw_13"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_13": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "flex-start",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 40
+          }
+        },
+        "className": "ob-split-row"
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_12",
+      "hidden": false,
+      "nodes": [
+        "hiw_14",
+        "hiw_16"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_14": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 4,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 8,
+            "paddingTop": 0,
+            "paddingRight": 48,
+            "paddingBottom": 0,
+            "paddingLeft": 0
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_13",
+      "hidden": false,
+      "nodes": [
+        "hiw_15"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_15": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "How We Build Remote Teams That Actually Work.",
+        "level": 2,
+        "styles": {
+          "typography": {
+            "fontSize": 36,
+            "fontWeight": 700,
+            "lineHeight": 1.2,
+            "color": "#002244"
+          },
+          "spacing": {
+            "marginBottom": 0
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_14",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_16": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 8,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 0
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_13",
+      "hidden": false,
+      "nodes": [
+        "hiw_17"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_17": {
+      "type": {
+        "resolvedName": "Card"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "borders": {
+            "borderLeftWidth": 3,
+            "borderLeftColor": "#147eff",
+            "borderRadius": 0
+          },
+          "spacing": {
+            "paddingTop": 24,
+            "paddingRight": 24,
+            "paddingBottom": 24,
+            "paddingLeft": 24
+          },
+          "colors": {
+            "backgroundColor": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Card",
+      "custom": {},
+      "parent": "hiw_16",
+      "hidden": false,
+      "nodes": [
+        "hiw_18",
+        "hiw_19",
+        "hiw_20",
+        "hiw_21",
+        "hiw_22"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_18": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Recruit & Train — We source professionals and train them on your tools, workflows, and expectations.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#6c7c93",
+            "lineHeight": 1.6
+          },
+          "spacing": {
+            "marginBottom": 12
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_17",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_19": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Secure Infrastructure — Your team operates within Office Beacon's facilities with enterprise-grade tech and compliance baked in.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#6c7c93",
+            "lineHeight": 1.6
+          },
+          "spacing": {
+            "marginBottom": 12
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_17",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_20": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Seamless Integration — We plug into your systems—Slack, CRM, SOPs—so your team feels in-house from day one.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#6c7c93",
+            "lineHeight": 1.6
+          },
+          "spacing": {
+            "marginBottom": 12
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_17",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_21": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Ongoing Oversight — Dedicated managers, SLAs, and performance metrics keep your team accountable and on track.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#6c7c93",
+            "lineHeight": 1.6
+          },
+          "spacing": {
+            "marginBottom": 12
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_17",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_22": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Specialized Expertise — Need finance, legal, or healthcare support? We've got trained talent ready to deploy.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#6c7c93",
+            "lineHeight": 1.6
+          },
+          "spacing": {
+            "marginBottom": 12
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_17",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_23": {
+      "type": {
+        "resolvedName": "Section"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundColor": "#ffffff"
+          },
+          "spacing": {
+            "paddingTop": 32,
+            "paddingRight": 24,
+            "paddingBottom": 32,
+            "paddingLeft": 24
+          },
+          "responsive": {
+            "tablet": {
+              "spacing": {
+                "paddingTop": 32,
+                "paddingRight": 24,
+                "paddingBottom": 32,
+                "paddingLeft": 24
+              }
+            },
+            "mobile": {
+              "spacing": {
+                "paddingTop": 20,
+                "paddingRight": 16,
+                "paddingBottom": 20,
+                "paddingLeft": 16
+              }
+            },
+            "__auto": {
+              "tablet": false,
+              "mobile": false
+            }
+          }
+        }
+      },
+      "displayName": "Section",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+        "hiw_24"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_24": {
+      "type": {
+        "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+        "maxWidth": 1280,
+        "styles": {
+          "sizing": {
+            "maxWidth": 1280
+          }
+        }
+      },
+      "displayName": "Container",
+      "custom": {},
+      "parent": "hiw_23",
+      "hidden": false,
+      "nodes": [
+        "hiw_25"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_25": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 40
+          }
+        },
+        "className": "ob-split-row"
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_24",
+      "hidden": false,
+      "nodes": [
+        "hiw_26",
+        "hiw_28"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_26": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 6,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "center"
+          },
+          "spacing": {
+            "gap": 8
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_25",
+      "hidden": false,
+      "nodes": [
+        "hiw_27"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_27": {
+      "type": {
+        "resolvedName": "Image"
+      },
+      "isCanvas": false,
+      "props": {
+        "imageUrl": "https://www.officebeacon.com/hs-fs/hubfs/website/images/Office-Beacon-General/Office-Beacon-General_4-3/Office-Beacon-General_4-3_01.jpg?width=606&height=455&name=Office-Beacon-General_4-3_01.jpg",
+        "altText": "Remote Team Management",
+        "width": "100%",
+        "imageStyles": {
+          "borderRadius": 12
+        },
+        "styles": {
+          "sizing": {
+            "maxWidth": 606
+          }
+        },
+        "loading": "lazy"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "hiw_26",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_28": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 6,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 8
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_25",
+      "hidden": false,
+      "nodes": [
+        "hiw_29",
+        "hiw_30",
+        "hiw_31",
+        "hiw_34",
+        "hiw_37",
+        "hiw_40"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_29": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Everything You Need to Run a Remote Team That Works",
+        "level": 2,
+        "styles": {
+          "typography": {
+            "fontSize": 36,
+            "fontWeight": 700,
+            "lineHeight": 1.2,
+            "color": "#002244"
+          },
+          "spacing": {
+            "marginBottom": 16
+          }
+        },
+        "highlightText": "That Works",
+        "highlightColor": "#147eff"
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_28",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_30": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Office Beacon doesn't hand off talent and hope for the best. We build the team, set up the infrastructure, and manage performance. You focus on growth, we'll handle the logistics.",
+        "styles": {
+          "typography": {
+            "fontSize": 18,
+            "color": "#6c7c93",
+            "lineHeight": 1.6
+          },
+          "spacing": {
+            "marginBottom": 20
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_28",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_31": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start",
+            "flexWrap": "nowrap"
+          },
+          "spacing": {
+            "gap": 12,
+            "marginBottom": 12
+          }
+        },
+        "className": "ob-keep-row"
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_28",
+      "hidden": false,
+      "nodes": [
+        "hiw_32",
+        "hiw_33"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_32": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "name": "ChevronRight",
+        "size": 18,
+        "color": "#147eff"
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "hiw_31",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_33": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Training built into every engagement",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#002244"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_31",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_34": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start",
+            "flexWrap": "nowrap"
+          },
+          "spacing": {
+            "gap": 12,
+            "marginBottom": 12
+          }
+        },
+        "className": "ob-keep-row"
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_28",
+      "hidden": false,
+      "nodes": [
+        "hiw_35",
+        "hiw_36"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_35": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "name": "ChevronRight",
+        "size": 18,
+        "color": "#147eff"
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "hiw_34",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_36": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Secure infrastructure and tech setup",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#002244"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_34",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_37": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start",
+            "flexWrap": "nowrap"
+          },
+          "spacing": {
+            "gap": 12,
+            "marginBottom": 12
+          }
+        },
+        "className": "ob-keep-row"
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_28",
+      "hidden": false,
+      "nodes": [
+        "hiw_38",
+        "hiw_39"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_38": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "name": "ChevronRight",
+        "size": 18,
+        "color": "#147eff"
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "hiw_37",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_39": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Dedicated oversight with SLAs and performance tracking",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#002244"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_37",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_40": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start",
+            "flexWrap": "nowrap"
+          },
+          "spacing": {
+            "gap": 12,
+            "marginBottom": 12
+          }
+        },
+        "className": "ob-keep-row"
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_28",
+      "hidden": false,
+      "nodes": [
+        "hiw_41",
+        "hiw_42"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_41": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "name": "ChevronRight",
+        "size": 18,
+        "color": "#147eff"
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "hiw_40",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_42": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Access to specialized roles across departments",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#002244"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_40",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_43": {
+      "type": {
+        "resolvedName": "Section"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundColor": "#ffffff"
+          },
+          "spacing": {
+            "paddingTop": 40,
+            "paddingRight": 24,
+            "paddingBottom": 40,
+            "paddingLeft": 24
+          }
+        }
+      },
+      "displayName": "Section",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+        "hiw_44"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_44": {
+      "type": {
+        "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+        "maxWidth": 1280,
+        "styles": {
+          "sizing": {
+            "maxWidth": 1280
+          }
+        }
+      },
+      "displayName": "Container",
+      "custom": {},
+      "parent": "hiw_43",
+      "hidden": false,
+      "nodes": [
+        "hiw_45",
+        "hiw_46"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_45": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "What they say about Office Beacon",
+        "level": 2,
+        "styles": {
+          "typography": {
+            "fontSize": 36,
+            "fontWeight": 700,
+            "color": "#002244",
+            "textAlign": "center"
+          },
+          "spacing": {
+            "marginBottom": 32
+          }
+        },
+        "highlightText": "Office Beacon",
+        "highlightColor": "#147eff"
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_44",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_46": {
+      "type": {
+        "resolvedName": "Slider"
+      },
+      "isCanvas": true,
+      "props": {
+        "slidesVisible": 3,
+        "gap": 32,
+        "showArrows": true,
+        "autoplay": true,
+        "autoplayInterval": 5000,
+        "styles": {},
+        "className": "ob-testimonials-slider"
+      },
+      "displayName": "Slider",
+      "custom": {},
+      "parent": "hiw_44",
+      "hidden": false,
+      "nodes": [
+        "hiw_47",
+        "hiw_52",
+        "hiw_58",
+        "hiw_63",
+        "hiw_69"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_47": {
+      "type": {
+        "resolvedName": "Div"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 4
+          }
+        }
+      },
+      "displayName": "Div",
+      "custom": {},
+      "parent": "hiw_46",
+      "hidden": false,
+      "nodes": [
+        "hiw_48",
+        "hiw_50",
+        "hiw_51"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_48": {
+      "type": {
+        "resolvedName": "Div"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "borders": {
+            "borderRadius": 12
+          },
+          "effects": {}
+        }
+      },
+      "displayName": "Div",
+      "custom": {},
+      "parent": "hiw_47",
+      "hidden": false,
+      "nodes": [
+        "hiw_49"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_49": {
+      "type": {
+        "resolvedName": "Video"
+      },
+      "isCanvas": false,
+      "props": {
+        "src": "https://23629617.fs1.hubspotusercontent-na1.net/hubfs/23629617/Client%20Testimonials/Dave%20Williams.mp4",
+        "poster": "https://www.officebeacon.com/hubfs/Client%20Testimonials/Dave%20Williams%20Thumbnail%20With%20Text.png",
+        "provider": "auto",
+        "controls": true
+      },
+      "displayName": "Video",
+      "custom": {},
+      "parent": "hiw_48",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_50": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Dave Williams",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#002244"
+          },
+          "spacing": {
+            "marginTop": 12
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_47",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_51": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Farmer's Insurance Agency Owner",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#6c7c93"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_47",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_52": {
+      "type": {
+        "resolvedName": "Div"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 4
+          }
+        }
+      },
+      "displayName": "Div",
+      "custom": {},
+      "parent": "hiw_46",
+      "hidden": false,
+      "nodes": [
+        "hiw_53",
+        "hiw_54",
+        "hiw_55"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_53": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "name": "Quote",
+        "size": 32,
+        "color": "#147eff"
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "hiw_52",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_54": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "We partnered with Office Beacon hoping to fill a need on our sales team. What we found was so much more. Our South Africa-based virtual team member, Alta, has become a genuine part of our culture at My Brand. She participates fully in everything we do — not as a remote resource, but as a real teammate. That became clear in the most unexpected and moving way. When My Brand launched our annual charity drive last December, Alta wanted to participate. Currency exchange made direct donation difficult — so we suggested choosing a local charity to support. She did far more than that. Alta reached out to Office Beacon and initiated a charity drive for Gift a Child Children's Home. The cause was personal: On her son's first birthday, she took her kids to donate to children's homes in gratitude — and one home, despite having very little, left an indelible mark on her heart. When given the chance to choose a charity for this initiative, she chose them immediately. What began as one person's desire to participate became a fully coordinated, cross-office initiative spanning two continents with the Office Beacon team and the My Brand team supporting this heartfelt and important initiative. This is what remote staffing looks like when it's done right — not transactional, but fully integrated, values-aligned, and deeply human. We couldn't be prouder to be part of this story.",
+        "styles": {
+          "typography": {
+            "fontSize": 15,
+            "color": "#002244",
+            "lineHeight": 1.6
+          },
+          "spacing": {
+            "marginTop": 8
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_52",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_55": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "center",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 12,
+            "marginTop": 12
+          }
+        }
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_52",
+      "hidden": false,
+      "nodes": [
+        "hiw_56",
+        "hiw_57"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_56": {
+      "type": {
+        "resolvedName": "Image"
+      },
+      "isCanvas": false,
+      "props": {
+        "imageUrl": "https://www.officebeacon.com/hubfs/Headshot%20Heather%20Mueller.jpg",
+        "altText": "Heather Mueller",
+        "width": "100%",
+        "imageStyles": {
+          "borderRadius": 999
+        },
+        "styles": {
+          "sizing": {
+            "maxWidth": 56
+          }
+        },
+        "loading": "lazy"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "hiw_55",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_57": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Heather Mueller — Talent & Knowledge Manager, My Brand",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "fontWeight": 700,
+            "color": "#002244"
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_55",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_58": {
+      "type": {
+        "resolvedName": "Div"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 4
+          }
+        }
+      },
+      "displayName": "Div",
+      "custom": {},
+      "parent": "hiw_46",
+      "hidden": false,
+      "nodes": [
+        "hiw_59",
+        "hiw_61",
+        "hiw_62"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_59": {
+      "type": {
+        "resolvedName": "Div"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "borders": {
+            "borderRadius": 12
+          },
+          "effects": {}
+        }
+      },
+      "displayName": "Div",
+      "custom": {},
+      "parent": "hiw_58",
+      "hidden": false,
+      "nodes": [
+        "hiw_60"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_60": {
+      "type": {
+        "resolvedName": "Video"
+      },
+      "isCanvas": false,
+      "props": {
+        "src": "https://23629617.fs1.hubspotusercontent-na1.net/hubfs/23629617/Client%20Testimonials/Logo%20Mark%20v2.mp4",
+        "poster": "https://www.officebeacon.com/hubfs/Client%20Testimonials/Logo%20Mark%20(Erol)%20Thumbnail.png",
+        "provider": "auto",
+        "controls": true
+      },
+      "displayName": "Video",
+      "custom": {},
+      "parent": "hiw_59",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_61": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Errol",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#002244"
+          },
+          "spacing": {
+            "marginTop": 12
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_58",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_62": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "SVP Operations and Production",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#6c7c93"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_58",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_63": {
+      "type": {
+        "resolvedName": "Div"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 4
+          }
+        }
+      },
+      "displayName": "Div",
+      "custom": {},
+      "parent": "hiw_46",
+      "hidden": false,
+      "nodes": [
+        "hiw_64",
+        "hiw_65",
+        "hiw_66"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_64": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "name": "Quote",
+        "size": 32,
+        "color": "#147eff"
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "hiw_63",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_65": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "I wish it were only me using Office Beacon and not my competitors. We bought six companies and each company we buy we have integrated Office Beacon into them.",
+        "styles": {
+          "typography": {
+            "fontSize": 15,
+            "color": "#002244",
+            "lineHeight": 1.6
+          },
+          "spacing": {
+            "marginTop": 8
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_63",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_66": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "center",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 12,
+            "marginTop": 12
+          }
+        }
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_63",
+      "hidden": false,
+      "nodes": [
+        "hiw_67",
+        "hiw_68"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_67": {
+      "type": {
+        "resolvedName": "Image"
+      },
+      "isCanvas": false,
+      "props": {
+        "imageUrl": "https://www.officebeacon.com/hubfs/Client%20Testimonials/Bill_Korowitz%20copy.webp",
+        "altText": "Bill Korowitz",
+        "width": "100%",
+        "imageStyles": {
+          "borderRadius": 999
+        },
+        "styles": {
+          "sizing": {
+            "maxWidth": 56
+          }
+        },
+        "loading": "lazy"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "hiw_66",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_68": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Bill Korowitz — CEO, The Magnet Group",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "fontWeight": 700,
+            "color": "#002244"
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_66",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_69": {
+      "type": {
+        "resolvedName": "Div"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 4
+          }
+        }
+      },
+      "displayName": "Div",
+      "custom": {},
+      "parent": "hiw_46",
+      "hidden": false,
+      "nodes": [
+        "hiw_70",
+        "hiw_72",
+        "hiw_73"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_70": {
+      "type": {
+        "resolvedName": "Div"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "borders": {
+            "borderRadius": 12
+          },
+          "effects": {}
+        }
+      },
+      "displayName": "Div",
+      "custom": {},
+      "parent": "hiw_69",
+      "hidden": false,
+      "nodes": [
+        "hiw_71"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_71": {
+      "type": {
+        "resolvedName": "Video"
+      },
+      "isCanvas": false,
+      "props": {
+        "src": "https://23629617.fs1.hubspotusercontent-na1.net/hubfs/23629617/Client%20Testimonials/Logo%20Mark%20(Shaun).mp4",
+        "poster": "https://www.officebeacon.com/hubfs/Client%20Testimonials/Logo%20Mark%20(Shaun)%20Thumbnail.png",
+        "provider": "auto",
+        "controls": true
+      },
+      "displayName": "Video",
+      "custom": {},
+      "parent": "hiw_70",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_72": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Shaun",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#002244"
+          },
+          "spacing": {
+            "marginTop": 12
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_69",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_73": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Customer Service Manager",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#6c7c93"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_69",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_74": {
+      "type": {
+        "resolvedName": "Section"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundColor": "#ffffff"
+          },
+          "spacing": {
+            "paddingTop": 40,
+            "paddingRight": 24,
+            "paddingBottom": 40,
+            "paddingLeft": 24
+          },
+          "responsive": {
+            "tablet": {
+              "spacing": {
+                "paddingTop": 32,
+                "paddingRight": 24,
+                "paddingBottom": 32,
+                "paddingLeft": 24
+              }
+            },
+            "mobile": {
+              "spacing": {
+                "paddingTop": 20,
+                "paddingRight": 16,
+                "paddingBottom": 20,
+                "paddingLeft": 16
+              }
+            },
+            "__auto": {
+              "tablet": false,
+              "mobile": false
+            }
+          }
+        }
+      },
+      "displayName": "Section",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+        "hiw_75"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_75": {
+      "type": {
+        "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+        "maxWidth": 1280,
+        "styles": {
+          "sizing": {
+            "maxWidth": 1280
+          }
+        }
+      },
+      "displayName": "Container",
+      "custom": {},
+      "parent": "hiw_74",
+      "hidden": false,
+      "nodes": [
+        "hiw_76"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_76": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "flex-start",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 40
+          }
+        },
+        "className": "ob-split-row"
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_75",
+      "hidden": false,
+      "nodes": [
+        "hiw_77",
+        "hiw_79"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_77": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 4,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 8
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_76",
+      "hidden": false,
+      "nodes": [
+        "hiw_78"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_78": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "From Discovery to Go-Live—in Under 30 Days.",
+        "level": 2,
+        "styles": {
+          "typography": {
+            "fontSize": 36,
+            "fontWeight": 700,
+            "lineHeight": 1.2,
+            "color": "#002244"
+          },
+          "spacing": {
+            "marginBottom": 0
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_77",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_79": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 8,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 0
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_76",
+      "hidden": false,
+      "nodes": [
+        "hiw_80"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_80": {
+      "type": {
+        "resolvedName": "Grid"
+      },
+      "isCanvas": true,
+      "props": {
+        "columns": 2,
+        "styles": {
+          "layout": {
+            "gridTemplateColumns": "repeat(2, 1fr)"
+          },
+          "spacing": {
+            "gap": 32
+          }
+        },
+        "className": "ob-grid-cols-2 ob-steps-grid"
+      },
+      "displayName": "Grid",
+      "custom": {},
+      "parent": "hiw_79",
+      "hidden": false,
+      "nodes": [
+        "hiw_81",
+        "hiw_86",
+        "hiw_91",
+        "hiw_96"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_81": {
+      "type": {
+        "resolvedName": "Card"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundColor": "#ffffff"
+          },
+          "spacing": {
+            "paddingTop": 24,
+            "paddingRight": 24,
+            "paddingBottom": 24,
+            "paddingLeft": 24
+          },
+          "borders": {
+            "borderRadius": 0
+          }
+        }
+      },
+      "displayName": "Card",
+      "custom": {},
+      "parent": "hiw_80",
+      "hidden": false,
+      "nodes": [
+        "hiw_82",
+        "hiw_83",
+        "hiw_84",
+        "hiw_85"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_82": {
+      "type": {
+        "resolvedName": "Image"
+      },
+      "isCanvas": false,
+      "props": {
+        "imageUrl": "https://www.officebeacon.com/hubfs/website/assets/icon-number-1.svg",
+        "altText": "",
+        "width": 56,
+        "imageStyles": {},
+        "styles": {
+          "sizing": {
+            "maxWidth": 56
+          }
+        },
+        "loading": "lazy"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "hiw_81",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_83": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Day 1-2",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "fontWeight": 700,
+            "color": "#147eff"
+          },
+          "spacing": {
+            "marginTop": 16,
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_81",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_84": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Discovery & Sourcing",
+        "level": 5,
+        "styles": {
+          "typography": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#002244"
+          },
+          "spacing": {
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_81",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_85": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "We review your job descriptions, tools, and workflow - then stat sourcing talent.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#6c7c93",
+            "lineHeight": 1.6
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_81",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_86": {
+      "type": {
+        "resolvedName": "Card"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundColor": "#ffffff"
+          },
+          "spacing": {
+            "paddingTop": 24,
+            "paddingRight": 24,
+            "paddingBottom": 24,
+            "paddingLeft": 24
+          },
+          "borders": {
+            "borderRadius": 0
+          }
+        }
+      },
+      "displayName": "Card",
+      "custom": {},
+      "parent": "hiw_80",
+      "hidden": false,
+      "nodes": [
+        "hiw_87",
+        "hiw_88",
+        "hiw_89",
+        "hiw_90"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_87": {
+      "type": {
+        "resolvedName": "Image"
+      },
+      "isCanvas": false,
+      "props": {
+        "imageUrl": "https://www.officebeacon.com/hubfs/website/assets/icon-number-2.svg",
+        "altText": "",
+        "width": 56,
+        "imageStyles": {},
+        "styles": {
+          "sizing": {
+            "maxWidth": 56
+          }
+        },
+        "loading": "lazy"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "hiw_86",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_88": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Day 3-7",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "fontWeight": 700,
+            "color": "#147eff"
+          },
+          "spacing": {
+            "marginTop": 16,
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_86",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_89": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Confirmation & Contract",
+        "level": 5,
+        "styles": {
+          "typography": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#002244"
+          },
+          "spacing": {
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_86",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_90": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "We confirm availability, finalize the contract, and prep your onboarding plan.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#6c7c93",
+            "lineHeight": 1.6
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_86",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_91": {
+      "type": {
+        "resolvedName": "Card"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundColor": "#ffffff"
+          },
+          "spacing": {
+            "paddingTop": 24,
+            "paddingRight": 24,
+            "paddingBottom": 24,
+            "paddingLeft": 24
+          },
+          "borders": {
+            "borderRadius": 0
+          }
+        }
+      },
+      "displayName": "Card",
+      "custom": {},
+      "parent": "hiw_80",
+      "hidden": false,
+      "nodes": [
+        "hiw_92",
+        "hiw_93",
+        "hiw_94",
+        "hiw_95"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_92": {
+      "type": {
+        "resolvedName": "Image"
+      },
+      "isCanvas": false,
+      "props": {
+        "imageUrl": "https://www.officebeacon.com/hubfs/website/assets/icon-number-3.svg",
+        "altText": "",
+        "width": 56,
+        "imageStyles": {},
+        "styles": {
+          "sizing": {
+            "maxWidth": 56
+          }
+        },
+        "loading": "lazy"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "hiw_91",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_93": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Day 8-11",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "fontWeight": 700,
+            "color": "#147eff"
+          },
+          "spacing": {
+            "marginTop": 16,
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_91",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_94": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Kickoff & Meet Your Team",
+        "level": 5,
+        "styles": {
+          "typography": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#002244"
+          },
+          "spacing": {
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_91",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_95": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "We verify roles, assign your Team Leader, and introduce your staff.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#6c7c93",
+            "lineHeight": 1.6
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_91",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_96": {
+      "type": {
+        "resolvedName": "Card"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundColor": "#ffffff"
+          },
+          "spacing": {
+            "paddingTop": 24,
+            "paddingRight": 24,
+            "paddingBottom": 24,
+            "paddingLeft": 24
+          },
+          "borders": {
+            "borderRadius": 0
+          }
+        }
+      },
+      "displayName": "Card",
+      "custom": {},
+      "parent": "hiw_80",
+      "hidden": false,
+      "nodes": [
+        "hiw_97",
+        "hiw_98",
+        "hiw_99",
+        "hiw_100"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_97": {
+      "type": {
+        "resolvedName": "Image"
+      },
+      "isCanvas": false,
+      "props": {
+        "imageUrl": "https://www.officebeacon.com/hubfs/website/assets/icon-number-4.svg",
+        "altText": "",
+        "width": 56,
+        "imageStyles": {},
+        "styles": {
+          "sizing": {
+            "maxWidth": 56
+          }
+        },
+        "loading": "lazy"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "hiw_96",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_98": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Day 12-30",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "fontWeight": 700,
+            "color": "#147eff"
+          },
+          "spacing": {
+            "marginTop": 16,
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_96",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_99": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Training & Go-Live",
+        "level": 5,
+        "styles": {
+          "typography": {
+            "fontSize": 22,
+            "fontWeight": 700,
+            "color": "#002244"
+          },
+          "spacing": {
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_96",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_100": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Your team trains, enters pre-live, and launches with trackers, SOPs, and feedback baked in.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#6c7c93",
+            "lineHeight": 1.6
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_96",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_101": {
+      "type": {
+        "resolvedName": "Section"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundGradient": {
+              "type": "linear",
+              "angle": 90,
+              "stops": [
+                {
+                  "color": "#147eff",
+                  "position": 0
+                },
+                {
+                  "color": "#4d9dff",
+                  "position": 100
+                }
+              ]
+            }
+          },
+          "spacing": {
+            "paddingTop": 40,
+            "paddingRight": 24,
+            "paddingBottom": 40,
+            "paddingLeft": 24
+          },
+          "responsive": {
+            "tablet": {
+              "spacing": {
+                "paddingTop": 40,
+                "paddingRight": 24,
+                "paddingBottom": 40,
+                "paddingLeft": 24
+              }
+            },
+            "mobile": {
+              "spacing": {
+                "paddingTop": 40,
+                "paddingRight": 16,
+                "paddingBottom": 40,
+                "paddingLeft": 16
+              }
+            },
+            "__auto": {
+              "tablet": false,
+              "mobile": false
+            }
+          }
+        }
+      },
+      "displayName": "Section",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+        "hiw_102"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_102": {
+      "type": {
+        "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+        "maxWidth": 1280,
+        "styles": {
+          "sizing": {
+            "maxWidth": 1280
+          }
+        }
+      },
+      "displayName": "Container",
+      "custom": {},
+      "parent": "hiw_101",
+      "hidden": false,
+      "nodes": [
+        "hiw_103"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_103": {
+      "type": {
+        "resolvedName": "Grid"
+      },
+      "isCanvas": true,
+      "props": {
+        "columns": 3,
+        "styles": {
+          "layout": {
+            "gridTemplateColumns": "repeat(3, 1fr)"
+          },
+          "spacing": {
+            "gap": 32
+          }
+        },
+        "className": "ob-grid-cols-3 ob-stats-grid"
+      },
+      "displayName": "Grid",
+      "custom": {},
+      "parent": "hiw_102",
+      "hidden": false,
+      "nodes": [
+        "hiw_104",
+        "hiw_110",
+        "hiw_116"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_104": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "center"
+          },
+          "spacing": {
+            "gap": 4,
+            "paddingTop": 32,
+            "paddingRight": 28,
+            "paddingBottom": 32,
+            "paddingLeft": 28
+          }
+        },
+        "className": "ob-stat-card cms-auto-col"
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_103",
+      "hidden": false,
+      "nodes": [
+        "hiw_105",
+        "hiw_108",
+        "hiw_109"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_105": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "baseline",
+            "flexWrap": "nowrap"
+          },
+          "spacing": {
+            "gap": 4
+          }
+        },
+        "className": "ob-stat-value-row"
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_104",
+      "hidden": false,
+      "nodes": [
+        "hiw_106",
+        "hiw_107"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_106": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "40",
+        "level": 2,
+        "styles": {
+          "typography": {
+            "fontSize": 64,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "lineHeight": 1
+          }
+        },
+        "countUp": true,
+        "countUpDuration": 2000
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_105",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_107": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "%",
+        "level": 3,
+        "styles": {
+          "typography": {
+            "fontSize": 28,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_105",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_108": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Average Cost Savings",
+        "level": 4,
+        "styles": {
+          "typography": {
+            "fontSize": 30,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center"
+          },
+          "spacing": {
+            "marginTop": 8,
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_104",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_109": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Clients reduce overhead and scale faster by replacing traditional hiring with hybrid teams that deliver more for less.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#ffffff",
+            "textAlign": "center"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_104",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_110": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "center"
+          },
+          "spacing": {
+            "gap": 4,
+            "paddingTop": 32,
+            "paddingRight": 28,
+            "paddingBottom": 32,
+            "paddingLeft": 28
+          }
+        },
+        "className": "ob-stat-card cms-auto-col"
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_103",
+      "hidden": false,
+      "nodes": [
+        "hiw_111",
+        "hiw_114",
+        "hiw_115"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_111": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "baseline",
+            "flexWrap": "nowrap"
+          },
+          "spacing": {
+            "gap": 4
+          }
+        },
+        "className": "ob-stat-value-row"
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_110",
+      "hidden": false,
+      "nodes": [
+        "hiw_112",
+        "hiw_113"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_112": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "24",
+        "level": 2,
+        "styles": {
+          "typography": {
+            "fontSize": 64,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "lineHeight": 1
+          }
+        },
+        "countUp": true,
+        "countUpDuration": 2000
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_111",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_113": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "/7",
+        "level": 3,
+        "styles": {
+          "typography": {
+            "fontSize": 28,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_111",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_114": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Global Coverage",
+        "level": 4,
+        "styles": {
+          "typography": {
+            "fontSize": 30,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center"
+          },
+          "spacing": {
+            "marginTop": 8,
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_110",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_115": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Our remote teams operate across time zones, ensuring round-the-clock support without burnout or bottlenecks.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#ffffff",
+            "textAlign": "center"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_110",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_116": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "center"
+          },
+          "spacing": {
+            "gap": 4,
+            "paddingTop": 32,
+            "paddingRight": 28,
+            "paddingBottom": 32,
+            "paddingLeft": 28
+          }
+        },
+        "className": "ob-stat-card cms-auto-col"
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_103",
+      "hidden": false,
+      "nodes": [
+        "hiw_117",
+        "hiw_120",
+        "hiw_121"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_117": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "baseline",
+            "flexWrap": "nowrap"
+          },
+          "spacing": {
+            "gap": 4
+          }
+        },
+        "className": "ob-stat-value-row"
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_116",
+      "hidden": false,
+      "nodes": [
+        "hiw_118",
+        "hiw_119"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_118": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "4,000",
+        "level": 2,
+        "styles": {
+          "typography": {
+            "fontSize": 64,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "lineHeight": 1
+          }
+        },
+        "countUp": true,
+        "countUpDuration": 2000
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_117",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_119": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "+",
+        "level": 3,
+        "styles": {
+          "typography": {
+            "fontSize": 28,
+            "fontWeight": 700,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_117",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_120": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Businesses Served",
+        "level": 4,
+        "styles": {
+          "typography": {
+            "fontSize": 30,
+            "fontWeight": 700,
+            "color": "#ffffff",
+            "textAlign": "center"
+          },
+          "spacing": {
+            "marginTop": 8,
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_116",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_121": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "From startups to enterprises, thousands trust Office Beacon to support growth, protect margins, and deliver results.",
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "color": "#ffffff",
+            "textAlign": "center"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_116",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_122": {
+      "type": {
+        "resolvedName": "Section"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundColor": "#ffffff"
+          },
+          "spacing": {
+            "paddingTop": 32,
+            "paddingRight": 24,
+            "paddingBottom": 32,
+            "paddingLeft": 24
+          },
+          "responsive": {
+            "tablet": {
+              "spacing": {
+                "paddingTop": 32,
+                "paddingRight": 24,
+                "paddingBottom": 32,
+                "paddingLeft": 24
+              }
+            },
+            "mobile": {
+              "spacing": {
+                "paddingTop": 20,
+                "paddingRight": 16,
+                "paddingBottom": 20,
+                "paddingLeft": 16
+              }
+            },
+            "__auto": {
+              "tablet": false,
+              "mobile": false
+            }
+          }
+        }
+      },
+      "displayName": "Section",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+        "hiw_123"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_123": {
+      "type": {
+        "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+        "maxWidth": 1280,
+        "styles": {
+          "sizing": {
+            "maxWidth": 1280
+          }
+        }
+      },
+      "displayName": "Container",
+      "custom": {},
+      "parent": "hiw_122",
+      "hidden": false,
+      "nodes": [
+        "hiw_124"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_124": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 40
+          }
+        },
+        "className": "ob-split-row"
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_123",
+      "hidden": false,
+      "nodes": [
+        "hiw_125",
+        "hiw_128"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_125": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 6,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 8
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_124",
+      "hidden": false,
+      "nodes": [
+        "hiw_126",
+        "hiw_127"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_126": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Office Beacon Works When Traditional Staffing Doesn't.",
+        "level": 2,
+        "styles": {
+          "typography": {
+            "fontSize": 36,
+            "fontWeight": 700,
+            "lineHeight": 1.2,
+            "color": "#002244"
+          },
+          "spacing": {
+            "marginBottom": 16
+          }
+        },
+        "highlightText": "Office Beacon Works",
+        "highlightColor": "#147eff"
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_125",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_127": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Traditional staffing puts the burden on you—recruiting, training, oversight, and infrastructure. Office Beacon handles the logistics end-to-end. You get trained talent, secure facilities, built-in management, and SLA-backed accountability from day one.",
+        "styles": {
+          "typography": {
+            "fontSize": 18,
+            "color": "#6c7c93",
+            "lineHeight": 1.6
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_125",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_128": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 6,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "center"
+          },
+          "spacing": {
+            "gap": 8
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_124",
+      "hidden": false,
+      "nodes": [
+        "hiw_129"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_129": {
+      "type": {
+        "resolvedName": "Image"
+      },
+      "isCanvas": false,
+      "props": {
+        "imageUrl": "https://www.officebeacon.com/hs-fs/hubfs/website/images/Office-Beacon-General/Office-Beacon-General_4-3/Office-Beacon-General_4-3_22.jpg?width=606&height=455&name=Office-Beacon-General_4-3_22.jpg",
+        "altText": "Outsource Remote Staffing Services",
+        "width": "100%",
+        "imageStyles": {
+          "borderRadius": 12
+        },
+        "styles": {
+          "sizing": {
+            "maxWidth": 606
+          }
+        },
+        "loading": "lazy"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "hiw_128",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_130": {
+      "type": {
+        "resolvedName": "Section"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundGradient": {
+              "type": "linear",
+              "angle": 180,
+              "stops": [
+                {
+                  "color": "#ffffff",
+                  "position": 0
+                },
+                {
+                  "color": "#e5f2ff",
+                  "position": 100
+                }
+              ]
+            }
+          },
+          "spacing": {
+            "paddingTop": 32,
+            "paddingRight": 24,
+            "paddingBottom": 64,
+            "paddingLeft": 24
+          },
+          "responsive": {
+            "tablet": {
+              "spacing": {
+                "paddingTop": 32,
+                "paddingRight": 24,
+                "paddingBottom": 48,
+                "paddingLeft": 24
+              }
+            },
+            "mobile": {
+              "spacing": {
+                "paddingTop": 20,
+                "paddingRight": 16,
+                "paddingBottom": 40,
+                "paddingLeft": 16
+              }
+            },
+            "__auto": {
+              "tablet": false,
+              "mobile": false
+            }
+          }
+        }
+      },
+      "displayName": "Section",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+        "hiw_131"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_131": {
+      "type": {
+        "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+        "maxWidth": 960,
+        "styles": {
+          "sizing": {
+            "maxWidth": 960
+          }
+        }
+      },
+      "displayName": "Container",
+      "custom": {},
+      "parent": "hiw_130",
+      "hidden": false,
+      "nodes": [
+        "hiw_132"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_132": {
+      "type": {
+        "resolvedName": "Card"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundGradient": {
+              "type": "linear",
+              "angle": 180,
+              "stops": [
+                {
+                  "color": "#ffffff",
+                  "position": 0
+                },
+                {
+                  "color": "#f3f4f6",
+                  "position": 100
+                }
+              ]
+            }
+          },
+          "spacing": {
+            "paddingTop": 40,
+            "paddingRight": 40,
+            "paddingBottom": 40,
+            "paddingLeft": 40
+          },
+          "borders": {
+            "borderRadius": 12
+          },
+          "effects": {
+            "boxShadow": "0 4px 24px rgba(0,34,68,0.08)"
+          }
+        }
+      },
+      "displayName": "Card",
+      "custom": {},
+      "parent": "hiw_131",
+      "hidden": false,
+      "nodes": [
+        "hiw_133",
+        "hiw_134"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_133": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Build Your Team. Skip the Hiring Headaches.",
+        "level": 2,
+        "styles": {
+          "typography": {
+            "fontSize": 32,
+            "fontWeight": 700,
+            "color": "#002244",
+            "textAlign": "center"
+          },
+          "spacing": {
+            "marginBottom": 24
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_132",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_134": {
+      "type": {
+        "resolvedName": "Div"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 16
+          }
+        }
+      },
+      "displayName": "Div",
+      "custom": {},
+      "parent": "hiw_132",
+      "hidden": false,
+      "nodes": [
+        "hiw_135"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_135": {
+      "type": {
+        "resolvedName": "Button"
+      },
+      "isCanvas": false,
+      "props": {
+        "label": "Build Your Remote Team",
+        "url": "https://www.officebeacon.com/lp/build-your-remote-team",
+        "variant": "primary",
+        "partStyles": {
+          "padding": "14px 28px"
+        },
+        "styles": {}
+      },
+      "displayName": "Button",
+      "custom": {},
+      "parent": "hiw_134",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_136": {
+      "type": {
+        "resolvedName": "Section"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "colors": {
+            "backgroundColor": "#002244"
+          },
+          "spacing": {
+            "paddingTop": 96,
+            "paddingBottom": 40,
+            "paddingLeft": 24,
+            "paddingRight": 24
+          }
+        }
+      },
+      "displayName": "Section",
+      "custom": {},
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+        "hiw_137"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_137": {
+      "type": {
+        "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+        "maxWidth": 1400,
+        "styles": {
+          "sizing": {
+            "maxWidth": 1400
+          }
+        }
+      },
+      "displayName": "Container",
+      "custom": {},
+      "parent": "hiw_136",
+      "hidden": false,
+      "nodes": [
+        "hiw_138",
+        "hiw_173",
+        "hiw_174",
+        "hiw_207",
+        "hiw_208"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_138": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "flex-start",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 32
+          }
+        }
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_137",
+      "hidden": false,
+      "nodes": [
+        "hiw_139",
+        "hiw_146"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_139": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 3,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 8
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_138",
+      "hidden": false,
+      "nodes": [
+        "hiw_140",
+        "hiw_141",
+        "hiw_142"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_140": {
+      "type": {
+        "resolvedName": "Image"
+      },
+      "isCanvas": false,
+      "props": {
+        "imageUrl": "https://www.officebeacon.com/hubfs/website/brand/OB_Primary%20Color%20Logo_Horzontal_Wht%201.png",
+        "altText": "OB_Primary Color Logo_Horzontal_Wht 1",
+        "width": "100%",
+        "imageStyles": {},
+        "styles": {
+          "sizing": {
+            "maxWidth": 222
+          }
+        },
+        "url": "/",
+        "loading": "lazy"
+      },
+      "displayName": "Image",
+      "custom": {},
+      "parent": "hiw_139",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_141": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Office Beacon is your go-to remote staffing partner for scalable business solutions.",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          },
+          "spacing": {
+            "marginTop": 16,
+            "marginBottom": 16
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_139",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_142": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "center",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 16
+          }
+        }
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_139",
+      "hidden": false,
+      "nodes": [
+        "hiw_143",
+        "hiw_144",
+        "hiw_145"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_143": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "name": "Facebook",
+        "size": 22,
+        "color": "#ffffff"
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "hiw_142",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_144": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "name": "Linkedin",
+        "size": 22,
+        "color": "#ffffff"
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "hiw_142",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_145": {
+      "type": {
+        "resolvedName": "Icon"
+      },
+      "isCanvas": false,
+      "props": {
+        "name": "Instagram",
+        "size": 22,
+        "color": "#ffffff"
+      },
+      "displayName": "Icon",
+      "custom": {},
+      "parent": "hiw_142",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_146": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 9,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 8
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_138",
+      "hidden": false,
+      "nodes": [
+        "hiw_147",
+        "hiw_164"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_147": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 32
+          }
+        }
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_146",
+      "hidden": false,
+      "nodes": [
+        "hiw_148",
+        "hiw_154",
+        "hiw_160"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_148": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 6
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_147",
+      "hidden": false,
+      "nodes": [
+        "hiw_149",
+        "hiw_150",
+        "hiw_151",
+        "hiw_152",
+        "hiw_153"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_149": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Headquarters",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#ffb612"
+          },
+          "spacing": {
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_148",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_150": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "407 N Pacific Coast Hwy, Ste 584",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_148",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_151": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Redondo Beach, CA, 90277 USA",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_148",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_152": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Phone: 1 (844) 416-4438",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_148",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_153": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Email: inquiries@officebeacon.com",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_148",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_154": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 6
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_147",
+      "hidden": false,
+      "nodes": [
+        "hiw_155",
+        "hiw_156",
+        "hiw_157",
+        "hiw_158",
+        "hiw_159"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_155": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "India",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#ffb612"
+          },
+          "spacing": {
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_154",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_156": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Office Beacon ASPL",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_154",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_157": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Haribhakti Raneshwar Bhawan,",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_154",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_158": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Opposite Bank of Baroda,",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_154",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_159": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Vasna Bhayli Road Vadodara - 390007",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_154",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_160": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 6
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_147",
+      "hidden": false,
+      "nodes": [
+        "hiw_161",
+        "hiw_162",
+        "hiw_163"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_161": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "South Africa",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#ffb612"
+          },
+          "spacing": {
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_160",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_162": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Johannesburg",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_160",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_163": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "25 Owl Street 4th floor Metal Box Braamfontein Werf, Johannesburg, 2092 South Africa",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_160",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_164": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 32,
+            "marginTop": 24
+          }
+        }
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_146",
+      "hidden": false,
+      "nodes": [
+        "hiw_165",
+        "hiw_169"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_165": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 6
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_164",
+      "hidden": false,
+      "nodes": [
+        "hiw_166",
+        "hiw_167",
+        "hiw_168"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_166": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Philippines",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#ffb612"
+          },
+          "spacing": {
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_165",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_167": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Office Beacon Philippines, Inc.",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_165",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_168": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "First Floor Business Center 18, PhilExcel Business Park, Clark Freeport Zone, Pampanga",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_165",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_169": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 6
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_164",
+      "hidden": false,
+      "nodes": [
+        "hiw_170",
+        "hiw_171",
+        "hiw_172"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_170": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Mexico",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#ffb612"
+          },
+          "spacing": {
+            "marginBottom": 8
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_169",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_171": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Office Beacon Mexico",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_169",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_172": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Av San Jeronimo 310, San Jeronimo 64640, Monterrey, NL",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_169",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_173": {
+      "type": {
+        "resolvedName": "Divider"
+      },
+      "isCanvas": false,
+      "props": {
+        "color": "rgba(255,255,255,0.1)",
+        "thickness": 1,
+        "styles": {
+          "spacing": {
+            "marginTop": 32,
+            "marginBottom": 32
+          }
+        }
+      },
+      "displayName": "Divider",
+      "custom": {},
+      "parent": "hiw_137",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_174": {
+      "type": {
+        "resolvedName": "Grid"
+      },
+      "isCanvas": true,
+      "props": {
+        "columns": 4,
+        "styles": {
+          "layout": {
+            "gridTemplateColumns": "repeat(4, 1fr)"
+          },
+          "spacing": {
+            "gap": 32
+          }
+        },
+        "className": "ob-grid-cols-4"
+      },
+      "displayName": "Grid",
+      "custom": {},
+      "parent": "hiw_137",
+      "hidden": false,
+      "nodes": [
+        "hiw_175",
+        "hiw_185",
+        "hiw_194",
+        "hiw_203"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_175": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 10
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_174",
+      "hidden": false,
+      "nodes": [
+        "hiw_176",
+        "hiw_177",
+        "hiw_178",
+        "hiw_179",
+        "hiw_180",
+        "hiw_181",
+        "hiw_182",
+        "hiw_183",
+        "hiw_184"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_176": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "All Industries",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#ffb612"
+          },
+          "spacing": {
+            "marginBottom": 12
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_175",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_177": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Insurance",
+        "url": "https://www.officebeacon.com/industries/insurance-remote-staffing/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_175",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_178": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Promotional Products",
+        "url": "https://www.officebeacon.com/industries/promotional-products-remote-staffing/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_175",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_179": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Finance & Accounting",
+        "url": "https://www.officebeacon.com/industries/finance-accounting-remote-staffing/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_175",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_180": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Healthcare",
+        "url": "https://www.officebeacon.com/industries/healthcare-remote-staffing/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_175",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_181": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Legal",
+        "url": "https://www.officebeacon.com/industries/legal-remote-staffing/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_175",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_182": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Property Management",
+        "url": "https://www.officebeacon.com/industries/property-management-remote-staffing/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_175",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_183": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Construction",
+        "url": "https://www.officebeacon.com/industries/construction-remote-staffing/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_175",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_184": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "View All Industries",
+        "url": "https://www.officebeacon.com/industries/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_175",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_185": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 10
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_174",
+      "hidden": false,
+      "nodes": [
+        "hiw_186",
+        "hiw_187",
+        "hiw_188",
+        "hiw_189",
+        "hiw_190",
+        "hiw_191",
+        "hiw_192",
+        "hiw_193"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_186": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Services",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#ffb612"
+          },
+          "spacing": {
+            "marginBottom": 12
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_185",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_187": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Virtual Assistant",
+        "url": "https://www.officebeacon.com/services/virtual-assistant/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_185",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_188": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Back Office Operations",
+        "url": "https://www.officebeacon.com/services/backoffice-operations-virtual-assistant/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_185",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_189": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Administrative Support",
+        "url": "https://www.officebeacon.com/services/administrative-support-virtual-assistant/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_185",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_190": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Sales Support and Lead Generation",
+        "url": "https://www.officebeacon.com/services/sales-support-lead-generation-virtual-assistant/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_185",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_191": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Marketing Support",
+        "url": "https://www.officebeacon.com/services/marketing-support-virtual-assistant/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_185",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_192": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Technical Support",
+        "url": "https://www.officebeacon.com/services/technical-support-virtual-assistant/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_185",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_193": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "View All Services",
+        "url": "https://www.officebeacon.com/services/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_185",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_194": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 10
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_174",
+      "hidden": false,
+      "nodes": [
+        "hiw_195",
+        "hiw_196",
+        "hiw_197",
+        "hiw_198",
+        "hiw_199",
+        "hiw_200",
+        "hiw_201",
+        "hiw_202"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_195": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Connect",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#ffb612"
+          },
+          "spacing": {
+            "marginBottom": 12
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_194",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_196": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Contact",
+        "url": "https://www.officebeacon.com/contact-us/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_194",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_197": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Careers",
+        "url": "https://www.officebeacon.com/careers",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_194",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_198": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Blog",
+        "url": "https://www.officebeacon.com/blog",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_194",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_199": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "News",
+        "url": "https://www.officebeacon.com/press-release/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_194",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_200": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Events",
+        "url": "https://events.officebeacon.com/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_194",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_201": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "FAQs",
+        "url": "https://www.officebeacon.com/faq/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_194",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_202": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Become a Partner",
+        "url": "https://www.officebeacon.com/solutions/member-partnerships",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_194",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_203": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 1,
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "flex-start"
+          },
+          "spacing": {
+            "gap": 10
+          }
+        }
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_174",
+      "hidden": false,
+      "nodes": [
+        "hiw_204",
+        "hiw_205",
+        "hiw_206"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_204": {
+      "type": {
+        "resolvedName": "Heading"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Compliance",
+        "level": 6,
+        "styles": {
+          "typography": {
+            "fontSize": 16,
+            "fontWeight": 700,
+            "color": "#ffb612"
+          },
+          "spacing": {
+            "marginBottom": 12
+          }
+        }
+      },
+      "displayName": "Heading",
+      "custom": {},
+      "parent": "hiw_203",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_205": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "View All Certifications",
+        "url": "https://www.officebeacon.com/certification-data-protection",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14,
+          "textDecoration": "none"
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_203",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_206": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "SOC2 Type II\nISO 27001\nPCI DSS Level (III)\nGDPR\nHIPAA",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff",
+            "lineHeight": 2
+          },
+          "spacing": {
+            "marginTop": 12
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_203",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_207": {
+      "type": {
+        "resolvedName": "Divider"
+      },
+      "isCanvas": false,
+      "props": {
+        "color": "rgba(255,255,255,0.1)",
+        "thickness": 1,
+        "styles": {
+          "spacing": {
+            "marginTop": 32,
+            "marginBottom": 16
+          }
+        }
+      },
+      "displayName": "Divider",
+      "custom": {},
+      "parent": "hiw_137",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_208": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 16
+          }
+        }
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_137",
+      "hidden": false,
+      "nodes": [
+        "hiw_209",
+        "hiw_211"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_209": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 6,
+        "styles": {}
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_208",
+      "hidden": false,
+      "nodes": [
+        "hiw_210"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_210": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "©2026 All rights reserved.",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_209",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_211": {
+      "type": {
+        "resolvedName": "Column"
+      },
+      "isCanvas": true,
+      "props": {
+        "flex": 6,
+        "styles": {}
+      },
+      "displayName": "Column",
+      "custom": {},
+      "parent": "hiw_208",
+      "hidden": false,
+      "nodes": [
+        "hiw_212"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_212": {
+      "type": {
+        "resolvedName": "Row"
+      },
+      "isCanvas": true,
+      "props": {
+        "styles": {
+          "layout": {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "alignItems": "center",
+            "flexWrap": "wrap"
+          },
+          "spacing": {
+            "gap": 8
+          }
+        }
+      },
+      "displayName": "Row",
+      "custom": {},
+      "parent": "hiw_211",
+      "hidden": false,
+      "nodes": [
+        "hiw_213",
+        "hiw_214",
+        "hiw_215",
+        "hiw_216",
+        "hiw_217"
+      ],
+      "linkedNodes": {}
+    },
+    "hiw_213": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Terms Of Service",
+        "url": "https://www.officebeacon.com/terms-of-service",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_212",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_214": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "|",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_212",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_215": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Privacy Policy",
+        "url": "https://www.officebeacon.com/privacy-policy/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_212",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_216": {
+      "type": {
+        "resolvedName": "Paragraph"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "|",
+        "styles": {
+          "typography": {
+            "fontSize": 14,
+            "color": "#ffffff"
+          }
+        }
+      },
+      "displayName": "Paragraph",
+      "custom": {},
+      "parent": "hiw_212",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    },
+    "hiw_217": {
+      "type": {
+        "resolvedName": "Link"
+      },
+      "isCanvas": false,
+      "props": {
+        "text": "Cookie Policy",
+        "url": "https://www.officebeacon.com/cookie-policy/",
+        "linkStyles": {
+          "color": "#ffffff",
+          "fontSize": 14
+        }
+      },
+      "displayName": "Link",
+      "custom": {},
+      "parent": "hiw_212",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Homepage preview">
+  <rect width="960" height="600" fill="#f4f4f5"/>
+  
+  <rect x="0" y="0" width="960" height="36" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <circle cx="57.599999999999994" cy="18" r="7.2" fill="#2563eb"/>
+  <rect x="115.19999999999999" y="13.2" width="115.19999999999999" height="9.6" rx="3" fill="#18181b" opacity="0.15"/>
+  <rect x="691.1999999999999" y="13.2" width="76.8" height="9.6" rx="3" fill="#71717a" opacity="0.35"/>
+  <rect x="787.1999999999999" y="10.799999999999999" width="96" height="14.4" rx="5" fill="#2563eb"/>
+  <rect x="0" y="0" width="960" height="174" fill="#dbeafe"/>
+  <rect x="0" y="174" width="960" height="95" fill="#ffffff"/>
+  <rect x="0" y="268" width="960" height="47" fill="#f4f4f5"/>
+  <rect x="0" y="316" width="960" height="55" fill="#ffffff"/>
+  <rect x="0" y="371" width="960" height="55" fill="#f4f4f5"/>
+  <rect x="0" y="426" width="960" height="103" fill="#ffffff"/>
+  <rect x="0" y="529" width="960" height="71" fill="#f4f4f5"/>
+  
+  <rect x="76.8" y="43.5" width="432" height="20.88" rx="4" fill="#18181b" opacity="0.12"/>
+  <rect x="76.8" y="78.3" width="336" height="12.180000000000001" rx="3" fill="#71717a" opacity="0.25"/>
+  <rect x="76.8" y="113.10000000000001" width="172.79999999999998" height="24.360000000000003" rx="6" fill="#2563eb"/>
+  
+  <rect x="76.8" y="194.9" width="249.6" height="52.25000000000001" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="355.2" y="194.9" width="249.6" height="52.25000000000001" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="633.5999999999999" y="194.9" width="249.6" height="52.25000000000001" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  
+  <rect x="76.8" y="282.1" width="528" height="4.7" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="291.5" width="672" height="3.7600000000000002" rx="3" fill="#71717a" opacity="0.2"/>
+  <rect x="76.8" y="329.75" width="172.79999999999998" height="27.5" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="288" y="329.75" width="172.79999999999998" height="27.5" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="499.2" y="329.75" width="172.79999999999998" height="27.5" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="710.3999999999999" y="329.75" width="172.79999999999998" height="27.5" rx="4" fill="#ffffff" stroke="#e4e4e7"/>
+  
+  <rect x="76.8" y="387.5" width="528" height="5.5" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="398.5" width="672" height="4.4" rx="3" fill="#71717a" opacity="0.2"/>
+  <rect x="76.8" y="448.66" width="249.6" height="56.650000000000006" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="355.2" y="448.66" width="249.6" height="56.650000000000006" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  <rect x="633.5999999999999" y="448.66" width="249.6" height="56.650000000000006" rx="6" fill="#ffffff" stroke="#e4e4e7"/>
+  
+  <rect x="288" y="546.75" width="384" height="8.52" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="345.6" y="568.05" width="268.8" height="11.36" rx="6" fill="#2563eb"/>
+  <text x="38.4" y="592" font-family="ui-sans-serif,system-ui,sans-serif" font-size="16.8" font-weight="600" fill="#71717a">Homepage</text>
+</svg>

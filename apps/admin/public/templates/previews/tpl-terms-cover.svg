@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Terms & Conditions preview">
+  <rect width="960" height="600" fill="#f4f4f5"/>
+  
+  <rect x="0" y="0" width="960" height="36" fill="#ffffff" stroke="#e4e4e7" stroke-width="1"/>
+  <circle cx="57.599999999999994" cy="18" r="7.2" fill="#2563eb"/>
+  <rect x="115.19999999999999" y="13.2" width="115.19999999999999" height="9.6" rx="3" fill="#18181b" opacity="0.15"/>
+  <rect x="691.1999999999999" y="13.2" width="76.8" height="9.6" rx="3" fill="#71717a" opacity="0.35"/>
+  <rect x="787.1999999999999" y="10.799999999999999" width="96" height="14.4" rx="5" fill="#2563eb"/>
+  <rect x="0" y="0" width="960" height="111" fill="#ffffff"/>
+  <rect x="0" y="111" width="960" height="87" fill="#f4f4f5"/>
+  <rect x="0" y="197" width="960" height="87" fill="#ffffff"/>
+  <rect x="0" y="284" width="960" height="87" fill="#f4f4f5"/>
+  <rect x="0" y="371" width="960" height="229" fill="#ffffff"/>
+  
+  <rect x="76.8" y="33.3" width="528" height="11.100000000000001" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="55.5" width="672" height="8.88" rx="3" fill="#71717a" opacity="0.2"/>
+  
+  <rect x="76.8" y="137.1" width="528" height="8.700000000000001" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="154.5" width="672" height="6.96" rx="3" fill="#71717a" opacity="0.2"/>
+  
+  <rect x="76.8" y="223.1" width="528" height="8.700000000000001" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="240.5" width="672" height="6.96" rx="3" fill="#71717a" opacity="0.2"/>
+  
+  <rect x="76.8" y="310.1" width="528" height="8.700000000000001" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="327.5" width="672" height="6.96" rx="3" fill="#71717a" opacity="0.2"/>
+  
+  <rect x="76.8" y="439.7" width="528" height="22.900000000000002" rx="4" fill="#18181b" opacity="0.1"/>
+  <rect x="76.8" y="485.5" width="672" height="18.32" rx="3" fill="#71717a" opacity="0.2"/>
+  <text x="38.4" y="592" font-family="ui-sans-serif,system-ui,sans-serif" font-size="16.8" font-weight="600" fill="#71717a">Terms & Conditions</text>
+</svg>
