@@ -22,7 +22,7 @@ services:
       - cms-network
 
   minio:
-    image: minio/minio
+    image: quay.io/minio/minio:latest
     restart: always
     command: server /data --console-address ":9001"
     environment:
@@ -76,18 +76,6 @@ services:
       - api
     env_file:
       - ../.env.server
-    networks:
-      - cms-network
-
-  admin:
-    build:
-      context: ../
-      dockerfile: infra/Dockerfile.admin
-    restart: always
-    ports:
-      - "5001:80"
-    env_file:
-      - ../.env.frontend
     networks:
       - cms-network
 
