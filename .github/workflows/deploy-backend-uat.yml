@@ -1,12 +1,7 @@
 name: Deploy CMS UAT
 
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - 'apps/api/**'
-      - 'apps/worker/**'
-      - '.github/workflows/deploy-backend-uat.yml'
+  workflow_dispatch:
 
 jobs:
   deploy:

@@ -1,11 +1,7 @@
 name: Deploy Database and Infra
 
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - 'infra/docker-compose.yml'
-      - '.github/workflows/deploy-infra.yml'
+  workflow_dispatch:
 
 jobs:
   deploy:

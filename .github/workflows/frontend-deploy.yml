@@ -1,12 +1,6 @@
 name: Deploy OB-CMS Admin to S3 (UAT)
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'apps/admin/**'
-      - '.github/workflows/frontend-deploy.yml'
   workflow_dispatch:
 
 jobs:

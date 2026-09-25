@@ -1,11 +1,7 @@
 name: Deploy CMS Renderer UAT
 
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - 'apps/renderer/**'
-      - '.github/workflows/deploy-renderer-uat.yml'
+  workflow_dispatch:
 
 jobs:
   deploy:
