@@ -19,6 +19,7 @@ jobs:
               git clone https://github.com/vishalkumar-jpg/cms-vishal.git
             fi
             cd cms-vishal
-            git pull origin main
+            git fetch origin main
+            git reset --hard origin/main
             echo "${{ secrets.SERVER_ENV_BASE64 }}" | base64 --decode > .env.server
             docker compose -f infra/docker-compose.yml up -d postgres redis minio
