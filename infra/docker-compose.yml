@@ -22,7 +22,7 @@ services:
       - cms-network
 
   minio:
-    image: quay.io/minio/minio:latest
+    image: bitnami/minio:latest
     restart: always
     command: server /data --console-address ":9001"
     environment:
