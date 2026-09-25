@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "nest start --watch -b swc",
     "build": "nest build",
-    "start": "node dist/main",
-    "start:prod": "node dist/main",
+    "start": "bun dist/main.js",
+    "start:prod": "bun dist/main.js",
     "type-check": "tsc --noEmit",
     "lint": "eslint src",
     "db:generate": "drizzle-kit generate",
