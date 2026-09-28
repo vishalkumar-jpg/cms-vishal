@@ -22,5 +22,7 @@ jobs:
             cd cms-vishal
             git fetch origin main
             git reset --hard origin/main
-            echo "${{ secrets.SERVER_ENV_BASE64 }}" | base64 --decode > .env.server
+            echo "${{ secrets.FRONTEND_ENV_BASE64 }}" | base64 --decode > .env.frontend
+            echo "${{ secrets.FRONTEND_ENV_BASE64 }}" | base64 --decode > apps/renderer/.env.production
+            docker compose -f infra/docker-compose.yml pull renderer || true
             docker compose -f infra/docker-compose.yml up -d --build renderer

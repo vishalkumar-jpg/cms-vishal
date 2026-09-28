@@ -2,10 +2,8 @@ services:
   postgres:
     image: postgres:15-alpine
     restart: always
-    environment:
-      POSTGRES_USER: ${POSTGRES_USER:-postgres}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
-      POSTGRES_DB: ${POSTGRES_DB:-cms}
+    env_file:
+      - ../.env.backend
     ports:
       - "5432:5432"
     volumes:
@@ -25,9 +23,8 @@ services:
     image: cgr.dev/chainguard/minio:latest
     restart: always
     command: server /data --console-address ":9001"
-    environment:
-      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-admin}
-      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-password}
+    env_file:
+      - ../.env.backend
     ports:
       - "9000:9000"
       - "9001:9001"
@@ -47,7 +44,7 @@ services:
       - postgres
       - redis
     env_file:
-      - ../.env.server
+      - ../.env.backend
     networks:
       - cms-network
 
@@ -61,7 +58,7 @@ services:
       - redis
       - api
     env_file:
-      - ../.env.server
+      - ../.env.backend
     networks:
       - cms-network
 
@@ -75,7 +72,7 @@ services:
     depends_on:
       - api
     env_file:
-      - ../.env.server
+      - ../.env.frontend
     networks:
       - cms-network
 
