@@ -22,5 +22,6 @@ jobs:
             cd cms-vishal
             git fetch origin main
             git reset --hard origin/main
-            echo "${{ secrets.SERVER_ENV_BASE64 }}" | base64 --decode > .env.server
+            echo "${{ secrets.SERVER_ENV_BASE64 }}" | base64 --decode > .env.backend
+            docker compose -f infra/docker-compose.yml pull postgres redis minio || true
             docker compose -f infra/docker-compose.yml up -d postgres redis minio
